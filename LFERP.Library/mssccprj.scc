@@ -1,0 +1,9 @@
+SCC = This is a Source Code Control file
+
+[LFERP.Library.sln]
+SCC_Aux_Path = "\\192.168.8.9\CodeManagement\NewERP"
+SCC_Project_Name = "$/LFERP.Library", HVGAAAAA
+
+[LFERP.Library.vbproj]
+SCC_Aux_Path = "\\192.168.8.9\CodeManagement\NewERP"
+SCC_Project_Name = "$/LFERP.Library", HVGAAAAA

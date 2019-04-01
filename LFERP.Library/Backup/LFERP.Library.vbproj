@@ -1,0 +1,755 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{51A309B6-00EC-4D63-AB23-270C7EBF726F}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>
+    </RootNamespace>
+    <AssemblyName>LFERP.Library</AssemblyName>
+    <MyType>Windows</MyType>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <SignAssembly>false</SignAssembly>
+    <AssemblyOriginatorKeyFile>LFERP.Library.snk</AssemblyOriginatorKeyFile>
+    <DelaySign>false</DelaySign>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>MaterialCode.Library.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <RegisterForComInterop>true</RegisterForComInterop>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>MaterialCode.Library.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <RegisterForComInterop>true</RegisterForComInterop>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Encode, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>bin\Debug\Encode.dll</HintPath>
+    </Reference>
+    <Reference Include="LFERPDB, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.Common, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.Data, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.Practices.ObjectBuilder, Version=1.0.51205.0, Culture=neutral, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Data.Common" />
+    <Import Include="System.Data.Sql" />
+    <Import Include="System.Data.SqlClient" />
+    <Import Include="System.Data.SqlTypes" />
+    <Import Include="System.Diagnostics" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Componets\BroadCastManager\BroadCastFactory\BroadCastFactoryControler.vb" />
+    <Compile Include="Componets\BroadCastManager\BroadCastFactory\BroadCastFactoryInfo.vb" />
+    <Compile Include="Componets\BroadCastManager\BroadCastMessage\BroadCastMessageControler.vb" />
+    <Compile Include="Componets\BroadCastManager\BroadCastMessage\BroadCastMessageInfo.vb" />
+    <Compile Include="Componets\DataSetting\AuxiliaryData\AuxiliaryDataControler.vb" />
+    <Compile Include="Componets\DataSetting\AuxiliaryData\AuxiliaryDataInfo.vb" />
+    <Compile Include="Componets\DataSetting\AuxiliaryData\AuxiliaryDataSubControler.vb" />
+    <Compile Include="Componets\DataSetting\AuxiliaryData\AuxiliaryDataSubInfo.vb" />
+    <Compile Include="Componets\DataSetting\Company\CompanyControler.vb" />
+    <Compile Include="Componets\DataSetting\Company\CompanyInfo.vb" />
+    <Compile Include="Componets\DataSetting\Custer\CusterInfo.vb" />
+    <Compile Include="Componets\DataSetting\Custer\CusterControler.vb" />
+    <Compile Include="Componets\DataSetting\Dept\DepartmentControler.vb" />
+    <Compile Include="Componets\DataSetting\Dept\DepartmentInfo.vb" />
+    <Compile Include="Componets\DataSetting\Employe\EmployeControler.vb" />
+    <Compile Include="Componets\DataSetting\Employe\EmployeInfo.vb" />
+    <Compile Include="Componets\DataSetting\Endorsement\EndorsementControl.vb" />
+    <Compile Include="Componets\DataSetting\Endorsement\EndorsementInfo.vb" />
+    <Compile Include="Componets\DataSetting\Fac\FacControler.vb" />
+    <Compile Include="Componets\DataSetting\Fac\FacInfo.vb" />
+    <Compile Include="Componets\DataSetting\MeGaShare\MeGaShareControl.vb" />
+    <Compile Include="Componets\DataSetting\MeGaShare\MeGaShareInfo.vb" />
+    <Compile Include="Componets\DataSetting\Printer\PrinterControl.vb" />
+    <Compile Include="Componets\DataSetting\Printer\PrinterInfo.vb" />
+    <Compile Include="Componets\DataSetting\ProductionUser\UserPowerControl.vb" />
+    <Compile Include="Componets\DataSetting\ProductionUser\UserPowerInfo.vb" />
+    <Compile Include="Componets\DataSetting\Supplier\SupplierControler.vb" />
+    <Compile Include="Componets\DataSetting\Supplier\SupplierInfo.vb" />
+    <Compile Include="Componets\DataSetting\Supplier\SuppliersControler.vb" />
+    <Compile Include="Componets\DataSetting\Supplier\SuppliersInfo.vb" />
+    <Compile Include="Componets\DataSetting\Supplier\SuppliersTypeControler.vb" />
+    <Compile Include="Componets\DataSetting\Supplier\SuppliersTypeInfo.vb" />
+    <Compile Include="Componets\DataSetting\Tarriff\TarriffController.vb" />
+    <Compile Include="Componets\DataSetting\Tarriff\TarriffInfo.vb" />
+    <Compile Include="Componets\DataSetting\TaxType\TaxTypeController.vb" />
+    <Compile Include="Componets\DataSetting\TaxType\TaxTypeInfo.vb" />
+    <Compile Include="Componets\DataSetting\TransferInventory\TransferInventoryControl.vb" />
+    <Compile Include="Componets\DataSetting\TransferInventory\TransferInventoryInfo.vb" />
+    <Compile Include="Componets\DataSetting\TransferModule\TransferModuleControl.vb" />
+    <Compile Include="Componets\DataSetting\TransferModule\TransferModuleInfo.vb" />
+    <Compile Include="Componets\KnifeWare\KnifeBorrow\KnifeBorrowControl.vb" />
+    <Compile Include="Componets\KnifeWare\KnifeBorrow\KnifeBorrowInfo.vb" />
+    <Compile Include="Componets\KnifeWare\KnifeChange\KnifeChangeControl.vb" />
+    <Compile Include="Componets\KnifeWare\KnifeChange\KnifeChangeInfo.vb" />
+    <Compile Include="Componets\KnifeWare\KnifeGroup\KnifeGroupControl.vb" />
+    <Compile Include="Componets\KnifeWare\KnifeGroup\KnifeGroupInfo.vb" />
+    <Compile Include="Componets\KnifeWare\KnifeManager\KnifeManagerControl.vb" />
+    <Compile Include="Componets\KnifeWare\KnifeManager\KnifeManagerInfo.vb" />
+    <Compile Include="Componets\KnifeWare\KnifeReturnd\KnifeReturnControl.vb" />
+    <Compile Include="Componets\KnifeWare\KnifeReturnd\KnifeReturnInfo.vb" />
+    <Compile Include="Componets\KnifeWare\KnifeTypeGroup\KnifeTypeGroupControl.vb" />
+    <Compile Include="Componets\KnifeWare\KnifeTypeGroup\KnifeTypeGroupInfo.vb" />
+    <Compile Include="Componets\KnifeWare\KnifeWareHouseInput\KnifeWareInputContraller.vb" />
+    <Compile Include="Componets\KnifeWare\KnifeWareHouseInput\KnifeWareInputInfo.vb" />
+    <Compile Include="Componets\KnifeWare\KnifeWareHouseMove\WareMoveController.vb" />
+    <Compile Include="Componets\KnifeWare\KnifeWareHouseMove\WareMoveInfo.vb" />
+    <Compile Include="Componets\KnifeWare\KnifeWareHouseOut\KnifeWareOutController.vb" />
+    <Compile Include="Componets\KnifeWare\KnifeWareHouseOut\KnifeWareOutInfo.vb" />
+    <Compile Include="Componets\KnifeWare\KnifeWareInventoryCheck\KnifeWareInventoryCheckControl.vb" />
+    <Compile Include="Componets\KnifeWare\KnifeWareInventoryCheck\KnifeWareInventoryCheckInfo.vb" />
+    <Compile Include="Componets\KnifeWare\KnifeWareInventorySub\KnifeWareInventorySubControl.vb" />
+    <Compile Include="Componets\KnifeWare\KnifeWareInventorySub\KnifeWareInventorySubInfo.vb" />
+    <Compile Include="Componets\KnifeWare\KnifeWareSelect\KnifeWareSelectController.vb" />
+    <Compile Include="Componets\KnifeWare\KnifeWareSelect\KnifeWareSelectInfo.vb" />
+    <Compile Include="Componets\KnifeWare\KnifeWhiteUser\KnifeWhiteUserController.vb" />
+    <Compile Include="Componets\KnifeWare\KnifeWhiteUser\KnifeWhiteUserInfo.vb" />
+    <Compile Include="Componets\KnifeWare\TheReport\CaoZuoJiLu\KnifeBorrow\KnifeBorrowControllerKnife.vb" />
+    <Compile Include="Componets\KnifeWare\TheReport\CaoZuoJiLu\KnifeBorrow\KnifeBorrowInfoKnife.vb" />
+    <Compile Include="Componets\KnifeWare\TheReport\CaoZuoJiLu\KnifeReturn\KnifeReturnControllerKnife.vb" />
+    <Compile Include="Componets\KnifeWare\TheReport\CaoZuoJiLu\KnifeReturn\KnifeReturnInfoKnife.vb" />
+    <Compile Include="Componets\KnifeWare\TheReport\GetPerAndTeam\GetPerAndTeamControllerKnife.vb" />
+    <Compile Include="Componets\KnifeWare\TheReport\GetPerAndTeam\GetPerAndTeamInfoKnife.vb" />
+    <Compile Include="Componets\KnifeWare\TheReport\KuCun\KnifeCheck\KnifeCheckControllerKnife.vb" />
+    <Compile Include="Componets\KnifeWare\TheReport\KuCun\KnifeCheck\KnifeCheckInfoKnife.vb" />
+    <Compile Include="Componets\KnifeWare\TheReport\KuCun\KnifeInventory\KnifeInventoryControllerKnife.vb" />
+    <Compile Include="Componets\KnifeWare\TheReport\KuCun\KnifeInventory\KnifeInventoryInfoKnife.vb" />
+    <Compile Include="Componets\KnifeWare\TheReport\KuCun\ScatterInventory\ScatterInventoryControllerKnife.vb" />
+    <Compile Include="Componets\KnifeWare\TheReport\KuCun\ScatterInventory\ScatterInventoryInfoKnife.vb" />
+    <Compile Include="Componets\KnifeWare\TheReport\KuCun\TechnicianInventory\TechnicianInventoryControllerKnife.vb" />
+    <Compile Include="Componets\KnifeWare\TheReport\KuCun\TechnicianInventory\TechnicianInventoryInfoKnife.vb" />
+    <Compile Include="Componets\KnifeWare\TheReport\QiTa\InventoryKnifeMoney\InventoryKnifeMoneyControllerKnife.vb" />
+    <Compile Include="Componets\KnifeWare\TheReport\QiTa\InventoryKnifeMoney\InventoryKnifeMoneyInfoKnife.vb" />
+    <Compile Include="Componets\KnifeWare\TheReport\QiTa\KnifeUse\KnifeUseControllerKnife.vb" />
+    <Compile Include="Componets\KnifeWare\TheReport\QiTa\KnifeUse\KnifeUseInfoKnife.vb" />
+    <Compile Include="Componets\KnifeWare\TheReport\QiTa\SomeoneNoReturn\SomeoneNoReturnControllerKnife.vb" />
+    <Compile Include="Componets\KnifeWare\TheReport\QiTa\SomeoneNoReturn\SomeoneNoReturnInfoKnife.vb" />
+    <Compile Include="Componets\KnifeWare\TheReport\QiTa\StaffKnifeMoney\StaffKnifeMoneyControllerKnife.vb" />
+    <Compile Include="Componets\KnifeWare\TheReport\QiTa\StaffKnifeMoney\StaffKnifeMoneyInfoKnife.vb" />
+    <Compile Include="Componets\KnifeWare\TheReport\QiTa\TheTimeNoReturn\TheTimeNoReturnControllerKnife.vb" />
+    <Compile Include="Componets\KnifeWare\TheReport\QiTa\TheTimeNoReturn\TheTimeNoReturnInfoKnife.vb" />
+    <Compile Include="Componets\KnifeWare\TheReport\QiTa\UseKnifeQty\UseKnifeQtyControllerKnife.vb" />
+    <Compile Include="Componets\KnifeWare\TheReport\QiTa\UseKnifeQty\UseKnifeQtyInfoKnife.vb" />
+    <Compile Include="Componets\KnifeWare\TheReport\QiTa\UseKnifeScatter\UseKnifeScatterControllerKnife.vb" />
+    <Compile Include="Componets\KnifeWare\TheReport\QiTa\UseKnifeScatter\UseKnifeScatterInfoKnife.vb" />
+    <Compile Include="Componets\KnifeWare\TheReport\YueBaoBiao\KnifeInventoryBefore\KnifeInventoryBeforeControllerKnife.vb" />
+    <Compile Include="Componets\KnifeWare\TheReport\YueBaoBiao\KnifeInventoryBefore\KnifeInventoryBeforeInfoKnife.vb" />
+    <Compile Include="Componets\KnifeWare\TheReport\YueBaoBiao\KnifeReturnRecord\KnifeReturnRecordControllerKnife.vb" />
+    <Compile Include="Componets\KnifeWare\TheReport\YueBaoBiao\KnifeReturnRecord\KnifeReturnRecordInfoKnife.vb" />
+    <Compile Include="Componets\KnifeWare\TheReport\YueBaoBiao\KnifeUseCondition\KnifeUseConditionControllerKnife.vb" />
+    <Compile Include="Componets\KnifeWare\TheReport\YueBaoBiao\KnifeUseCondition\KnifeUseConditionInfoKnife.vb" />
+    <Compile Include="Componets\KnifeWare\TheReport\YueBaoBiao\MonthUseKnifeMoney\MonthUseKnifeMoneyControllerKnife.vb" />
+    <Compile Include="Componets\KnifeWare\TheReport\YueBaoBiao\MonthUseKnifeMoney\MonthUseKnifeMoneyInfoKnife.vb" />
+    <Compile Include="Componets\MProcess\MProcessMain\MProcessMainController.vb" />
+    <Compile Include="Componets\MProcess\MProcessMain\MProcessMainInfo.vb" />
+    <Compile Include="Componets\MProcess\MProcessSub\MProcessSubController.vb" />
+    <Compile Include="Componets\MProcess\MProcessSub\MProcessSubInfo.vb" />
+    <Compile Include="Componets\MProcess\MProcess\MProcessController.vb" />
+    <Compile Include="Componets\MProcess\MProcess\MProcessInfo.vb" />
+    <Compile Include="Componets\MrpManager\MrpBomChange\MrpBomChangeController.vb" />
+    <Compile Include="Componets\MrpManager\MrpBomChange\MrpBomChangeEntryController.vb" />
+    <Compile Include="Componets\MrpManager\MrpBomChange\MrpBomChangeEntryInfo.vb" />
+    <Compile Include="Componets\MrpManager\MrpBomChange\MrpBomChangeInfo.vb" />
+    <Compile Include="Componets\MrpManager\MrpBomPartReplace\BomPartReplaceInfo.vb" />
+    <Compile Include="Componets\MrpManager\MrpBomPartReplace\BomPartReplace_Controller.vb" />
+    <Compile Include="Componets\MrpManager\MrpBom\BOMGroupInfo.vb" />
+    <Compile Include="Componets\MrpManager\MrpBom\BOMGroup_Controller.vb" />
+    <Compile Include="Componets\MrpManager\MrpBom\Bom_DController.vb" />
+    <Compile Include="Componets\MrpManager\MrpBom\Bom_DInfo.vb" />
+    <Compile Include="Componets\MrpManager\MrpBom\Bom_MController.vb" />
+    <Compile Include="Componets\MrpManager\MrpBom\Bom_MInfo.vb" />
+    <Compile Include="Componets\MrpManager\MrpCalendar\MrpCalendarEntryInfo.vb" />
+    <Compile Include="Componets\MrpManager\MrpCalendar\MrpCalendarEntry_Controller.vb" />
+    <Compile Include="Componets\MrpManager\MrpCalendar\MrpCalendarInfo.vb" />
+    <Compile Include="Componets\MrpManager\MrpCalendar\MrpCalendarSetInfo.vb" />
+    <Compile Include="Componets\MrpManager\MrpCalendar\MrpCalendar_Controller.vb" />
+    <Compile Include="Componets\MrpManager\MrpCalendar\MrpDeptCalendarInfo.vb" />
+    <Compile Include="Componets\MrpManager\MrpCalendar\MrpDeptCalendar_Controller.vb" />
+    <Compile Include="Componets\MrpManager\MrpForecastOrder\MrpForecastOrderController.vb" />
+    <Compile Include="Componets\MrpManager\MrpForecastOrder\MrpForecastOrderEntryController.vb" />
+    <Compile Include="Componets\MrpManager\MrpForecastOrder\MrpForecastOrderEntryInfo.vb" />
+    <Compile Include="Componets\MrpManager\MrpForecastOrder\MrpForecastOrderInfo.vb" />
+    <Compile Include="Componets\MrpManager\MRPFormula\MRPFormulaInfo.vb" />
+    <Compile Include="Componets\MrpManager\MRPFormula\MRPFormula_Controller.vb" />
+    <Compile Include="Componets\MrpManager\MrpInfo\MrpCalcRecordInfo.vb" />
+    <Compile Include="Componets\MrpManager\MrpInfo\MrpCalcRecord_Controller.vb" />
+    <Compile Include="Componets\MrpManager\MrpInfo\MrpDestBillsInfo.vb" />
+    <Compile Include="Componets\MrpManager\MrpInfo\MrpDestBills_Controller.vb" />
+    <Compile Include="Componets\MrpManager\MrpInfo\MrpIndReqInfo.vb" />
+    <Compile Include="Componets\MrpManager\MrpInfo\MrpIndReq_Controller.vb" />
+    <Compile Include="Componets\MrpManager\MrpInfo\MrpInfoInfo.vb" />
+    <Compile Include="Componets\MrpManager\MrpInfo\MrpInfo_Controller.vb" />
+    <Compile Include="Componets\MrpManager\MrpInfo\MRPOrderDestBillsInfo.vb" />
+    <Compile Include="Componets\MrpManager\MrpInfo\MRPOrderDestBills_Controller.vb" />
+    <Compile Include="Componets\MrpManager\MrpInfo\MrpPurchaseCalcRecordInfo.vb" />
+    <Compile Include="Componets\MrpManager\MrpInfo\MrpPurchaseCalcRecord_Controller.vb" />
+    <Compile Include="Componets\MrpManager\MrpInfo\MrpPurchaseInfo.vb" />
+    <Compile Include="Componets\MrpManager\MrpInfo\MrpPurchase_Controller.vb" />
+    <Compile Include="Componets\MrpManager\MrpMaterialCode\MrpMaterialCodeInfo.vb" />
+    <Compile Include="Componets\MrpManager\MrpMaterialCode\MrpMaterialCode_Controller.vb" />
+    <Compile Include="Componets\MrpManager\MrpMps\MrpMpsEntryInfo.vb" />
+    <Compile Include="Componets\MrpManager\MrpMps\MrpMpsEntry_Controller.vb" />
+    <Compile Include="Componets\MrpManager\MrpMps\MrpMpsInfo.vb" />
+    <Compile Include="Componets\MrpManager\MrpMps\MrpMps_Controller.vb" />
+    <Compile Include="Componets\MrpManager\MrpPermission\PermissionModuleQueryInfo.vb" />
+    <Compile Include="Componets\MrpManager\MrpPermission\PermissionModuleQuery_Controller.vb" />
+    <Compile Include="Componets\MrpManager\MrpPurchaseOrder\MrpPurchaseOrderEntryInfo.vb" />
+    <Compile Include="Componets\MrpManager\MrpPurchaseOrder\MrpPurchaseOrderEntry_Controller.vb" />
+    <Compile Include="Componets\MrpManager\MrpPurchaseOrder\MrpPurchaseOrderInfo.vb" />
+    <Compile Include="Componets\MrpManager\MrpPurchaseOrder\MrpPurchaseOrder_Controller.vb" />
+    <Compile Include="Componets\MrpManager\MrpPurchaseRecord\MrpPurchaseRecordController.vb" />
+    <Compile Include="Componets\MrpManager\MrpPurchaseRecord\MrpPurchaseRecordEntryController.vb" />
+    <Compile Include="Componets\MrpManager\MrpPurchaseRecord\MrpPurchaseRecordEntryInfo.vb" />
+    <Compile Include="Componets\MrpManager\MrpPurchaseRecord\MrpPurchaseRecordInfo.vb" />
+    <Compile Include="Componets\MrpManager\MrpPurchOrder\MrpPurchOrderController.vb" />
+    <Compile Include="Componets\MrpManager\MrpPurchOrder\MrpPurchOrderInfo.vb" />
+    <Compile Include="Componets\MrpManager\MrpScheme\MrpSchemeController.vb" />
+    <Compile Include="Componets\MrpManager\MrpScheme\MrpSchemeInfo.vb" />
+    <Compile Include="Componets\MrpManager\MrpSelection\MrpSelectionInfo.vb" />
+    <Compile Include="Componets\MrpManager\MrpSelection\MrpSelection_Controller.vb" />
+    <Compile Include="Componets\MrpManager\MrpSelect\MrpSelect_Controller.vb" />
+    <Compile Include="Componets\MrpManager\MrpSelect\Select_Controller.vb" />
+    <Compile Include="Componets\MrpManager\MrpSetting\MrpSettingInfo.vb" />
+    <Compile Include="Componets\MrpManager\MrpSetting\MrpSetting_Controller.vb" />
+    <Compile Include="Componets\MrpManager\MrpSupplierQuotation\MRPSupplierQuotationInfo.vb" />
+    <Compile Include="Componets\MrpManager\MrpSupplierQuotation\MRPSupplierQuotation_Controller.vb" />
+    <Compile Include="Componets\MrpManager\MrpWareHouseInfo\MrpWareHouseInfoEntryInfo.vb" />
+    <Compile Include="Componets\MrpManager\MrpWareHouseInfo\MrpWareHouseInfoEntry_Controller.vb" />
+    <Compile Include="Componets\MrpManager\MrpWareHouseInfo\MrpWareHouseInfoInfo.vb" />
+    <Compile Include="Componets\MrpManager\MrpWareHouseInfo\MrpWareHouseInfo_Controller.vb" />
+    <Compile Include="Componets\MrpManager\Mrp_Info\Mrp_AssignQtyController.vb" />
+    <Compile Include="Componets\MrpManager\Mrp_Info\Mrp_AssignQtyInfo.vb" />
+    <Compile Include="Componets\MrpManager\Mrp_Info\Mrp_DemandQtyController.vb" />
+    <Compile Include="Componets\MrpManager\Mrp_Info\Mrp_DemandQtyInfo.vb" />
+    <Compile Include="Componets\MrpManager\Mrp_Info\Mrp_DependentQtyController.vb" />
+    <Compile Include="Componets\MrpManager\Mrp_Info\Mrp_DependentQtyInfo.vb" />
+    <Compile Include="Componets\MrpManager\Mrp_Info\Mrp_InfoController.vb" />
+    <Compile Include="Componets\MrpManager\Mrp_Info\Mrp_InfoInfo.vb" />
+    <Compile Include="Componets\MrpManager\Mrp_Info\Mrp_InfoMainController.vb" />
+    <Compile Include="Componets\MrpManager\Mrp_Info\Mrp_InfoMainInfo.vb" />
+    <Compile Include="Componets\MrpManager\Mrp_Info\Mrp_InfoSubController.vb" />
+    <Compile Include="Componets\MrpManager\Mrp_Info\Mrp_InfoSubInfo.vb" />
+    <Compile Include="Componets\MrpManager\Mrp_Info\Mrp_InWayQtyController.vb" />
+    <Compile Include="Componets\MrpManager\Mrp_Info\Mrp_InWayQtyInfo.vb" />
+    <Compile Include="Componets\MrpManager\Mrp_Info\Mrp_PurchaseQtyController.vb" />
+    <Compile Include="Componets\MrpManager\Mrp_Info\Mrp_PurchaseQtyInfo.vb" />
+    <Compile Include="Componets\MrpManager\Mrp_Info\Mrp_ResultController.vb" />
+    <Compile Include="Componets\MrpManager\Mrp_Info\Mrp_ResultInfo.vb" />
+    <Compile Include="Componets\MrpManager\Mrp_Info\Mrp_StockQtyController.vb" />
+    <Compile Include="Componets\MrpManager\Mrp_Info\Mrp_StockQtyInfo.vb" />
+    <Compile Include="Componets\MrpManager\Mrp_Info\Mrp_TempQtyController.vb" />
+    <Compile Include="Componets\MrpManager\Mrp_Info\Mrp_TempQtyInfo.vb" />
+    <Compile Include="Componets\MrpManager\ShareMethods.vb" />
+    <Compile Include="Componets\NmetalSampleManager\NmetalSampInventoryCheck\NmetalSampInventoryCheckControl.vb" />
+    <Compile Include="Componets\NmetalSampleManager\NmetalSampInventoryCheck\NmetalSampInventoryCheckInfo.vb" />
+    <Compile Include="Componets\NmetalSampleManager\NmetalSampInventoryWeightCheck\NmetalSampInventoryWeightCheckMainControler.vb" />
+    <Compile Include="Componets\NmetalSampleManager\NmetalSampInventoryWeightCheck\NmetalSampInventoryWeightCheckMainInfo.vb" />
+    <Compile Include="Componets\NmetalSampleManager\NmetalSampInventoryWeightCheck\NmetalSampInventoryWeightCheckSubControler.vb" />
+    <Compile Include="Componets\NmetalSampleManager\NmetalSampInventoryWeightCheck\NmetalSampInventoryWeightCheckSubInfo.vb" />
+    <Compile Include="Componets\NmetalSampleManager\NmetalSampleAlarm\NmetalSampleAlarmController.vb" />
+    <Compile Include="Componets\NmetalSampleManager\NmetalSampleAlarm\NmetalSampleAlarmInfo.vb" />
+    <Compile Include="Componets\NmetalSampleManager\NmetalSampleBorrow\NmetalSampleBorrowController.vb" />
+    <Compile Include="Componets\NmetalSampleManager\NmetalSampleBorrow\NmetalSampleBorrowInfo.vb" />
+    <Compile Include="Componets\NmetalSampleManager\NmetalSampleBorrow\NmetalSampleRepayInfo.vb" />
+    <Compile Include="Componets\NmetalSampleManager\NmetalSampleBorrow\NmetalSampleRepay_Controller.vb" />
+    <Compile Include="Componets\NmetalSampleManager\NmetalSampleBox\BigBox\NmetalSampleBigBoxController.vb" />
+    <Compile Include="Componets\NmetalSampleManager\NmetalSampleBox\BigBox\NmetalSampleBigBoxInfo.vb" />
+    <Compile Include="Componets\NmetalSampleManager\NmetalSampleBox\SamllBox\NmetalSampleSmallBoxController.vb" />
+    <Compile Include="Componets\NmetalSampleManager\NmetalSampleBox\SamllBox\NmetalSampleSmallBoxInfo.vb" />
+    <Compile Include="Componets\NmetalSampleManager\NmetalSampleCollection\NmetalSampleCollectionControler.vb" />
+    <Compile Include="Componets\NmetalSampleManager\NmetalSampleCollection\NmetalSampleCollectionInfo.vb" />
+    <Compile Include="Componets\NmetalSampleManager\NmetalSampleCollection\NmetalSampleDepWeightCheckControler.vb" />
+    <Compile Include="Componets\NmetalSampleManager\NmetalSampleCollection\NmetalSampleDepWeightCheckInfo.vb" />
+    <Compile Include="Componets\NmetalSampleManager\NmetalSampleCollection\NmetalSampleDepWeightControler.vb" />
+    <Compile Include="Componets\NmetalSampleManager\NmetalSampleCollection\NmetalSampleDepWeightInfo.vb" />
+    <Compile Include="Componets\NmetalSampleManager\NmetalSampleCustomerFeedback\NmetalSampleCustomerFeedbackControler.vb" />
+    <Compile Include="Componets\NmetalSampleManager\NmetalSampleCustomerFeedback\NmetalSampleCustomerFeedbackinfo.vb" />
+    <Compile Include="Componets\NmetalSampleManager\NmetalSampleDivert\NmetalSampleDivertControl.vb" />
+    <Compile Include="Componets\NmetalSampleManager\NmetalSampleDivert\NmetalSampleDivertInfo.vb" />
+    <Compile Include="Componets\NmetalSampleManager\NmetalSampleOrders\NmetalSampleOrdersCodeControler.vb" />
+    <Compile Include="Componets\NmetalSampleManager\NmetalSampleOrders\NmetalSampleOrdersCodeInfo.vb" />
+    <Compile Include="Componets\NmetalSampleManager\NmetalSampleOrders\NmetalSampleOrdersMainControler.vb" />
+    <Compile Include="Componets\NmetalSampleManager\NmetalSampleOrders\NmetalSampleOrdersMainInfo.vb" />
+    <Compile Include="Componets\NmetalSampleManager\NmetalSampleOrders\NmetalSampleOrdersSubControler.vb" />
+    <Compile Include="Componets\NmetalSampleManager\NmetalSampleOrders\NmetalSampleOrdersSubInfo.vb" />
+    <Compile Include="Componets\NmetalSampleManager\NmetalSamplePace\NmetalSamplePaceControler.vb" />
+    <Compile Include="Componets\NmetalSampleManager\NmetalSamplePace\NmetalSamplePaceInfo.vb" />
+    <Compile Include="Componets\NmetalSampleManager\NmetalSamplePace\NmetalSamplePaceQueryInfo.vb" />
+    <Compile Include="Componets\NmetalSampleManager\NmetalSamplePace\NmetalSamplePaceQuery_Controller.vb" />
+    <Compile Include="Componets\NmetalSampleManager\NmetalSamplePace\NmetalSamplePaceTypeBriNameControl.vb" />
+    <Compile Include="Componets\NmetalSampleManager\NmetalSamplePace\NmetalSamplePaceTypeBriNameInfo.vb" />
+    <Compile Include="Componets\NmetalSampleManager\NmetalSamplePacking\NmetalSamplePackingControler.vb" />
+    <Compile Include="Componets\NmetalSampleManager\NmetalSamplePacking\NmetalSamplePackingInfo.vb" />
+    <Compile Include="Componets\NmetalSampleManager\NmetalSamplePlan\NmetalSamplePlanControler.vb" />
+    <Compile Include="Componets\NmetalSampleManager\NmetalSamplePlan\NmetalSamplePlanInfo.vb" />
+    <Compile Include="Componets\NmetalSampleManager\NmetalSampleProcess\NmetalSampleProcessControl.vb" />
+    <Compile Include="Componets\NmetalSampleManager\NmetalSampleProcess\NmetalSampleProcessInfo.vb" />
+    <Compile Include="Componets\NmetalSampleManager\NmetalSampleProcess\NmetalSampleProcessMainControler.vb" />
+    <Compile Include="Componets\NmetalSampleManager\NmetalSampleProcess\NmetalSampleProcessMainInfo.vb" />
+    <Compile Include="Componets\NmetalSampleManager\NmetalSampleReWaste\NmetalSampleReWasteControler.vb" />
+    <Compile Include="Componets\NmetalSampleManager\NmetalSampleReWaste\NmetalSampleReWasteInfo.vb" />
+    <Compile Include="Componets\NmetalSampleManager\NmetalSampleReWaste\NmetalSampleReWasteSubControl.vb" />
+    <Compile Include="Componets\NmetalSampleManager\NmetalSampleReWaste\NmetalSampleReWasteSubInfo.vb" />
+    <Compile Include="Componets\NmetalSampleManager\NmetalSampleSend\NmetalSampleSendBackController.vb" />
+    <Compile Include="Componets\NmetalSampleManager\NmetalSampleSend\NmetalSampleSendBackInfo.vb" />
+    <Compile Include="Componets\NmetalSampleManager\NmetalSampleSend\NmetalSampleSendCodeControler.vb" />
+    <Compile Include="Componets\NmetalSampleManager\NmetalSampleSend\NmetalSampleSendCodeInfo.vb" />
+    <Compile Include="Componets\NmetalSampleManager\NmetalSampleSend\NmetalSampleSendControler.vb" />
+    <Compile Include="Componets\NmetalSampleManager\NmetalSampleSend\NmetalSampleSendInfo.vb" />
+    <Compile Include="Componets\NmetalSampleManager\NmetalSampleSend\NmetalSampleSendShipFilesControl.vb" />
+    <Compile Include="Componets\NmetalSampleManager\NmetalSampleSend\NmetalSampleSendShipFilesInfo.vb" />
+    <Compile Include="Componets\NmetalSampleManager\NmetalSampleSetting\NmetalSampleEmailSettingController.vb" />
+    <Compile Include="Componets\NmetalSampleManager\NmetalSampleSetting\NmetalSampleEmailSettingInfo.vb" />
+    <Compile Include="Componets\NmetalSampleManager\NmetalSampleSetting\NmetalSampleSettingController.vb" />
+    <Compile Include="Componets\NmetalSampleManager\NmetalSampleSetting\NmetalSampleSettingInfo.vb" />
+    <Compile Include="Componets\NmetalSampleManager\NmetalSampleStorage\NmetalSampleStorageController.vb" />
+    <Compile Include="Componets\NmetalSampleManager\NmetalSampleStorage\NmetalSampleStorageInfo.vb" />
+    <Compile Include="Componets\NmetalSampleManager\NmetalSampleStorage\NmetalSampleStorageLogController.vb" />
+    <Compile Include="Componets\NmetalSampleManager\NmetalSampleStorage\NmetalSampleStorageLogInfo.vb" />
+    <Compile Include="Componets\NmetalSampleManager\NmetalSampleTransaction\NmetalSampleTransactionControler.vb" />
+    <Compile Include="Componets\NmetalSampleManager\NmetalSampleTransaction\NmetalSampleTransactionInfo.vb" />
+    <Compile Include="Componets\NmetalSampleManager\NmetalSampleWareInventory\NmetalSampleWareInventoryControler.vb" />
+    <Compile Include="Componets\NmetalSampleManager\NmetalSampleWareInventory\NmetalSampleWareInventoryInfo.vb" />
+    <Compile Include="Componets\Orders\OrderCustomerController.vb" />
+    <Compile Include="Componets\Orders\OrderCustomerInfo.vb" />
+    <Compile Include="Componets\Orders\OrdersChangeControl.vb" />
+    <Compile Include="Componets\Orders\OrdersChangeInfo.vb" />
+    <Compile Include="Componets\Orders\OrdersSubNeedController.vb" />
+    <Compile Include="Componets\Orders\OrdersSubNeedInfo.vb" />
+    <Compile Include="Componets\Orders\OrdersSub_MRPInfo.vb" />
+    <Compile Include="Componets\Orders\OrdersSub_MRP_Controller.vb" />
+    <Compile Include="Componets\OutWards\OutWardsController.vb" />
+    <Compile Include="Componets\OutWards\OutWardsInfo.vb" />
+    <Compile Include="Componets\PackagingAndShipMent\Delivery\DeliveryControl.vb" />
+    <Compile Include="Componets\PackagingAndShipMent\Delivery\DeliveryInfo.vb" />
+    <Compile Include="Componets\FileManager\FileController.vb" />
+    <Compile Include="Componets\FileManager\FilesInfo.vb" />
+    <Compile Include="Componets\FileManager\FTPAccess.vb" />
+    <Compile Include="Componets\Material\MaterialCode\MaterialController.vb" />
+    <Compile Include="Componets\Material\MaterialCode\MaterialInfo.vb" />
+    <Compile Include="Componets\Material\MaterialCode\MaterialSubInfo.vb" />
+    <Compile Include="Componets\Material\MaterialParam\MaterialParamController.vb" />
+    <Compile Include="Componets\Material\MaterialParam\MaterialParamInfo.vb" />
+    <Compile Include="Componets\Material\MaterialParam\MaterialParamTypeInfo.vb" />
+    <Compile Include="Componets\Material\MaterialType\MaterialTypeController.vb" />
+    <Compile Include="Componets\Material\MaterialType\MaterialTypeInfo.vb" />
+    <Compile Include="Componets\Material\MaterialType\MaterialTypeInfo1.vb" />
+    <Compile Include="Componets\Material\MaterialType\MaterialTypeInfo2.vb" />
+    <Compile Include="Componets\Material\MaterialType\MaterialTypeInfo3.vb" />
+    <Compile Include="Componets\MessageMain\MessageMainControl.vb" />
+    <Compile Include="Componets\MessageMain\MessageMainInfo.vb" />
+    <Compile Include="Componets\MessageMain\MessageModuleControl.vb" />
+    <Compile Include="Componets\MessageMain\MessagModuleInfo.vb" />
+    <Compile Include="Componets\Orders\OrdersBomController.vb" />
+    <Compile Include="Componets\Orders\OrdersBomInfo.vb" />
+    <Compile Include="Componets\Orders\OrdersDetailController.vb" />
+    <Compile Include="Componets\Orders\OrdersDetailInfo.vb" />
+    <Compile Include="Componets\Orders\OrdersMainController.vb" />
+    <Compile Include="Componets\Orders\OrdersMainInfo.vb" />
+    <Compile Include="Componets\Orders\OrdersSubController.vb" />
+    <Compile Include="Componets\Orders\OrdersSubInfo.vb" />
+    <Compile Include="Componets\Orders\OrdersTempDetailController.vb" />
+    <Compile Include="Componets\Orders\OrdersTempDetailInfo.vb" />
+    <Compile Include="Componets\Outward\OutwardAcceptance\OutwardAcceptanceControl.vb" />
+    <Compile Include="Componets\Outward\OutwardAcceptance\OutwardAcceptanceInfo.vb" />
+    <Compile Include="Componets\Outward\OutwardChange\OutwardChangeControl.vb" />
+    <Compile Include="Componets\Outward\OutwardChange\OutwardChangeInfo.vb" />
+    <Compile Include="Componets\Outward\OutwardController.vb" />
+    <Compile Include="Componets\Outward\OutwardInfo.vb" />
+    <Compile Include="Componets\Outward\OutwardProjectType\OutwardProjectTypeControl.vb" />
+    <Compile Include="Componets\Outward\OutwardProjectType\OutwardProjectTypeInfo.vb" />
+    <Compile Include="Componets\Outward\OutwardRetrocede\OutwardRetrocedeControl.vb" />
+    <Compile Include="Componets\Outward\OutwardRetrocede\OutwardRetrocedeInfo.vb" />
+    <Compile Include="Componets\PackagingAndShipMent\PackagingRetrocede\PackagingRetrocedeControl.vb" />
+    <Compile Include="Componets\PackagingAndShipMent\PackagingRetrocede\PackagingRetrocedeInfo.vb" />
+    <Compile Include="Componets\PieceProcess\Personnel\PersonnelControl.vb" />
+    <Compile Include="Componets\PieceProcess\Personnel\PersonnelInfo.vb" />
+    <Compile Include="Componets\PieceProcess\PieceProcessMoSub\PieceProcessMoSubControl.vb" />
+    <Compile Include="Componets\PieceProcess\PieceProcessMoSub\PieceProcessMoSubInfo.vb" />
+    <Compile Include="Componets\PieceProcess\PieceSelect\PieceSelectControl.vb" />
+    <Compile Include="Componets\PieceProcess\PieceSelect\PieceSelectInfo.vb" />
+    <Compile Include="Componets\PieceProcess\PieceSum\PieceSumController.vb" />
+    <Compile Include="Componets\PieceProcess\PieceSum\PieceSumInfo.vb" />
+    <Compile Include="Componets\PieceProcess\WorkGroup\WorkGroupControl.vb" />
+    <Compile Include="Componets\PieceProcess\WorkGroup\WorkGroupInfo.vb" />
+    <Compile Include="Componets\Positive\PositiveDeliverType\PositiveDeliverTypeController.vb" />
+    <Compile Include="Componets\Positive\PositiveDeliverType\PositiveDeliverTypeInfo.vb" />
+    <Compile Include="Componets\Positive\PositiveDeliver\PositiveDeliverController.vb" />
+    <Compile Include="Componets\Positive\PositiveDeliver\PositiveDeliverInfo.vb" />
+    <Compile Include="Componets\Positive\PositiveOrders\PositiveOrdersController.vb" />
+    <Compile Include="Componets\Positive\PositiveOrders\PositiveOrdersInfo.vb" />
+    <Compile Include="Componets\Positive\PositiveQuotation\PositiveQuotationController.vb" />
+    <Compile Include="Componets\Positive\PositiveQuotation\PositiveQuotationEntryController.vb" />
+    <Compile Include="Componets\Positive\PositiveQuotation\PositiveQuotationEntryInfo.vb" />
+    <Compile Include="Componets\Positive\PositiveQuotation\PositiveQuotationInfo.vb" />
+    <Compile Include="Componets\PrintBarCodeManager\BarCodeControl.vb" />
+    <Compile Include="Componets\PrintBarCodeManager\StringTxtInfo.vb" />
+    <Compile Include="Componets\Production\DeptBalanceMain\DeptBalance_Control.vb" />
+    <Compile Include="Componets\Production\ProductInventoryOut\ProductInventoryOutControl.vb" />
+    <Compile Include="Componets\Production\ProductInventoryOut\ProductInventoryOutInfo.vb" />
+    <Compile Include="Componets\Production\ProductionAffairs\ProductionAffairControl.vb" />
+    <Compile Include="Componets\Production\ProductionAffairs\ProductionAffairInfo.vb" />
+    <Compile Include="Componets\Production\ProductionApply\ProductionApplyControl.vb" />
+    <Compile Include="Componets\Production\ProductionApply\ProductionApplyInfo.vb" />
+    <Compile Include="Componets\Production\ProductionBalance\ProductionBalanceControl.vb" />
+    <Compile Include="Componets\Production\ProductionBalance\ProductionBalanceInfo.vb" />
+    <Compile Include="Componets\Production\ProductionBatchAllot\ProductionBatchAllotControl.vb" />
+    <Compile Include="Componets\Production\ProductionBatchAllot\ProductionBatchAllotInfo.vb" />
+    <Compile Include="Componets\Production\ProductionCombination\ProductionCombinationControl.vb" />
+    <Compile Include="Componets\Production\ProductionCombination\ProductionCombinationInfo.vb" />
+    <Compile Include="Componets\Production\ProductionDataSetting\ProductionDataSettingControl.vb" />
+    <Compile Include="Componets\Production\ProductionDataSetting\ProductionDataSettingInfo.vb" />
+    <Compile Include="Componets\Production\ProductionDetailMainMonthSum\ProductionDetailMainMonthSumControl.vb" />
+    <Compile Include="Componets\Production\ProductionDetailMainMonthSum\ProductionDetailMainMonthSumInfo.vb" />
+    <Compile Include="Componets\Production\ProductionDPTWareInventory\ProductionDPTWareInventoryControl.vb" />
+    <Compile Include="Componets\Production\ProductionDPTWareInventory\ProductionDPTWareInventoryInfo.vb" />
+    <Compile Include="Componets\Production\ProductionException\ProductionExceptionControl.vb" />
+    <Compile Include="Componets\Production\ProductionException\ProductionExceptionInfo.vb" />
+    <Compile Include="Componets\Production\ProductionFieldChange\ProductionFieldChangeControl.vb" />
+    <Compile Include="Componets\Production\ProductionFieldChange\ProductionFieldChangeInfo.vb" />
+    <Compile Include="Componets\Production\ProductionFieldControl\ProductionFieldControl.vb" />
+    <Compile Include="Componets\Production\ProductionFieldControl\ProductionFieldControlInfo.vb" />
+    <Compile Include="Componets\Production\ProductionFieldDaySummaryCreat\ProductionFieldDaySummaryCreatControl.vb" />
+    <Compile Include="Componets\Production\ProductionFieldDaySummaryCreat\ProductionFieldDaySummaryCreatInfo.vb" />
+    <Compile Include="Componets\Production\ProductionFieldDaySummaryInput\ProductionFieldDaySummaryInputControl.vb" />
+    <Compile Include="Componets\Production\ProductionFieldDaySummaryInput\ProductionFieldDaySummaryInputInfo.vb" />
+    <Compile Include="Componets\Production\ProductionFieldDaySummary\ProductionFieldDaySummaryControl.vb" />
+    <Compile Include="Componets\Production\ProductionFieldDaySummary\ProductionFieldDaySummaryInfo.vb" />
+    <Compile Include="Componets\Production\ProductionFieldReturnMaterial\ProductionFieldReturnMaterialControl.vb" />
+    <Compile Include="Componets\Production\ProductionFieldReturnMaterial\ProductionFieldReturnMaterialInfo.vb" />
+    <Compile Include="Componets\Production\ProductionFieldType\ProductionFieldTypeControl.vb" />
+    <Compile Include="Componets\Production\ProductionFieldType\ProductionFieldTypeInfo.vb" />
+    <Compile Include="Componets\Production\ProductionField\ProductionFieldBadnessCauseControl.vb" />
+    <Compile Include="Componets\Production\ProductionField\ProductionFieldBadnessCauseInfo.vb" />
+    <Compile Include="Componets\Production\ProductionField\ProductionFieldControl.vb" />
+    <Compile Include="Componets\Production\ProductionField\ProductionFieldInfo.vb" />
+    <Compile Include="Componets\Production\ProductionKaiLiaoReturn\ProductionKaiLiaoReturnControl.vb" />
+    <Compile Include="Componets\Production\ProductionKaiLiaoReturn\ProductionKaiLiaoReturnInfo.vb" />
+    <Compile Include="Componets\Production\ProductionKaiLiao\ProductionKaiLiaoControl.vb" />
+    <Compile Include="Componets\Production\ProductionKaiLiao\ProductionKaiLiaoInfo.vb" />
+    <Compile Include="Componets\Production\ProductionMaterial\ProductionMaterialControl.vb" />
+    <Compile Include="Componets\Production\ProductionMaterial\ProductionMaterialInfo.vb" />
+    <Compile Include="Componets\Production\ProductionMerge\ProductionMergeControl.vb" />
+    <Compile Include="Componets\Production\ProductionMerge\ProductionMergeInfo.vb" />
+    <Compile Include="Componets\Production\ProductionOutWardType\ProductionOutWardTypeControl.vb" />
+    <Compile Include="Componets\Production\ProductionOutWardType\ProductionOutWardTypeInfo.vb" />
+    <Compile Include="Componets\Production\ProductionOutWard\ProductionOutWardControl.vb" />
+    <Compile Include="Componets\Production\ProductionOutWard\ProductionOutWardInfo.vb" />
+    <Compile Include="Componets\Production\ProductionOut\ProductionOutProcess\ProductionOutProcessControl.vb" />
+    <Compile Include="Componets\Production\ProductionOut\ProductionOutProcess\ProductionOutProcessInfo.vb" />
+    <Compile Include="Componets\Production\ProductionOut\ProductionOWPAcceptance\ProductionOWPAcceptanceControl.vb" />
+    <Compile Include="Componets\Production\ProductionOut\ProductionOWPAcceptance\ProductionOWPAcceptanceInfo.vb" />
+    <Compile Include="Componets\Production\ProductionPiece\ProductionPieceFormula\ProductionPieceFormulaControl.vb" />
+    <Compile Include="Componets\Production\ProductionPiece\ProductionPieceFormula\ProductionPieceFormulaInfo.vb" />
+    <Compile Include="Componets\Production\ProductionPiece\ProductionPiecePaySampType\ProductionPiecePaySampTypeControl.vb" />
+    <Compile Include="Componets\Production\ProductionPiece\ProductionPiecePaySampType\ProductionPiecePaySampTypeInfo.vb" />
+    <Compile Include="Componets\Production\ProductionPiece\ProductionPiecePayWGAdjust\ProductionPiecePayWGAdjustControl.vb" />
+    <Compile Include="Componets\Production\ProductionPiece\ProductionPiecePayWGAdjust\ProductionPiecePayWGAdjustInfo.vb" />
+    <Compile Include="Componets\Production\ProductionPiece\ProductionPiecePay\ProductionPayPersonnel\ProductionPayPersonnelContol.vb" />
+    <Compile Include="Componets\Production\ProductionPiece\ProductionPiecePay\ProductionPayPersonnel\ProductionPayPersonnelInfo.vb" />
+    <Compile Include="Componets\Production\ProductionPiece\ProductionPiecePay\ProductionPiecePayPersonnel\ProductionPiecePayPersonnelContol.vb" />
+    <Compile Include="Componets\Production\ProductionPiece\ProductionPiecePay\ProductionPiecePayPersonnel\ProductionPiecePayPersonnelInfo.vb" />
+    <Compile Include="Componets\Production\ProductionPiece\ProductionPiecePay\ProductionPiecePayWorkGroup\ProductionPiecePayWGMainControl.vb" />
+    <Compile Include="Componets\Production\ProductionPiece\ProductionPiecePay\ProductionPiecePayWorkGroup\ProductionPiecePayWGMainInfo.vb" />
+    <Compile Include="Componets\Production\ProductionPiece\ProductionPiecePay\ProductionPiecePayWorkGroup\ProductionPiecePayWGSubControl.vb" />
+    <Compile Include="Componets\Production\ProductionPiece\ProductionPiecePay\ProductionPiecePayWorkGroup\ProductionPiecePayWGSubInfo.vb" />
+    <Compile Include="Componets\Production\ProductionPiece\ProductionPiecePersonnelDay\ProductionPiecePersonnelDayControl.vb" />
+    <Compile Include="Componets\Production\ProductionPiece\ProductionPiecePersonnelDay\ProductionPiecePersonnelDayInfo.vb" />
+    <Compile Include="Componets\Production\ProductionPiece\ProductionPiecePersonnelMothClass\ProductionPiecePersonnelMothClassControl.vb" />
+    <Compile Include="Componets\Production\ProductionPiece\ProductionPiecePersonnelMothClass\ProductionPiecePersonnelMothClassInfo.vb" />
+    <Compile Include="Componets\Production\ProductionPiece\ProductionPiecePersonnel\ProductionPiecePersonnelControl.vb" />
+    <Compile Include="Componets\Production\ProductionPiece\ProductionPiecePersonnel\ProductionPiecePersonnelInfo.vb" />
+    <Compile Include="Componets\Production\ProductionPiece\ProductionPieceProcess\ProductionPieceProcessControl.vb" />
+    <Compile Include="Componets\Production\ProductionPiece\ProductionPieceProcess\ProductionPieceProcessInfo.vb" />
+    <Compile Include="Componets\Production\ProductionPiece\ProductionPieceWorkGroup\ProductionPieceWorkGroupControl.vb" />
+    <Compile Include="Componets\Production\ProductionPiece\ProductionPieceWorkGroup\ProductionPieceWorkGroupInfo.vb" />
+    <Compile Include="Componets\Production\ProductionPiece\ProductionPiece_Select\ProductionPiece_SelectControl.vb" />
+    <Compile Include="Componets\Production\ProductionPiece\ProductionSumLock\ProductionSumLockControl.vb" />
+    <Compile Include="Componets\Production\ProductionPiece\ProductionSumLock\ProductionSumLockInfo.vb" />
+    <Compile Include="Componets\Production\ProductionPiece\ProductionSumPiecePersonnel\ProductionSumPiecePersonnelControl.vb" />
+    <Compile Include="Componets\Production\ProductionPiece\ProductionSumPiecePersonnel\ProductionSumPiecePersonnelInfo.vb" />
+    <Compile Include="Componets\Production\ProductionPiece\ProductionSumPieceWorkGroup\ProductionSumPieceWorkGroupControl.vb" />
+    <Compile Include="Componets\Production\ProductionPiece\ProductionSumPieceWorkGroup\ProductionSumPieceWorkGroupInfo.vb" />
+    <Compile Include="Componets\Production\ProductionPiece\ProductionSumTimePersonnel\ProductionSumTimePersonnelControl.vb" />
+    <Compile Include="Componets\Production\ProductionPiece\ProductionSumTimePersonnel\ProductionSumTimePersonnelInfo.vb" />
+    <Compile Include="Componets\Production\ProductionPiece\ProductionSumTimeSetting\ProductionSumTimeSettingControl.vb" />
+    <Compile Include="Componets\Production\ProductionPiece\ProductionSumTimeSetting\ProductionSumTimeSettingInfo.vb" />
+    <Compile Include="Componets\Production\ProductionPiece\ProductionSumTimeWorkGroup\ProductionSumTimeWorkGroupControl.vb" />
+    <Compile Include="Componets\Production\ProductionPiece\ProductionSumTimeWorkGroup\ProductionSumTimeWorkGroupInfo.vb" />
+    <Compile Include="Componets\Production\ProductionProductInner\ProductionProductInnerControl.vb" />
+    <Compile Include="Componets\Production\ProductionProductInner\ProductionProductInnerInfo.vb" />
+    <Compile Include="Componets\Production\ProductionRatio\ProductionRatioControl.vb" />
+    <Compile Include="Componets\Production\ProductionRatio\ProductionRatioInfo.vb" />
+    <Compile Include="Componets\Production\ProductionReturn\ProductionReturnControl.vb" />
+    <Compile Include="Componets\Production\ProductionReturn\ProductionReturnInfo.vb" />
+    <Compile Include="Componets\Production\ProductionRetrocede\ProductionRetrocedeControl.vb" />
+    <Compile Include="Componets\Production\ProductionRetrocede\ProductionRetrocedeInfo.vb" />
+    <Compile Include="Componets\Production\ProductionSchedule\ProductionScheduleControl.vb" />
+    <Compile Include="Componets\Production\ProductionSchedule\ProductionScheduleInfo.vb" />
+    <Compile Include="Componets\Production\ProductionSelect\ProductionSelectControl.vb" />
+    <Compile Include="Componets\Production\ProductionSelect\ProductionSelectInfo.vb" />
+    <Compile Include="Componets\Production\ProductionShipment\ProductionShipmentControl.vb" />
+    <Compile Include="Componets\Production\ProductionShipment\ProductionShipmentInfo.vb" />
+    <Compile Include="Componets\Production\ProductionWareHouse\ProductionWareHouseControl.vb" />
+    <Compile Include="Componets\Production\ProductionWareHouse\ProductionWareHouseInfo.vb" />
+    <Compile Include="Componets\Production\ProductionWareInventory\ProductionWareInventoryControl.vb" />
+    <Compile Include="Componets\Production\ProductionWareInventory\ProductionWareInventoryInfo.vb" />
+    <Compile Include="Componets\Production\ProductionWareMove\ProductionWareMoveControl.vb" />
+    <Compile Include="Componets\Production\ProductionWareMove\ProductionWareMoveInfo.vb" />
+    <Compile Include="Componets\Production\ProductionWareOutA\ProductionWareOutControl.vb" />
+    <Compile Include="Componets\Production\ProductionWareOutA\ProductionWareOutInfo.vb" />
+    <Compile Include="Componets\Production\ProductionWareOutB\ProductionWareOutBControl.vb" />
+    <Compile Include="Componets\Production\ProductionWareOutB\ProductionWareOutBInfo.vb" />
+    <Compile Include="Componets\Production\ProductionWareOut\ProductionWareOutControl.vb" />
+    <Compile Include="Componets\Production\ProductionWareOut\ProductionWareOutInfo.vb" />
+    <Compile Include="Componets\Production\ProductionWareShipped\ProductionWareShippedControl.vb" />
+    <Compile Include="Componets\Production\ProductionWareShipped\ProductionWareShippedInfo.vb" />
+    <Compile Include="Componets\ProductProcess\ProcessMainControl.vb" />
+    <Compile Include="Componets\ProductProcess\ProcessMainInfo.vb" />
+    <Compile Include="Componets\ProductProcess\ProductComplaintMainControl.vb" />
+    <Compile Include="Componets\ProductProcess\ProductComplaintMainInfo.vb" />
+    <Compile Include="Componets\ProductProcess\ProcessTypeControl.vb" />
+    <Compile Include="Componets\ProductProcess\ProcessTypeInfo.vb" />
+    <Compile Include="Componets\Product\BomDetail\ProductBomController.vb" />
+    <Compile Include="Componets\Product\BomDetail\ProductBomInfo.vb" />
+    <Compile Include="Componets\Product\BomHead\ProductController.vb" />
+    <Compile Include="Componets\Product\BomHead\ProductInfo.vb" />
+    <Compile Include="Componets\Product\ProductInventory\ProductInventoryController.vb" />
+    <Compile Include="Componets\Product\ProductInventory\ProductInventoryInfo.vb" />
+    <Compile Include="Componets\Purchase\Acceptance\AcceptanceController.vb" />
+    <Compile Include="Componets\Purchase\Acceptance\AcceptanceInfo.vb" />
+    <Compile Include="Componets\Purchase\ApplyPurchase\ApplyPurchaseControl.vb" />
+    <Compile Include="Componets\Purchase\ApplyPurchase\ApplyPurchaseInfo.vb" />
+    <Compile Include="Componets\Purchase\Apply\ApplyControl.vb" />
+    <Compile Include="Componets\Purchase\Apply\ApplyInfo.vb" />
+    <Compile Include="Componets\Purchase\Change\ChangeControl.vb" />
+    <Compile Include="Componets\Purchase\Change\ChangeInfo.vb" />
+    <Compile Include="Componets\Purchase\PurchaseSubs\PurchaseSubsControl.vb" />
+    <Compile Include="Componets\Purchase\PurchaseSubs\PurchaseSubsInfo.vb" />
+    <Compile Include="Componets\Purchase\Purchase\PurchaseMainController.vb" />
+    <Compile Include="Componets\Purchase\Purchase\PurchaseMainInfo.vb" />
+    <Compile Include="Componets\Purchase\Purchase\PurchaseSubController.vb" />
+    <Compile Include="Componets\Purchase\PurSelect\PurSelectControl.vb" />
+    <Compile Include="Componets\Purchase\PurSelect\PurSelectInfo.vb" />
+    <Compile Include="Componets\Purchase\Quotation\QuotationController.vb" />
+    <Compile Include="Componets\Purchase\Quotation\QuotationInfo.vb" />
+    <Compile Include="Componets\Purchase\Retrocede\RetrocedeController.vb" />
+    <Compile Include="Componets\Purchase\Retrocede\RetrocedeInfo.vb" />
+    <Compile Include="Componets\Purchase\SharePurchase\SharePurchaseController.vb" />
+    <Compile Include="Componets\Purchase\SharePurchase\SharePurchaseInfo.vb" />
+    <Compile Include="Componets\Purchase\WareQuality\WareQualityController.vb" />
+    <Compile Include="Componets\Purchase\WareQuality\WareQualityInfo.vb" />
+    <Compile Include="Componets\SampleManager\SampInventoryCheck\SampInventoryCheckControl.vb" />
+    <Compile Include="Componets\SampleManager\SampInventoryCheck\SampInventoryCheckInfo.vb" />
+    <Compile Include="Componets\SampleManager\SampleAlarm\SampleAlarmController.vb" />
+    <Compile Include="Componets\SampleManager\SampleAlarm\SampleAlarmInfo.vb" />
+    <Compile Include="Componets\SampleManager\SampleBorrow\SampleBorrowController.vb" />
+    <Compile Include="Componets\SampleManager\SampleBorrow\SampleBorrowInfo.vb" />
+    <Compile Include="Componets\SampleManager\SampleBorrow\SampleRepayInfo.vb" />
+    <Compile Include="Componets\SampleManager\SampleBorrow\SampleRepayController.vb" />
+    <Compile Include="Componets\SampleManager\SampleBox\BigBox\SampleBigBoxController.vb" />
+    <Compile Include="Componets\SampleManager\SampleBox\BigBox\SampleBigBoxInfo.vb" />
+    <Compile Include="Componets\SampleManager\SampleBox\SamllBox\SampleSmallBoxController.vb" />
+    <Compile Include="Componets\SampleManager\SampleBox\SamllBox\SampleSmallBoxInfo.vb" />
+    <Compile Include="Componets\SampleManager\SampleCollection\SampleCollectionControler.vb" />
+    <Compile Include="Componets\SampleManager\SampleCollection\SampleCollectionInfo.vb" />
+    <Compile Include="Componets\SampleManager\SampleCustomerFeedback\SampleCustomerFeedbackControler.vb" />
+    <Compile Include="Componets\SampleManager\SampleCustomerFeedback\SampleCustomerFeedbackinfo.vb" />
+    <Compile Include="Componets\SampleManager\SampleDivert\SampleDivertControl.vb" />
+    <Compile Include="Componets\SampleManager\SampleDivert\SampleDivertInfo.vb" />
+    <Compile Include="Componets\SampleManager\SampleOrders\SampleOrdersMainControler.vb" />
+    <Compile Include="Componets\SampleManager\SampleOrders\SampleOrdersMainInfo.vb" />
+    <Compile Include="Componets\SampleManager\SampleOrders\SampleOrdersSubControler.vb" />
+    <Compile Include="Componets\SampleManager\SampleOrders\SampleOrdersSubInfo.vb" />
+    <Compile Include="Componets\SampleManager\SampleOrders\SampleOrdersCodeControler.vb" />
+    <Compile Include="Componets\SampleManager\SampleOrders\SampleOrdersCodeInfo.vb" />
+    <Compile Include="Componets\SampleManager\SamplePace\SamplePaceControler.vb" />
+    <Compile Include="Componets\SampleManager\SamplePace\SamplePaceInfo.vb" />
+    <Compile Include="Componets\SampleManager\SamplePace\SamplePaceQueryInfo.vb" />
+    <Compile Include="Componets\SampleManager\SamplePace\SamplePaceQuery_Controller.vb" />
+    <Compile Include="Componets\SampleManager\SamplePacking\SamplePackingControler.vb" />
+    <Compile Include="Componets\SampleManager\SamplePacking\SamplePackingInfo.vb" />
+    <Compile Include="Componets\SampleManager\SamplePlan\SamplePlanControler.vb" />
+    <Compile Include="Componets\SampleManager\SamplePlan\SamplePlanInfo.vb" />
+    <Compile Include="Componets\SampleManager\SampleProcess\SampleProcessControl.vb" />
+    <Compile Include="Componets\SampleManager\SampleProcess\SampleProcessInfo.vb" />
+    <Compile Include="Componets\SampleManager\SampleProcess\SampleProcessMainControler.vb" />
+    <Compile Include="Componets\SampleManager\SampleProcess\SampleProcessMainInfo.vb" />
+    <Compile Include="Componets\SampleManager\SampleSend\SampleSendBackInfo.vb" />
+    <Compile Include="Componets\SampleManager\SampleSend\SampleSendBackController.vb" />
+    <Compile Include="Componets\SampleManager\SampleSend\SampleSendControler.vb" />
+    <Compile Include="Componets\SampleManager\SampleSend\SampleSendInfo.vb" />
+    <Compile Include="Componets\SampleManager\SampleSend\SampleSendCodeInfo.vb" />
+    <Compile Include="Componets\SampleManager\SampleSend\SampleSendCodeControler.vb" />
+    <Compile Include="Componets\SampleManager\SampleSend\SampleSendShipFilesControl.vb" />
+    <Compile Include="Componets\SampleManager\SampleSend\SampleSendShipFilesInfo.vb" />
+    <Compile Include="Componets\SampleManager\SampleSetting\SampleEmailSettingInfo.vb" />
+    <Compile Include="Componets\SampleManager\SampleSetting\SampleEmailSettingController.vb" />
+    <Compile Include="Componets\SampleManager\SampleSetting\SampleSettingController.vb" />
+    <Compile Include="Componets\SampleManager\SampleSetting\SampleSettingInfo.vb" />
+    <Compile Include="Componets\SampleManager\SampleStorage\SampleStorageController.vb" />
+    <Compile Include="Componets\SampleManager\SampleStorage\SampleStorageInfo.vb" />
+    <Compile Include="Componets\SampleManager\SampleStorage\SampleStorageLogController.vb" />
+    <Compile Include="Componets\SampleManager\SampleStorage\SampleStorageLogInfo.vb" />
+    <Compile Include="Componets\SampleManager\SampleTransaction\SampleTransactionControler.vb" />
+    <Compile Include="Componets\SampleManager\SampleTransaction\SampleTransactionInfo.vb" />
+    <Compile Include="Componets\SampleManager\SampleWareInventory\SampleWareInventoryControler.vb" />
+    <Compile Include="Componets\SampleManager\SampleWareInventory\SampleWareInventoryInfo.vb" />
+    <Compile Include="Componets\ScanManager\ScanFileController.vb" />
+    <Compile Include="Componets\ScanManager\ScanFileInfo.vb" />
+    <Compile Include="Componets\Shared\MaterialSetting.vb" />
+    <Compile Include="Componets\Shared\Setting.vb" />
+    <Compile Include="Componets\DataSetting\Currency\CurrencyControler.vb" />
+    <Compile Include="Componets\DataSetting\Currency\CurrencyInfo.vb" />
+    <Compile Include="Componets\Shared\Temp\TempController.vb" />
+    <Compile Include="Componets\Shared\Temp\TempInfo.vb" />
+    <Compile Include="Componets\Shared\Tools\DBComExec.vb" />
+    <Compile Include="Componets\Shared\WhiteUserList\WhiteUserListController.vb" />
+    <Compile Include="Componets\Shared\WhiteUserList\WhiteUserListInfo.vb" />
+    <Compile Include="Componets\PackagingAndShipMent\SingleFactory\SingleFactoryControl.vb" />
+    <Compile Include="Componets\PackagingAndShipMent\SingleFactory\SingleFactoryInfo.vb" />
+    <Compile Include="Componets\SystemManager\OperationLog\OperationLogController.vb" />
+    <Compile Include="Componets\SystemManager\OperationLog\OperationLogInfo.vb" />
+    <Compile Include="Componets\SystemManager\Permission\PermissionController.vb" />
+    <Compile Include="Componets\SystemManager\Permission\PermissionInfo.vb" />
+    <Compile Include="Componets\SystemManager\Permission\PermissionModule.vb" />
+    <Compile Include="Componets\DataSetting\Unit\UnitController.vb" />
+    <Compile Include="Componets\DataSetting\Unit\UnitInfo.vb" />
+    <Compile Include="Componets\SystemManager\Permission\PermissionModuleSubController.vb" />
+    <Compile Include="Componets\SystemManager\Permission\PermissionModuleSubInfo.vb" />
+    <Compile Include="Componets\SystemManager\Permission\PermissionModuleWarrantSubController.vb" />
+    <Compile Include="Componets\SystemManager\Permission\PermissionModuleWarrantSubInfo.vb" />
+    <Compile Include="Componets\SystemManager\Permission\VerUserControl.vb" />
+    <Compile Include="Componets\SystemManager\Permission\VerUserInfo.vb" />
+    <Compile Include="Componets\SystemManager\SNRule\SNMaxNumController.vb" />
+    <Compile Include="Componets\SystemManager\SNRule\SNMaxNumInfo.vb" />
+    <Compile Include="Componets\SystemManager\SNRule\SNRuleController.vb" />
+    <Compile Include="Componets\SystemManager\SNRule\SNRuleInfo.vb" />
+    <Compile Include="Componets\SystemManager\SNRule\SNRuleSubController.vb" />
+    <Compile Include="Componets\SystemManager\SNRule\SNRuleSubInfo.vb" />
+    <Compile Include="Componets\SystemManager\SystemUser\SystemUserController.vb" />
+    <Compile Include="Componets\SystemManager\SystemUser\SystemUserInfo.vb" />
+    <Compile Include="Componets\SystemManager\UserLoginLog\UserLoginLogController.vb" />
+    <Compile Include="Componets\SystemManager\UserLoginLog\UserLoginLogInfo.vb" />
+    <Compile Include="Componets\WareHouse\CompanyWareHouse\CompanyWareHouseController.vb" />
+    <Compile Include="Componets\WareHouse\CompanyWareHouse\CompanyWareHouseInfo.vb" />
+    <Compile Include="Componets\WareHouse\WareBorrowReturn\WareBorrowChangeControl.vb" />
+    <Compile Include="Componets\WareHouse\WareBorrowReturn\WareBorrowChangeInfo.vb" />
+    <Compile Include="Componets\WareHouse\WareBorrowReturn\WareBorrowReturnControl.vb" />
+    <Compile Include="Componets\WareHouse\WareBorrowReturn\WareBorrowReturnInfo.vb" />
+    <Compile Include="Componets\WareHouse\WareChange\WareChangeControl.vb" />
+    <Compile Include="Componets\WareHouse\WareChange\WareChangeInfo.vb" />
+    <Compile Include="Componets\WareHouse\WareHouseDetail\WareHouseDetailControl.vb" />
+    <Compile Include="Componets\WareHouse\WareHouseDetail\WareHouseDetailInfo.vb" />
+    <Compile Include="Componets\WareHouse\WareHouseInput\WareInputContraller.vb" />
+    <Compile Include="Componets\WareHouse\WareHouseInput\WareInputInfo.vb" />
+    <Compile Include="Componets\WareHouse\WareHouseOut\WareOutController.vb" />
+    <Compile Include="Componets\WareHouse\WareHouseOut\WareOutInfo.vb" />
+    <Compile Include="Componets\WareHouse\WareHouseSplit\WareHouseSplitControl.vb" />
+    <Compile Include="Componets\WareHouse\WareHouseSplit\WareHouseSplitInfo.vb" />
+    <Compile Include="Componets\WareHouse\WareInventoryCheck\WareInventoryCheckController.vb" />
+    <Compile Include="Componets\WareHouse\WareInventoryCheck\WareInventoryCheckInfo.vb" />
+    <Compile Include="Componets\WareHouse\WareInventory\CurrentStockSelect.vb" />
+    <Compile Include="Componets\WareHouse\WareInventory\WareInventoryInfo.vb" />
+    <Compile Include="Componets\WareHouse\WareHouse\WareHouseController.vb" />
+    <Compile Include="Componets\WareHouse\WareHouse\WareHouseInfo.vb" />
+    <Compile Include="Componets\WareHouse\WareInventory\WareInventoryMTController.vb" />
+    <Compile Include="Componets\WareHouse\WareInventory\WareInventoryNGTypeControl.vb" />
+    <Compile Include="Componets\WareHouse\WareInventory\WareInventoryNGTypeInfo.vb" />
+    <Compile Include="Componets\WareHouse\WareMoveCompany\WareMoveCompanyController.vb" />
+    <Compile Include="Componets\WareHouse\WareMoveCompany\WareMoveCompanyInfo.vb" />
+    <Compile Include="Componets\WareHouse\WareMove\WareMoveController.vb" />
+    <Compile Include="Componets\WareHouse\WareMove\WareMoveInfo.vb" />
+    <Compile Include="Componets\WareHouse\WareQC\WareQCRecover\WareQCRecoverController.vb" />
+    <Compile Include="Componets\WareHouse\WareQC\WareQCRecover\WareQCRecoverInfo.vb" />
+    <Compile Include="Componets\WareHouse\WareQC\WareQCSend\WareQCSendController.vb" />
+    <Compile Include="Componets\WareHouse\WareQC\WareQCSend\WareQCSendInfo.vb" />
+    <Compile Include="Componets\WareHouse\WareSelect\WareSelectControl.vb" />
+    <Compile Include="Componets\WareHouse\WareSelect\WareSelectInfo.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Componets\SwipeCard\ReadwriteDll.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="LFERP.Library.snk" />
+    <None Include="LFERP.snk" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Componets\EnterpriseLibrary\Microsoft.Practices.EnterpriseLibrary.Common.dll" />
+    <Content Include="Componets\EnterpriseLibrary\Microsoft.Practices.EnterpriseLibrary.Data.dll" />
+    <Content Include="Componets\EnterpriseLibrary\Microsoft.Practices.ObjectBuilder.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Componets\MrpManager\MrpBomSelect\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
