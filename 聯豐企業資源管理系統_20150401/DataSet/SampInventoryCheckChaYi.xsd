@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="SampInventoryCheckChaYi" targetNamespace="http://tempuri.org/SampInventoryCheckChaYi.xsd" xmlns:mstns="http://tempuri.org/SampInventoryCheckChaYi.xsd" xmlns="http://tempuri.org/SampInventoryCheckChaYi.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+        </Connections>
+        <Tables>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="SampInventoryCheckChaYi" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="SampInventoryCheckChaYi" msprop:Generator_DataSetName="SampInventoryCheckChaYi">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="SampInventoryCheckChaYi" msprop:Generator_UserTableName="SampInventoryCheckChaYi" msprop:Generator_RowDeletedName="SampInventoryCheckChaYiRowDeleted" msprop:Generator_TableClassName="SampInventoryCheckChaYiDataTable" msprop:Generator_RowChangedName="SampInventoryCheckChaYiRowChanged" msprop:Generator_RowClassName="SampInventoryCheckChaYiRow" msprop:Generator_RowChangingName="SampInventoryCheckChaYiRowChanging" msprop:Generator_RowEvArgName="SampInventoryCheckChaYiRowChangeEvent" msprop:Generator_RowEvHandlerName="SampInventoryCheckChaYiRowChangeEventHandler" msprop:Generator_TablePropName="_SampInventoryCheckChaYi" msprop:Generator_TableVarName="tableSampInventoryCheckChaYi" msprop:Generator_RowDeletingName="SampInventoryCheckChaYiRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="AutoID" msprop:Generator_UserColumnName="AutoID" msprop:Generator_ColumnPropNameInRow="AutoID" msprop:Generator_ColumnVarNameInTable="columnAutoID" msprop:Generator_ColumnPropNameInTable="AutoIDColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Code_ID" msprop:Generator_UserColumnName="Code_ID" msprop:Generator_ColumnPropNameInRow="Code_ID" msprop:Generator_ColumnVarNameInTable="columnCode_ID" msprop:Generator_ColumnPropNameInTable="Code_IDColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Qty" msprop:Generator_UserColumnName="Qty" msprop:Generator_ColumnPropNameInRow="Qty" msprop:Generator_ColumnVarNameInTable="columnQty" msprop:Generator_ColumnPropNameInTable="QtyColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="CheckNO" msprop:Generator_UserColumnName="CheckNO" msprop:Generator_ColumnPropNameInRow="CheckNO" msprop:Generator_ColumnVarNameInTable="columnCheckNO" msprop:Generator_ColumnPropNameInTable="CheckNOColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Status" msprop:Generator_UserColumnName="Status" msprop:Generator_ColumnPropNameInRow="Status" msprop:Generator_ColumnVarNameInTable="columnStatus" msprop:Generator_ColumnPropNameInTable="StatusColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

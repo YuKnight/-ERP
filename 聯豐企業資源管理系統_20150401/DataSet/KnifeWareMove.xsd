@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="KnifeWareMove" targetNamespace="http://tempuri.org/KnifeWareMove.xsd" xmlns:mstns="http://tempuri.org/KnifeWareMove.xsd" xmlns="http://tempuri.org/KnifeWareMove.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+        </Connections>
+        <Tables>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="KnifeWareMove" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="KnifeWareMove" msprop:Generator_DataSetName="KnifeWareMove">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="KnifeWareMove" msprop:Generator_UserTableName="KnifeWareMove" msprop:Generator_RowDeletedName="KnifeWareMoveRowDeleted" msprop:Generator_TableClassName="KnifeWareMoveDataTable" msprop:Generator_RowChangedName="KnifeWareMoveRowChanged" msprop:Generator_RowClassName="KnifeWareMoveRow" msprop:Generator_RowChangingName="KnifeWareMoveRowChanging" msprop:Generator_RowEvArgName="KnifeWareMoveRowChangeEvent" msprop:Generator_RowEvHandlerName="KnifeWareMoveRowChangeEventHandler" msprop:Generator_TablePropName="_KnifeWareMove" msprop:Generator_TableVarName="tableKnifeWareMove" msprop:Generator_RowDeletingName="KnifeWareMoveRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="IndexNo" msprop:Generator_UserColumnName="IndexNo" msprop:Generator_ColumnPropNameInRow="IndexNo" msprop:Generator_ColumnVarNameInTable="columnIndexNo" msprop:Generator_ColumnPropNameInTable="IndexNoColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="MV_NO" msprop:Generator_UserColumnName="MV_NO" msprop:Generator_ColumnPropNameInRow="MV_NO" msprop:Generator_ColumnVarNameInTable="columnMV_NO" msprop:Generator_ColumnPropNameInTable="MV_NOColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="MV_Number" msprop:Generator_UserColumnName="MV_Number" msprop:Generator_ColumnPropNameInRow="MV_Number" msprop:Generator_ColumnVarNameInTable="columnMV_Number" msprop:Generator_ColumnPropNameInTable="MV_NumberColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="M_Code" msprop:Generator_UserColumnName="M_Code" msprop:Generator_ColumnPropNameInRow="M_Code" msprop:Generator_ColumnVarNameInTable="columnM_Code" msprop:Generator_ColumnPropNameInTable="M_CodeColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="M_Name" msprop:Generator_UserColumnName="M_Name" msprop:Generator_ColumnPropNameInRow="M_Name" msprop:Generator_ColumnVarNameInTable="columnM_Name" msprop:Generator_ColumnPropNameInTable="M_NameColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="M_Gauge" msprop:Generator_UserColumnName="M_Gauge" msprop:Generator_ColumnPropNameInRow="M_Gauge" msprop:Generator_ColumnVarNameInTable="columnM_Gauge" msprop:Generator_ColumnPropNameInTable="M_GaugeColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="M_Unit" msprop:Generator_UserColumnName="M_Unit" msprop:Generator_ColumnPropNameInRow="M_Unit" msprop:Generator_ColumnVarNameInTable="columnM_Unit" msprop:Generator_ColumnPropNameInTable="M_UnitColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="MV_Qty" msprop:Generator_UserColumnName="MV_Qty" msprop:Generator_ColumnPropNameInRow="MV_Qty" msprop:Generator_ColumnVarNameInTable="columnMV_Qty" msprop:Generator_ColumnPropNameInTable="MV_QtyColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="MV_Date" msprop:Generator_UserColumnName="MV_Date" msprop:Generator_ColumnPropNameInRow="MV_Date" msprop:Generator_ColumnVarNameInTable="columnMV_Date" msprop:Generator_ColumnPropNameInTable="MV_DateColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="OS_BatchID" msprop:Generator_UserColumnName="OS_BatchID" msprop:Generator_ColumnPropNameInRow="OS_BatchID" msprop:Generator_ColumnVarNameInTable="columnOS_BatchID" msprop:Generator_ColumnPropNameInTable="OS_BatchIDColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="PM_M_Code" msprop:Generator_UserColumnName="PM_M_Code" msprop:Generator_ColumnPropNameInRow="PM_M_Code" msprop:Generator_ColumnVarNameInTable="columnPM_M_Code" msprop:Generator_ColumnPropNameInTable="PM_M_CodeColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="DepotNO" msprop:Generator_UserColumnName="DepotNO" msprop:Generator_ColumnPropNameInRow="DepotNO" msprop:Generator_ColumnVarNameInTable="columnDepotNO" msprop:Generator_ColumnPropNameInTable="DepotNOColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="MV_ChangeDepotNO" msprop:Generator_UserColumnName="MV_ChangeDepotNO" msprop:Generator_ColumnPropNameInRow="MV_ChangeDepotNO" msprop:Generator_ColumnVarNameInTable="columnMV_ChangeDepotNO" msprop:Generator_ColumnPropNameInTable="MV_ChangeDepotNOColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="MV_InOrOut" msprop:Generator_UserColumnName="MV_InOrOut" msprop:Generator_ColumnPropNameInRow="MV_InOrOut" msprop:Generator_ColumnVarNameInTable="columnMV_InOrOut" msprop:Generator_ColumnPropNameInTable="MV_InOrOutColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="MV_Remark" msprop:Generator_UserColumnName="MV_Remark" msprop:Generator_ColumnPropNameInRow="MV_Remark" msprop:Generator_ColumnVarNameInTable="columnMV_Remark" msprop:Generator_ColumnPropNameInTable="MV_RemarkColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="MV_Ack" msprop:Generator_UserColumnName="MV_Ack" msprop:Generator_ColumnPropNameInRow="MV_Ack" msprop:Generator_ColumnVarNameInTable="columnMV_Ack" msprop:Generator_ColumnPropNameInTable="MV_AckColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="MV_InAction" msprop:Generator_UserColumnName="MV_InAction" msprop:Generator_ColumnPropNameInRow="MV_InAction" msprop:Generator_ColumnVarNameInTable="columnMV_InAction" msprop:Generator_ColumnPropNameInTable="MV_InActionColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="MV_OutAction" msprop:Generator_UserColumnName="MV_OutAction" msprop:Generator_ColumnPropNameInRow="MV_OutAction" msprop:Generator_ColumnVarNameInTable="columnMV_OutAction" msprop:Generator_ColumnPropNameInTable="MV_OutActionColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="MV_Property" msprop:Generator_UserColumnName="MV_Property" msprop:Generator_ColumnPropNameInRow="MV_Property" msprop:Generator_ColumnVarNameInTable="columnMV_Property" msprop:Generator_ColumnPropNameInTable="MV_PropertyColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="MV_Check" msprop:Generator_UserColumnName="MV_Check" msprop:Generator_ColumnPropNameInRow="MV_Check" msprop:Generator_ColumnVarNameInTable="columnMV_Check" msprop:Generator_ColumnPropNameInTable="MV_CheckColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="MV_CheckAction" msprop:Generator_UserColumnName="MV_CheckAction" msprop:Generator_ColumnPropNameInRow="MV_CheckAction" msprop:Generator_ColumnVarNameInTable="columnMV_CheckAction" msprop:Generator_ColumnPropNameInTable="MV_CheckActionColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="MV_CheckType" msprop:Generator_UserColumnName="MV_CheckType" msprop:Generator_ColumnPropNameInRow="MV_CheckTYPE" msprop:Generator_ColumnVarNameInTable="columnMV_CheckTYPE" msprop:Generator_ColumnPropNameInTable="MV_CheckTYPEColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="MV_CheckRemark" msprop:Generator_UserColumnName="MV_CheckRemark" msprop:Generator_ColumnPropNameInRow="MV_CheckRemark" msprop:Generator_ColumnVarNameInTable="columnMV_CheckRemark" msprop:Generator_ColumnPropNameInTable="MV_CheckRemarkColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="MV_AckDate" msprop:Generator_UserColumnName="MV_AckDate" msprop:Generator_ColumnPropNameInRow="MV_AckDate" msprop:Generator_ColumnVarNameInTable="columnMV_AckDate" msprop:Generator_ColumnPropNameInTable="MV_AckDateColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="MV_EndQty" msprop:Generator_UserColumnName="MV_EndQty" msprop:Generator_ColumnPropNameInRow="MV_EndQty" msprop:Generator_ColumnVarNameInTable="columnMV_EndQty" msprop:Generator_ColumnPropNameInTable="MV_EndQtyColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="KnifeType" msprop:Generator_UserColumnName="KnifeType" msprop:Generator_ColumnPropNameInRow="KnifeType" msprop:Generator_ColumnVarNameInTable="columnKnifeType" msprop:Generator_ColumnPropNameInTable="KnifeTypeColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="MV_OutActionName" msprop:Generator_UserColumnName="MV_OutActionName" msprop:Generator_ColumnPropNameInRow="MV_OutActionName" msprop:Generator_ColumnVarNameInTable="columnMV_OutActionName" msprop:Generator_ColumnPropNameInTable="MV_OutActionNameColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="MV_InActionName" msprop:Generator_UserColumnName="MV_InActionName" msprop:Generator_ColumnPropNameInRow="MV_InActionName" msprop:Generator_ColumnVarNameInTable="columnMV_InActionName" msprop:Generator_ColumnPropNameInTable="MV_InActionNameColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="MV_CheckActionName" msprop:Generator_UserColumnName="MV_CheckActionName" msprop:Generator_ColumnPropNameInRow="MV_CheckActionName" msprop:Generator_ColumnVarNameInTable="columnMV_CheckActionName" msprop:Generator_ColumnPropNameInTable="MV_CheckActionNameColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

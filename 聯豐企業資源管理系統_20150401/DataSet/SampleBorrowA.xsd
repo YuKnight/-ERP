@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="SampleBorrowA" targetNamespace="http://tempuri.org/SampleBorrowA.xsd" xmlns:mstns="http://tempuri.org/SampleBorrowA.xsd" xmlns="http://tempuri.org/SampleBorrowA.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+        </Connections>
+        <Tables>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="SampleBorrowA" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="SampleBorrowA" msprop:Generator_DataSetName="SampleBorrowA">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="SampleBorrowA" msprop:Generator_UserTableName="SampleBorrowA" msprop:Generator_RowDeletedName="SampleBorrowARowDeleted" msprop:Generator_TableClassName="SampleBorrowADataTable" msprop:Generator_RowChangedName="SampleBorrowARowChanged" msprop:Generator_RowClassName="SampleBorrowARow" msprop:Generator_RowChangingName="SampleBorrowARowChanging" msprop:Generator_RowEvArgName="SampleBorrowARowChangeEvent" msprop:Generator_RowEvHandlerName="SampleBorrowARowChangeEventHandler" msprop:Generator_TablePropName="_SampleBorrowA" msprop:Generator_TableVarName="tableSampleBorrowA" msprop:Generator_RowDeletingName="SampleBorrowARowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="OutCardID" msprop:Generator_UserColumnName="OutCardID" msprop:Generator_ColumnPropNameInRow="OutCardID" msprop:Generator_ColumnVarNameInTable="columnOutCardID" msprop:Generator_ColumnPropNameInTable="OutCardIDColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="PM_M_Code" msprop:Generator_UserColumnName="PM_M_Code" msprop:Generator_ColumnPropNameInRow="PM_M_Code" msprop:Generator_ColumnVarNameInTable="columnPM_M_Code" msprop:Generator_ColumnPropNameInTable="PM_M_CodeColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="PS_NO" msprop:Generator_UserColumnName="PS_NO" msprop:Generator_ColumnPropNameInRow="PS_NO" msprop:Generator_ColumnVarNameInTable="columnPS_NO" msprop:Generator_ColumnPropNameInTable="PS_NOColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="D_ID" msprop:Generator_UserColumnName="D_ID" msprop:Generator_ColumnPropNameInRow="D_ID" msprop:Generator_ColumnVarNameInTable="columnD_ID" msprop:Generator_ColumnPropNameInTable="D_IDColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Borrow_Qty" msprop:Generator_UserColumnName="Borrow_Qty" msprop:Generator_ColumnPropNameInRow="Borrow_Qty" msprop:Generator_ColumnVarNameInTable="columnBorrow_Qty" msprop:Generator_ColumnPropNameInTable="Borrow_QtyColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="RepayQty" msprop:Generator_UserColumnName="RepayQty" msprop:Generator_ColumnPropNameInRow="RepayQty" msprop:Generator_ColumnVarNameInTable="columnRepayQty" msprop:Generator_ColumnPropNameInTable="RepayQtyColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="NoBorrow_Qty" msprop:Generator_UserColumnName="NoBorrow_Qty" msprop:Generator_ColumnPropNameInRow="NoBorrow_Qty" msprop:Generator_ColumnVarNameInTable="columnNoBorrow_Qty" msprop:Generator_ColumnPropNameInTable="NoBorrow_QtyColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="PS_Name" msprop:Generator_UserColumnName="PS_Name" msprop:Generator_ColumnPropNameInRow="PS_Name" msprop:Generator_ColumnVarNameInTable="columnPS_Name" msprop:Generator_ColumnPropNameInTable="PS_NameColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="D_Dep" msprop:Generator_UserColumnName="D_Dep" msprop:Generator_ColumnPropNameInRow="D_Dep" msprop:Generator_ColumnVarNameInTable="columnD_Dep" msprop:Generator_ColumnPropNameInTable="D_DepColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

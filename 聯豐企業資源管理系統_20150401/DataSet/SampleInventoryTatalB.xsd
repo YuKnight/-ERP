@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="SampleInventoryTatalB" targetNamespace="http://tempuri.org/SampleInventoryTatalB.xsd" xmlns:mstns="http://tempuri.org/SampleInventoryTatalB.xsd" xmlns="http://tempuri.org/SampleInventoryTatalB.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+        </Connections>
+        <Tables>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="SampleInventoryTatalB" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="SampleInventoryTatalB" msprop:Generator_DataSetName="SampleInventoryTatalB">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="SampleInventoryTatalB" msprop:Generator_UserTableName="SampleInventoryTatalB" msprop:Generator_RowDeletedName="SampleInventoryTatalBRowDeleted" msprop:Generator_TableClassName="SampleInventoryTatalBDataTable" msprop:Generator_RowChangedName="SampleInventoryTatalBRowChanged" msprop:Generator_RowClassName="SampleInventoryTatalBRow" msprop:Generator_RowChangingName="SampleInventoryTatalBRowChanging" msprop:Generator_RowEvArgName="SampleInventoryTatalBRowChangeEvent" msprop:Generator_RowEvHandlerName="SampleInventoryTatalBRowChangeEventHandler" msprop:Generator_TablePropName="_SampleInventoryTatalB" msprop:Generator_TableVarName="tableSampleInventoryTatalB" msprop:Generator_RowDeletingName="SampleInventoryTatalBRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="TMaterialType" msprop:Generator_UserColumnName="TMaterialType" msprop:Generator_ColumnPropNameInRow="TMaterialType" msprop:Generator_ColumnVarNameInTable="columnTMaterialType" msprop:Generator_ColumnPropNameInTable="TMaterialTypeColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="MaterialName" msprop:Generator_UserColumnName="MaterialName" msprop:Generator_ColumnPropNameInRow="MaterialName" msprop:Generator_ColumnVarNameInTable="columnMaterialName" msprop:Generator_ColumnPropNameInTable="MaterialNameColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="SO_SampleID" msprop:Generator_UserColumnName="SO_SampleID" msprop:Generator_ColumnPropNameInRow="SO_SampleID" msprop:Generator_ColumnVarNameInTable="columnSO_SampleID" msprop:Generator_ColumnPropNameInTable="SO_SampleIDColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="PM_M_Code" msprop:Generator_UserColumnName="PM_M_Code" msprop:Generator_ColumnPropNameInRow="PM_M_Code" msprop:Generator_ColumnVarNameInTable="columnPM_M_Code" msprop:Generator_ColumnPropNameInTable="PM_M_CodeColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="PutInTotalQty" msprop:Generator_UserColumnName="PutInTotalQty" msprop:Generator_ColumnPropNameInRow="PutInTotalQty" msprop:Generator_ColumnVarNameInTable="columnPutInTotalQty" msprop:Generator_ColumnPropNameInTable="PutInTotalQtyColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="CompletionTotalQty" msprop:Generator_UserColumnName="CompletionTotalQty" msprop:Generator_ColumnPropNameInRow="CompletionTotalQty" msprop:Generator_ColumnVarNameInTable="columnCompletionTotalQty" msprop:Generator_ColumnPropNameInTable="CompletionTotalQtyColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="DamageTotalQty" msprop:Generator_UserColumnName="DamageTotalQty" msprop:Generator_ColumnPropNameInRow="DamageTotalQty" msprop:Generator_ColumnVarNameInTable="columnDamageTotalQty" msprop:Generator_ColumnPropNameInTable="DamageTotalQtyColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="ShipTotalQty" msprop:Generator_UserColumnName="ShipTotalQty" msprop:Generator_ColumnPropNameInRow="ShipTotalQty" msprop:Generator_ColumnVarNameInTable="columnShipTotalQty" msprop:Generator_ColumnPropNameInTable="ShipTotalQtyColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="ProduceTotalQty" msprop:Generator_UserColumnName="ProduceTotalQty" msprop:Generator_ColumnPropNameInRow="ProduceTotalQty" msprop:Generator_ColumnVarNameInTable="columnProduceTotalQty" msprop:Generator_ColumnPropNameInTable="ProduceTotalQtyColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

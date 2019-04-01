@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="SamplPlan" targetNamespace="http://tempuri.org/SamplPlan.xsd" xmlns:mstns="http://tempuri.org/SamplPlan.xsd" xmlns="http://tempuri.org/SamplPlan.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+        </Connections>
+        <Tables>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="SamplPlan" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="SamplPlan" msprop:Generator_DataSetName="SamplPlan">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="SamplePlan" msprop:Generator_UserTableName="SamplePlan" msprop:Generator_RowDeletedName="SamplePlanRowDeleted" msprop:Generator_RowChangedName="SamplePlanRowChanged" msprop:Generator_RowClassName="SamplePlanRow" msprop:Generator_RowChangingName="SamplePlanRowChanging" msprop:Generator_RowEvArgName="SamplePlanRowChangeEvent" msprop:Generator_RowEvHandlerName="SamplePlanRowChangeEventHandler" msprop:Generator_TableClassName="SamplePlanDataTable" msprop:Generator_TableVarName="tableSamplePlan" msprop:Generator_RowDeletingName="SamplePlanRowDeleting" msprop:Generator_TablePropName="SamplePlan">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="AutoID" msprop:Generator_UserColumnName="AutoID" msprop:Generator_ColumnVarNameInTable="columnAutoID" msprop:Generator_ColumnPropNameInRow="AutoID" msprop:Generator_ColumnPropNameInTable="AutoIDColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="SP_ID" msprop:Generator_UserColumnName="SP_ID" msprop:Generator_ColumnVarNameInTable="columnSP_ID" msprop:Generator_ColumnPropNameInRow="SP_ID" msprop:Generator_ColumnPropNameInTable="SP_IDColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="SO_ID" msprop:Generator_UserColumnName="SO_ID" msprop:Generator_ColumnVarNameInTable="columnSO_ID" msprop:Generator_ColumnPropNameInRow="SO_ID" msprop:Generator_ColumnPropNameInTable="SO_IDColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="SS_Edition" msprop:Generator_UserColumnName="SS_Edition" msprop:Generator_ColumnVarNameInTable="columnSS_Edition" msprop:Generator_ColumnPropNameInRow="SS_Edition" msprop:Generator_ColumnPropNameInTable="SS_EditionColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="SP_StartDate" msprop:Generator_UserColumnName="SP_StartDate" msprop:Generator_ColumnVarNameInTable="columnSP_StartDate" msprop:Generator_ColumnPropNameInRow="SP_StartDate" msprop:Generator_ColumnPropNameInTable="SP_StartDateColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="SP_EndDate" msprop:Generator_UserColumnName="SP_EndDate" msprop:Generator_ColumnVarNameInTable="columnSP_EndDate" msprop:Generator_ColumnPropNameInRow="SP_EndDate" msprop:Generator_ColumnPropNameInTable="SP_EndDateColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="SP_Remark" msprop:Generator_UserColumnName="SP_Remark" msprop:Generator_ColumnVarNameInTable="columnSP_Remark" msprop:Generator_ColumnPropNameInRow="SP_Remark" msprop:Generator_ColumnPropNameInTable="SP_RemarkColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="SP_AddUserID" msprop:Generator_UserColumnName="SP_AddUserID" msprop:Generator_ColumnVarNameInTable="columnSP_AddUserID" msprop:Generator_ColumnPropNameInRow="SP_AddUserID" msprop:Generator_ColumnPropNameInTable="SP_AddUserIDColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="SP_AddDate" msprop:Generator_UserColumnName="SP_AddDate" msprop:Generator_ColumnVarNameInTable="columnSP_AddDate" msprop:Generator_ColumnPropNameInRow="SP_AddDate" msprop:Generator_ColumnPropNameInTable="SP_AddDateColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="SP_ModifyUserID" msprop:Generator_UserColumnName="SP_ModifyUserID" msprop:Generator_ColumnVarNameInTable="columnSP_ModifyUserID" msprop:Generator_ColumnPropNameInRow="SP_ModifyUserID" msprop:Generator_ColumnPropNameInTable="SP_ModifyUserIDColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="SP_ModifyDate" msprop:Generator_UserColumnName="SP_ModifyDate" msprop:Generator_ColumnVarNameInTable="columnSP_ModifyDate" msprop:Generator_ColumnPropNameInRow="SP_ModifyDate" msprop:Generator_ColumnPropNameInTable="SP_ModifyDateColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="PM_M_Code" msprop:Generator_UserColumnName="PM_M_Code" msprop:Generator_ColumnVarNameInTable="columnPM_M_Code" msprop:Generator_ColumnPropNameInRow="PM_M_Code" msprop:Generator_ColumnPropNameInTable="PM_M_CodeColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="M_Code" msprop:Generator_UserColumnName="M_Code" msprop:Generator_ColumnVarNameInTable="columnM_Code" msprop:Generator_ColumnPropNameInRow="M_Code" msprop:Generator_ColumnPropNameInTable="M_CodeColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="M_Name" msprop:Generator_UserColumnName="M_Name" msprop:Generator_ColumnVarNameInTable="columnM_Name" msprop:Generator_ColumnPropNameInRow="M_Name" msprop:Generator_ColumnPropNameInTable="M_NameColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

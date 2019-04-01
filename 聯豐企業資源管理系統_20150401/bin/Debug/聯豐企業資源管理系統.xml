@@ -1,0 +1,6013 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+聯豐企業資源管理系統
+</name>
+</assembly>
+<members>
+<member name="M:LFERP.frmKnifeSetting.CheckTabPage(System.Windows.Forms.TabControl,System.String)">
+	<summary>
+ 檢查是否已經存在頁面page
+ </summary>
+	<param name="tab"></param>
+	<param name="tabName"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmSamplePace.cmdEdit_Click(System.Object,System.EventArgs)">
+	<summary>
+修改事件
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmSamplePace.cmdAdd_Click(System.Object,System.EventArgs)">
+	<summary>
+ 新增事件
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmSamplePace.cmdDel_Click(System.Object,System.EventArgs)">
+	<summary>
+ 刪除事件
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmSamplePace.cmdQuery_Click(System.Object,System.EventArgs)">
+	<summary>
+ 查找事件
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmSamplePace.cmdRef_Click(System.Object,System.EventArgs)">
+	<summary>
+ 刷新事件
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmSamplePace.cmdLook_Click(System.Object,System.EventArgs)">
+	<summary>
+ 查看事件
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmSamplePace.cmdCheck_Click(System.Object,System.EventArgs)">
+	<summary>
+ 審核
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmNmetalSamplePackingAdd.CreateTable">
+	<summary>
+ 创建临时表
+ </summary>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmNmetalSamplePackingAdd.UpdateCheck">
+	<summary>
+ 审核程序
+ </summary>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmNmetalSamplePackingAdd.DataNew">
+	<summary>
+ 新增程序
+ </summary>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmNmetalSamplePackingAdd.DataEdit">
+	<summary>
+修改
+ </summary>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmNmetalSamplePackingAdd.DataCheckEmpty">
+	<summary>
+ 是否为空
+ </summary>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmNmetalSamplePackingAdd.GetPK_ID">
+	<summary>
+ 自動流水号
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmNmetalSamplePackingAdd.GetPB_ID">
+	<summary>
+ 內箱單號
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="T:LFERP.NmetalSamplePace.NmetalSamplePaceDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:LFERP.NmetalSamplePace.NmetalSamplePaceRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:LFERP.NmetalSamplePace.NmetalSamplePaceRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:LFERP.NmetalSamplePace">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:LFERP.DataSet1.SampleSendDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:LFERP.DataSet1.SampleSendRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:LFERP.DataSet1.SampleSendRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:LFERP.DataSet1">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="M:LFERP.frmKnifeChangeLoad.CreateTables">
+	<summary>
+ 建表結構
+ </summary>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmTheTimeNoReturn.Array_unique(System.String[])">
+	<summary>
+ 去掉數組中的重複元素1
+ </summary>
+	<param name="Arr"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmTheTimeNoReturn.QuickSort(System.String[])">
+	<summary>
+ 去掉數組中的重複元素2
+ </summary>
+	<param name="Arr"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmMrpMaterialCodeMain.frmMrpMaterialCodeMain_Load(System.Object,System.EventArgs)">
+	<summary>
+ 載入
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmMrpMaterialCodeMain.cmsAdd_Click(System.Object,System.EventArgs)">
+	<summary>
+ 添加
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmMrpMaterialCodeMain.cmsEdit_Click(System.Object,System.EventArgs)">
+	<summary>
+ 修改
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmMrpMaterialCodeMain.cmsDel_Click(System.Object,System.EventArgs)">
+	<summary>
+ 刪除
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmMrpMaterialCodeMain.cmsReflash_Click(System.Object,System.EventArgs)">
+	<summary>
+ 刷新
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmMrpMaterialCodeMain.cmsLook_Click(System.Object,System.EventArgs)">
+	<summary>
+ 查看
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmMrpMaterialCodeMain.cmsCheck_Click(System.Object,System.EventArgs)">
+	<summary>
+ 審核
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmMrpMaterialCodeMain.cmsPrint_Click(System.Object,System.EventArgs)">
+	<summary>
+ 列印
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmMrpMaterialCodeMain.cmsFind_Click(System.Object,System.EventArgs)">
+	<summary>
+ 查詢
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmNmetalSampleCollectionQuery.btn_exit_Click(System.Object,System.EventArgs)">
+	<summary>
+ 关闭窗体
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmNmetalSampleCollectionQuery.chkD_IDAll_CheckedChanged(System.Object,System.EventArgs)">
+	<summary>
+ 部门控件全选
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmNmetalSampleCollectionQuery.chkPaceType_CheckedChanged(System.Object,System.EventArgs)">
+	<summary>
+ 状态控件全选
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmNmetalSampleCollectionQuery.gluD_ID_QueryResultValue(System.Object,DevExpress.XtraEditors.Controls.QueryResultValueEventArgs)">
+	<summary>
+ 部门控件返回值
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmNmetalSampleCollectionQuery.gluStatusType_QueryResultValue(System.Object,DevExpress.XtraEditors.Controls.QueryResultValueEventArgs)">
+	<summary>
+ 类型控件返回值
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="F:LFERP.frmNmetalSampleEmailSettingAdd._EditItem">
+	<summary>
+ 屬性
+ </summary>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmNmetalSampleEmailSettingAdd.EmailSettingAdd_Load(System.Object,System.EventArgs)">
+	<summary>
+ 加載
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmNmetalSampleEmailSettingAdd.btnSave_Click(System.Object,System.EventArgs)">
+	<summary>
+ 保存
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmNmetalSampleEmailSettingAdd.btnCancle_Click(System.Object,System.EventArgs)">
+	<summary>
+ 取消
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmNmetalSampleEmailSettingAdd.CheckDate">
+	<summary>
+ 檢查是否有數據錯誤
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmNmetalSampleEmailSettingAdd.CheckUserOrder">
+	<summary>
+ 驗證審核順序是否重複
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmNmetalSampleEmailSettingAdd.ValidateEmail(System.String)">
+	<summary>
+ 驗證郵箱格式
+ </summary>
+	<param name="str"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmNmetalSampleEmailSettingAdd.memoRemark_KeyPress(System.Object,System.Windows.Forms.KeyPressEventArgs)">
+	<summary>
+ 2014-04-23
+ 姚      駿
+ 手機號碼限制只能輸入數字
+ 最大位數(11)
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.ProductionSumTimeWorkGroupMain.popSumWorkGroupRef_Click(System.Object,System.EventArgs)">
+	<summary>
+ 刷新
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.ProductionSumTimeWorkGroupMain.popSumWorkGroupAdd_Click(System.Object,System.EventArgs)">
+	<summary>
+ 數據增加
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.ProductionSumTimeWorkGroupMain.popSumWorkGroupEdit_Click(System.Object,System.EventArgs)">
+	<summary>
+ 修改
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.ProductionSumTimeWorkGroupMain.popSumWorkGroupView_Click(System.Object,System.EventArgs)">
+	<summary>
+ 查看
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.ProductionSumTimeWorkGroupMain.popSumWorkGrouplDel_Click(System.Object,System.EventArgs)">
+	<summary>
+ 刪除數據
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmAcceptanceGather.btnCancel_Click(System.Object,System.EventArgs)">
+	<summary>
+ 單擊取消按鈕，退出窗體
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmAcceptanceGather.frmAcceptanceGather_Load(System.Object,System.EventArgs)">
+	<summary>
+ 加載窗體
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmAcceptanceGather.btnOK_Click(System.Object,System.EventArgs)">
+	<summary>
+ 單擊確定按鈕，匯總記錄
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmAcceptanceGather.gluS_Supplier_KeyDown(System.Object,System.Windows.Forms.KeyEventArgs)">
+	<summary>
+ 供應商名稱輸入框中按空格鍵彈出下拉菜單
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="F:LFERP.frmWareMoveCompanyMain.m_StrD_NO">
+	<summary>
+ 單號
+ </summary>
+	<remarks></remarks>
+</member><member name="F:LFERP.frmWareMoveCompanyMain.m_StrM_Code">
+	<summary>
+ 編號
+ </summary>
+	<remarks></remarks>
+</member><member name="F:LFERP.frmWareMoveCompanyMain.m_StrCompany">
+	<summary>
+ 公司
+ </summary>
+	<remarks></remarks>
+</member><member name="F:LFERP.frmWareMoveCompanyMain.m_StrWareHourse">
+	<summary>
+ 倉庫
+ </summary>
+	<remarks></remarks>
+</member><member name="F:LFERP.frmWareMoveCompanyMain.m_StrWHID">
+	<summary>
+ 倉庫ID
+ </summary>
+	<remarks></remarks>
+</member><member name="F:LFERP.frmWareMoveCompanyMain.m_StrCType">
+	<summary>
+ 類型
+ </summary>
+	<remarks></remarks>
+</member><member name="F:LFERP.frmWareMoveCompanyMain.m_StrWareMoveStart">
+	<summary>
+ 起始時間
+ </summary>
+	<remarks></remarks>
+</member><member name="F:LFERP.frmWareMoveCompanyMain.m_StrWareMoveEnd">
+	<summary>
+ 截至時間
+ </summary>
+	<remarks></remarks>
+</member><member name="M:LFERP.FrmSupplier_Add.LoadSuppliersType">
+	<summary>
+ 載入供應商類型
+ </summary>
+	<remarks></remarks>
+</member><member name="M:LFERP.FrmSupplier_Add.LoadCurrency">
+	<summary>
+ 載入幣別
+ </summary>
+	<remarks></remarks>
+</member><member name="M:LFERP.FrmSupplier_Add.SaveNew">
+	<summary>
+ 新增供應商資料
+ </summary>
+	<remarks></remarks>
+</member><member name="M:LFERP.FrmSupplier_Add.SaveEdit">
+	<summary>
+ 修改供應商資料
+ </summary>
+	<remarks></remarks>
+</member><member name="M:LFERP.FrmSupplier_Add.SaveCheck">
+	<summary>
+ 審核
+ </summary>
+	<remarks></remarks>
+</member><member name="M:LFERP.FrmSupplier_Add.LoadSuppliers(System.String)">
+	<summary>
+ 載入相應的供應商資料
+ </summary>
+	<remarks></remarks>
+</member><member name="M:LFERP.FrmSupplier_Add.btnReCheck_Click(System.Object,System.EventArgs)">
+	<summary>
+ 單擊終審保存按鈕，保存終審信息 /2012/11/22  假設終審取消，同時審核亦取消
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+ @ 2012/7/5 添加
+
+</member><member name="M:LFERP.FrmSupplier_Add.chkReCheck_CheckedChanged(System.Object,System.EventArgs)">
+	<summary>
+ 已終審復選框狀態改變時
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+ ＠ 2012/7/5 添加
+
+</member><member name="M:LFERP.frmNmetalSampleExceptionUser.CheckDataEmpty">
+	<summary>
+ 判斷是否為空
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmNmetalSampleExceptionUser.CreateTable">
+	<summary>
+ 创建临时表
+ </summary>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmNmetalSampleExceptionUser.Savebutton_Click(System.Object,System.EventArgs)">
+	<summary>
+ 确认按钮事件
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmNmetalSampleExceptionUser.SaveData">
+	<summary>
+ 保存数据
+ </summary>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmNmetalSampleExceptionUser.cmd_Del_Click(System.Object,System.EventArgs)">
+	<summary>
+ 删除按钮
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmNmetalSampleExceptionUser.CloseButton_Click(System.Object,System.EventArgs)">
+	<summary>
+ 取消按钮
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmNmetalSampleExceptionUser.LoadData(System.String)">
+	<summary>
+ 加载数据
+ </summary>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmNmetalSampleDepWeightCheck.frmNmetalSampleDepWeightCheck_Load(System.Object,System.EventArgs)">
+	<summary>
+ 初始化加載
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmNmetalSampleDepWeightCheck.LoadData(System.String)">
+	<summary>
+ 傳回值
+ </summary>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmNmetalSampleDepWeightCheck.Savebutton_Click(System.Object,System.EventArgs)">
+	<summary>
+ 保存按鈕
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmNmetalSampleDepWeightCheck.UpdateCheck">
+	<summary>
+ 審核
+ </summary>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmNmetalSampleDepWeightCheck.Savedata">
+	<summary>
+ 保存
+ </summary>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmNmetalSampleDepWeightCheck.CheckDateEmpty">
+	<summary>
+ 判斷不能為空
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmNmetalSampleDepWeightCheck.CloseButton_Click(System.Object,System.EventArgs)">
+	<summary>
+ 退出按鈕 
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmNmetalSampleDepWeightCheck.DepWeightCheck_GetID">
+	<summary>
+ 獲取單號
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmNmetalSampleDepWeightCheck.CreateTables">
+	<summary>
+ 創建臨時表
+ </summary>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmNmetalSampleDepWeightCheck.ToolStripMenuItem1_Click(System.Object,System.EventArgs)">
+	<summary>
+ 新增
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmNmetalSampleDepWeightCheck.ToolStripMenuItem2_Click(System.Object,System.EventArgs)">
+	<summary>
+ 刪除
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmNmetalSampleDepWeightCheckView.LoadProductNo">
+	<summary>
+ 讀取產品編號
+ </summary>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmNmetalSampleDepWeightCheckView.frmNmetalSampleDepWeightCheckView_Load(System.Object,System.EventArgs)">
+	<summary>
+ 窗體加載事件
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmNmetalSampleDepWeightCheckView.PM_M_Code_EditValueChanged(System.Object,System.EventArgs)">
+	<summary>
+ 產品編碼變更
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmNmetalSampleDepWeightCheckView.cmdSelect_Click(System.Object,System.EventArgs)">
+	<summary>
+ 查找
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmNmetalSampleDepWeightCheckView.cmdExit_Click(System.Object,System.EventArgs)">
+	<summary>
+ 關閉窗體
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmNmetalSampleDepWeightCheckView.cmdSave_Click(System.Object,System.EventArgs)">
+	<summary>
+ 保存按鈕
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmNmetalSampleDepWeightCheckView.RepositoryItemCheckEdit1_EditValueChanged(System.Object,System.EventArgs)">
+	<summary>
+ 加入按鈕
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmNmetalSampleDepWeightCheckView.txt_gluType_EditValueChanged(System.Object,System.EventArgs)">
+	<summary>
+ 點擊類型變更
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.Test.tsm_Excel_Click(System.Object,System.EventArgs)">
+	<summary>
+ 導出Excel
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmNmetalSamplePace.cmdEdit_Click(System.Object,System.EventArgs)">
+	<summary>
+修改事件
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmNmetalSamplePace.cmdAdd_Click(System.Object,System.EventArgs)">
+	<summary>
+ 新增事件
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmNmetalSamplePace.cmdDel_Click(System.Object,System.EventArgs)">
+	<summary>
+ 刪除事件
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmNmetalSamplePace.cmdQuery_Click(System.Object,System.EventArgs)">
+	<summary>
+ 查找事件
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmNmetalSamplePace.cmdRef_Click(System.Object,System.EventArgs)">
+	<summary>
+ 刷新事件
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmNmetalSamplePace.cmdLook_Click(System.Object,System.EventArgs)">
+	<summary>
+ 查看事件
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmNmetalSamplePace.cmdCheck_Click(System.Object,System.EventArgs)">
+	<summary>
+ 審核
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmNmetalSampleStorageAdd.CreateTable">
+	<summary>
+ 创建临时表
+ </summary>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmOrderMain.PopRefresh_Click(System.Object,System.EventArgs)">
+	<summary>
+ 刷新
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+ 此過程被以下過程調用：
+ popOrderMainDel_Click()
+ frmOrderMain_Load()
+
+</member><member name="M:LFERP.frmOutWards.CreateTable">
+	<summary>
+ 創建表
+ </summary>
+ 此過程被以下過程調用：
+ frmOutWards_Load()
+
+</member><member name="M:LFERP.frmOutWards.GetOW_NO">
+	<summary>
+  '生成送貨單號
+ </summary>
+	<returns></returns>
+ 此過程被以下過程調用：
+  frmOutWards_Load()
+ btnOK_Click()
+
+</member><member name="M:LFERP.frmOutWards.LoadData">
+	<summary>
+ 加載數據
+ </summary>
+ 此過程被以下過程調用：
+  frmOutWards_Load()
+
+</member><member name="M:LFERP.frmOutWards.AddData">
+	<summary>
+ 保存新增數據
+ </summary>
+	<returns></returns>
+ 此過程被以下過程調用：
+ btnOK_Click()
+
+</member><member name="M:LFERP.frmOutWards.EditData">
+	<summary>
+ 保存修改數據
+ </summary>
+	<returns></returns>
+ 此過程被以下過程調用：
+ btnOK_Click()
+
+</member><member name="M:LFERP.frmOutWards.UpdateCheck">
+	<summary>
+ 保存審核信息
+ </summary>
+	<returns></returns>
+ 此過程被以下過程調用：
+ btnOK_Click()
+
+</member><member name="M:LFERP.frmOutWards.rtxtOS_BatchID_KeyDown(System.Object,System.Windows.Forms.KeyEventArgs)">
+	<summary>
+ 批次編號的文本框中按下回車鍵，加載相應數據
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmOutWards.cmsAdd_Click(System.Object,System.EventArgs)">
+	<summary>
+ 單擊右鍵菜單“新增”
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmOutWards.cmsDelete_Click(System.Object,System.EventArgs)">
+	<summary>
+ 單擊右鍵菜單“刪除”
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmOutWards.btnCanecl_Click(System.Object,System.EventArgs)">
+	<summary>
+ 單擊取消按鈕，關閉本窗體
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmOutWards.RepositoryItemMemoExEdit1_KeyDown(System.Object,System.Windows.Forms.KeyEventArgs)">
+	<summary>
+ 備注文本框中按下空格鍵，顯示下拉文本框
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmOutWards.btnOK_Click(System.Object,System.EventArgs)">
+	<summary>
+ 單擊確定按鈕
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmOutWards.gluOM_CusterID_EditValueChanged(System.Object,System.EventArgs)">
+	<summary>
+ 當客戶代號改變后，鍞定客戶代號，不允許再修改
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmOutWards.chkOW_Check_CheckedChanged(System.Object,System.EventArgs)">
+	<summary>
+ 確認無誤復選框改變時，確定按鈕也跟著相應改變
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmOutWards.rtxtOS_BatchID_Leave(System.Object,System.EventArgs)">
+	<summary>
+ 批次按鈕文本框失去焦點時，加載相應數據
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmProductionSumPieceLoadExcel.Check_Piece_PerNO_GNO(System.String,System.String)">
+	<summary>
+ 組別計時用
+ </summary>
+	<param name="_Per_NO"></param>
+	<param name="_G_NO"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmProductionSumPieceLoadExcel.Check_Piece_PerNO(System.String)">
+	<summary>
+ 檢查人員是否已存在，計件人員名單中
+ </summary>
+	<param name="_Per_NO"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmProductionSumPieceLoadExcel.Check_G_NO(System.String)">
+	<summary>
+ 檢查組別編號是否存在
+ </summary>
+	<param name="_G_NO"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmProductionSumPieceLoadExcel.CheckSumLock(System.String,System.String)">
+	<summary>
+ 檢查當前數據是否已鎖定
+ </summary>
+	<param name="DepID"></param>
+	<param name="strDate"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmProductionSumPieceLoadExcel.Check_PerProcess(System.String,System.String,System.String,System.String,System.String,System.String,System.String)">
+	<summary>
+ 查詢出計件工藝 是否存在，或記錄已存在
+ </summary>
+	<param name="cboPro_Type"></param>
+	<param name="gluPM_M_Code"></param>
+	<param name="gluPM_Type"></param>
+	<param name="DepIDA"></param>
+	<param name="PP_N_Name"></param>
+	<param name="_Date"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmProductionSumPieceLoadExcel.Check_WGProcess(System.String,System.String,System.String,System.String,System.String,System.String,System.String)">
+	<summary>
+ 查詢出計件工藝 是否存在，或記錄已存在
+ </summary>
+	<param name="cboPro_Type"></param>
+	<param name="gluPM_M_Code"></param>
+	<param name="gluPM_Type"></param>
+	<param name="DepIDA"></param>
+	<param name="PP_N_Name"></param>
+	<param name="_Date"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmProductionSumPieceLoadExcel.ChcekDateA(System.String)">
+	<summary>
+ 檢查是否為時間格式
+ </summary>
+	<param name="_Date"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmProductionSumPieceLoadExcel.ChcekDateB(System.String,System.String,System.String)">
+	<summary>
+ 檢查日期+開始+結束時間
+ </summary>
+	<param name="_Date"></param>
+	<param name="_Stime"></param>
+	<param name="_Etime"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmProductionSumPieceLoadExcel.CHECK_TimePer(System.String,System.String,System.String,System.String)">
+	<summary>
+ 檢查同一人在同一時間段不能有兩項作業
+ </summary>
+	<param name="txtPer_NO"></param>
+	<param name="PT_DateEdit"></param>
+	<param name="StartTimeEdit"></param>
+	<param name="EndTimeEdit"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmProductionSumPieceLoadExcel.CHECK_TimeWG(System.String,System.String,System.String,System.String)">
+	<summary>
+ 檢查線別計時數據
+ </summary>
+	<param name="txtPer_NO"></param>
+	<param name="GT_DateEdit"></param>
+	<param name="StartTimeEdit"></param>
+	<param name="EndTimeEdit"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmProductionSumPieceLoadExcel.Export_Excel_SumPerNO(System.String)">
+	<summary>
+ 寫入 Excel中
+ </summary>
+	<param name="_Export_Excel"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmProductionSumPieceLoadExcel.Export_Excel_SumWG(System.String)">
+	<summary>
+ 寫入 Excel中
+ </summary>
+	<param name="_Export_Excel"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmProductionSumPieceLoadExcel.GetProductionSumTimePersonnelNO">
+	<summary>
+ 獲取流水號基數
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmProductionSumPieceLoadExcel.Export_Excel_SumPerTime(System.String)">
+	<summary>
+ 寫入 Excel中
+ </summary>
+	<param name="_Export_Excel"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmProductionSumPieceLoadExcel.GetProductionSumTimeWorkGroupNO">
+	<summary>
+ 獲取流水號基數
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmProductionSumPieceLoadExcel.Export_Excel_SumWGTime(System.String)">
+	<summary>
+ 寫入 Excel中
+ </summary>
+	<param name="_Export_Excel"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmProductionPiecePayMain.PowerUser">
+	<summary>
+ 權限------------
+ </summary>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmProductionPiecePayMain.ButtonPer_Click(System.Object,System.EventArgs)">
+	<summary>
+ 個人件薪匯總
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmProductionPiecePayMain.cmdCheck2_Click(System.Object,System.EventArgs)">
+	<summary>
+ 審核
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.FrmPieceSumPayGroupLoad.Load_PieceWGPayDepFac">
+	<summary>
+ 從組別表中 查詢本部門所有組別 再逐個導入
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:LFERP.FrmPieceSumPayGroupLoad.Delete_PiecePay(System.String,System.String)">
+	<summary>
+ 刪除已審核或當月組別已匯總
+ </summary>
+	<param name="_Date_YYMM"></param>
+	<param name="_strdG_NO"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:LFERP.FrmPieceSumPayGroupLoad.ProductionPiecePayWorkGroup_GetNO">
+	<summary>
+ 獲取編號-------
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmProductionPieceProcessReport.CreateTable">
+	<summary>
+ 創建表
+ </summary>
+ 此過程被以下過程調用:
+ frmProductionPieceProcessFind_Load()
+
+</member><member name="M:LFERP.frmProductionPieceProcessReport.btnCancel_Click(System.Object,System.EventArgs)">
+	<summary>
+ 單擊“取消”按鈕
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmProductionPieceProcessReport.gluPM_M_Code_EditValueChanged(System.Object,System.EventArgs)">
+	<summary>
+ 產品編號值改變,在gluPM_Type中加載相應的配件名稱
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+ 此過程被以下過程調用:
+ cboPro_Type_SelectedIndexChanged()
+
+</member><member name="M:LFERP.frmProductionPieceProcessReport.btnOK_Click(System.Object,System.EventArgs)">
+	<summary>
+ 單擊“查詢”按鈕
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmProductionPieceProcessReport.gluPM_M_Code_KeyDown(System.Object,System.Windows.Forms.KeyEventArgs)">
+	<summary>
+ 按空格鍵顯示下拉列表
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmProductionPieceProcessReport.cboPro_Type_SelectedIndexChanged(System.Object,System.EventArgs)">
+	<summary>
+ 工藝類型值改變,在gluPM_Type中加載相應的配件名稱
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmProductionPieceProcessReport.gluFacID_EditValueChanged(System.Object,System.EventArgs)">
+	<summary>
+ 廠別名稱改變時，重新加載部門項目
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmProductionPieceProcessReport.gluPM_Type_EditValueChanged(System.Object,System.EventArgs)">
+	<summary>
+ 配件名稱改變時，重新加載大工序名稱項目
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmProductionPieceProcessReport.luePS_NO_EditValueChanged(System.Object,System.EventArgs)">
+	<summary>
+ 大工序名稱改變時，重新加載小工序名稱項目
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmProductionPieceWorkGroup.LoadData(System.String)">
+	<summary>
+ 加載數據
+ </summary>
+	<param name="Str_G_no"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmProductionPieceWorkGroup.CheckData">
+	<summary>
+ 檢查數據輸入正確
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmProductionPieceWorkGroup.SaveNew(System.String)">
+	<summary>
+ 新增數據
+ </summary>
+	<param name="S_model"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmProductionPieceWorkGroup.Clr_Text">
+	<summary>
+ 當保存不退出時，變量，數據框清空
+ </summary>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmProductionPieceWorkGroup.GetWorkGroupNO">
+	<summary>
+ 獲取流水基數號
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmProductionPieceWorkGroup.SaveEdit">
+	<summary>
+ 修改數據
+ </summary>
+	<remarks></remarks>
+</member><member name="M:LFERP.FrmGroupSelect.DelMenuItem_Click(System.Object,System.EventArgs)">
+	<summary>
+ 右鍵菜單刪除事件
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.FrmGroupSelect.gluSupplier_EditValueChanged(System.Object,System.EventArgs)">
+	<summary>
+ 添加供應商，存在一缺陷，當控件gluSupplier中的內容不改變時，供應商添加不上
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.FrmGroupSelect.GridView2_KeyDown(System.Object,System.Windows.Forms.KeyEventArgs)">
+	<summary>
+ 按Delete鍵刪除GridView2中選中的供應商，調用右鍵菜單刪除事件
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmMrpMaterialCode.frmMrpMaterialCode_Load(System.Object,System.EventArgs)">
+	<summary>
+ 載入事件
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmMrpMaterialCode.DataAdd">
+	<summary>
+ 添加數據
+ </summary>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmMrpMaterialCode.DataEdit">
+	<summary>
+ 編輯數據
+ </summary>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmMrpMaterialCode.cmdSave_Click(System.Object,System.EventArgs)">
+	<summary>
+ 保存
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmMrpMaterialCode.cmdExit_Click(System.Object,System.EventArgs)">
+	<summary>
+ 取消
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmMrpMaterialCode.EnableOrDisable(System.Boolean)">
+	<summary>
+ 控制控件enable屬性--ture/false
+ </summary>
+	<param name="state"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmNmetalSampInventoryCheckAdd.CreateTable">
+	<summary>
+ 创建临时表
+ </summary>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmNmetalSampInventoryCheckAdd.LoadData(System.String)">
+	<summary>
+ 載入数据
+ </summary>
+</member><member name="M:LFERP.frmNmetalSampInventoryCheckAdd.cmdAnalysis_Click(System.Object,System.EventArgs)">
+	<summary>
+ 表格新增
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmNmetalSampInventoryCheckAdd.tsmDelete_Click(System.Object,System.EventArgs)">
+	<summary>
+ 刪除事件
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmNmetalSampInventoryCheckAdd.cmdSave_Click(System.Object,System.EventArgs)">
+	<summary>
+ 保存事件
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmNmetalSampInventoryCheckAdd.UpdateCheck">
+	<summary>
+ 审核程序
+ </summary>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmNmetalSampInventoryCheckAdd.UpdateAnalysis">
+	<summary>
+ 审核程序
+ </summary>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmNmetalSampInventoryCheckAdd.DataNewAnalysis">
+	<summary>
+ 新增程序
+ </summary>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmNmetalSampInventoryCheckAdd.DataEdit">
+	<summary>
+修改
+ </summary>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmNmetalSampInventoryCheckAdd.DataCheckEmpty">
+	<summary>
+ 是否为空
+ </summary>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmNmetalSampInventoryCheckAdd.GetTR_ID">
+	<summary>
+ 自動流水号
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmNmetalSampleUpdateManual_Number.btn_exit_Click(System.Object,System.EventArgs)">
+	<summary>
+ 取消按钮事件
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmOrderSubMain.PopRefresh_Click(System.Object,System.EventArgs)">
+	<summary>
+ 刷新
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+ 此過程被以下過程調用：
+ popOrderSubDel_Click()
+ frmOrderSubMain_Load()
+
+</member><member name="M:LFERP.FrmPieceSumPayPersonnelLoad.Load_PiecePayPersonnel(System.String,System.String,System.String)">
+	<summary>
+ 按人員導入---
+ </summary>
+	<param name="_Per_NO"></param>
+	<param name="_DepID"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:LFERP.FrmPieceSumPayPersonnelLoad.Find_Per_Class(System.String)">
+	<summary>
+ 查詢出指定員工指定月所屬班制
+ </summary>
+	<param name="Per_NOA"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:LFERP.FrmPieceSumPayPersonnelLoad.Load_PiecePayDepFac">
+	<summary>
+ 由部門導入 流程為 在個人計件,個人計時表是查詢出，當前部門在當月有作業記錄的 人員列表 ，生成本人在本部門的個人計件，計時薪金
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:LFERP.FrmPieceSumPayPersonnelLoad.Delete_PiecePayPer(System.String,System.String,System.String)">
+	<summary>
+ 判斷是否刪除已審核
+ </summary>
+	<param name="_Date_YYMM"></param>
+	<param name="_strPer_NO"></param>
+	<param name="_strDepID"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:LFERP.FrmPieceSumPayPersonnelLoad.SumPieceTimePersonnel(System.String,System.String,System.String,System.String)">
+	<summary>
+ 判斷有無個人計時，計件記錄
+ </summary>
+	<param name="_Per_NO1"></param>
+	<param name="_DepID1"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:LFERP.FrmPieceSumPayPersonnelLoad.Load_PieceTimeDepID">
+	<summary>
+ 從人個計件 個人計時 信息中查詢出 指定員工所工作了的部門
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:LFERP.ProductionPiecePersonnelDayMain.Check_Delete(System.String,System.String,System.String,System.String,System.String)">
+	<summary>
+ 當個人編號在個人計件，個人計時中存在時不能刪除 ,組別編號存的於組別計件，組別計時中時不能刪除
+ </summary>
+	<param name="strDate"></param>
+	<param name="strDep"></param>
+	<param name="strPer_NO"></param>
+	<param name="strG_NO"></param>
+	<param name="MsgStr"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:LFERP.ProductionPieceSelectAll.Load_Fac">
+	<summary>
+ 固定查詢載入廠別
+ </summary>
+	<remarks></remarks>
+</member><member name="M:LFERP.ProductionPieceSelectAll.Load_Dep">
+	<summary>
+ 固定查詢載入部門
+ </summary>
+	<remarks></remarks>
+</member><member name="M:LFERP.ProductionPieceSelectAll.Load_Dep1">
+	<summary>
+ 自定義查詢載入廠別
+ </summary>
+	<remarks></remarks>
+</member><member name="M:LFERP.ProductionPieceSelectAll.load_Stata">
+	<summary>
+ 載入審核狀態
+ </summary>
+	<remarks></remarks>
+</member><member name="M:LFERP.ProductionPieceSelectAll.load_Pro_Type">
+	<summary>
+ 載入類型
+ </summary>
+	<remarks></remarks>
+</member><member name="M:LFERP.ProductionPieceSelectAll.load_Bool">
+	<summary>
+ 自定義審核
+ </summary>
+	<remarks></remarks>
+</member><member name="M:LFERP.ProductionPieceSelectAll.CreateTable">
+	<summary>
+ 建表結構
+ </summary>
+	<remarks></remarks>
+</member><member name="M:LFERP.ProductionPieceSelectAll.GridView1_Click(System.Object,System.EventArgs)">
+	<summary>
+ 根據不同的條件載入不同的內容
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.ProductionPieceSelectAll.LoadCom(System.String)">
+	<summary>
+ 改TypeLookUp控件的綁定屬性
+ </summary>
+	<param name="_StrCategory"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:LFERP.ProductionPieceSelectAll.AddButton_Click(System.Object,System.EventArgs)">
+	<summary>
+ 添加條件
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmProductionSalesReport.Load_Dep">
+	<summary>
+ 固定查詢載入部門
+ </summary>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmProductionReturnMain.frmProductionReturnMain_Load(System.Object,System.EventArgs)">
+	<summary>
+  窗體啟動載入事件  
+ </summary>
+</member><member name="M:LFERP.frmProductionReturnMain.PowerUser">
+	<summary>
+  設置權限  
+ </summary>
+</member><member name="M:LFERP.frmProductionReturnMain.ReturnAdd_Click(System.Object,System.EventArgs)">
+	<summary>
+  新增補退貨事件  
+ </summary>
+</member><member name="M:LFERP.frmProductionReturnMain.ReturnEdit_Click(System.Object,System.EventArgs)">
+	<summary>
+  補退貨修改事件  
+ </summary>
+</member><member name="M:LFERP.frmProductionReturnMain.ReturnDel_Click(System.Object,System.EventArgs)">
+	<summary>
+  新增補刪除事件  
+ </summary>
+</member><member name="M:LFERP.frmProductionReturnMain.ReturnPreView_Click(System.Object,System.EventArgs)">
+	<summary>
+  新增補查看事件  
+ </summary>
+</member><member name="M:LFERP.frmProductionReturnMain.ReturnCheck_Click(System.Object,System.EventArgs)">
+	<summary>
+  審核事件  
+ </summary>
+</member><member name="M:LFERP.frmProductionReturnMain.ReturnQuery_Click(System.Object,System.EventArgs)">
+	<summary>
+  '查詢操作--
+ </summary>
+</member><member name="M:LFERP.frmProductionReturnMain.ReturnRef_Click(System.Object,System.EventArgs)">
+	<summary>
+  '刷新事件操作--
+ </summary>
+</member><member name="M:LFERP.frmProductionReturnMain.ReturnPrint_Click(System.Object,System.EventArgs)">
+	<summary>
+   '導出對應的接收單號(收入依據) ---報表
+ </summary>
+</member><member name="M:LFERP.mdlRptPreview.PreviewRPT(System.Data.DataSet,System.String,System.String,System.Boolean,System.Boolean)">
+	<summary>
+ 打印報表
+ </summary>
+	<param name="ds">數據源</param>
+	<param name="RptFileName">報表文件名(不要加路徑和后綴)如:test,如有下層目錄則為:testFile\test</param>
+	<param name="RptHeadName">報表窗口顯示名稱</param>
+	<param name="ShowPrint">是否顯示打印按鈕</param>
+	<param name="ShowExport">是否顯示輸出按鈕</param>
+	<remarks></remarks>
+</member><member name="M:LFERP.mdlRptPreview.PreviewRPT1(System.Data.DataSet,System.String,System.String,System.String,System.String,System.Boolean,System.Boolean)">
+	<summary>
+ 打印報表
+ </summary>
+	<param name="ds">數據源</param>
+	<param name="RptFileName">報表文件名(不要加路徑和后綴)如:test,如有下層目錄則為:testFile\test</param>
+	<param name="RptHeadName">報表窗口顯示名稱</param>
+	<param name="ShowPrint">是否顯示打印按鈕</param>
+	<param name="ShowExport">是否顯示輸出按鈕</param>
+	<remarks></remarks>
+</member><member name="M:LFERP.mdlRptPreview.ExportFile(System.Object,System.String,System.Int32)">
+	<summary>
+ 導出。。暫時停用
+ </summary>
+	<param name="Orpt"></param>
+	<param name="FileName"></param>
+	<param name="FileType"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmGNOdistribute.LoadData">
+	<summary>
+ 載入數據
+ </summary>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmNmetalSampInventoryWeightCheckMain.frmNmetalSampInventoryWeightCheckMain_Load(System.Object,System.EventArgs)">
+	<summary>
+ 窗体初始化加载
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmNmetalSampInventoryWeightCheckMain.GridView2_FocusedRowChanged(System.Object,DevExpress.XtraGrid.Views.Base.FocusedRowChangedEventArgs)">
+	<summary>
+ 部门行变更时
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmNmetalSampInventoryWeightCheckMain.GridView1_CustomColumnDisplayText(System.Object,DevExpress.XtraGrid.Views.Base.CustomColumnDisplayTextEventArgs)">
+	<summary>
+ 日期格式显示
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmNmetalSampInventoryWeightCheckMain.ToolStripAdd_Click(System.Object,System.EventArgs)">
+	<summary>
+ 新增
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmNmetalSampInventoryWeightCheckMain.ToolStripModife_Click(System.Object,System.EventArgs)">
+	<summary>
+ 修改
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmNmetalSampInventoryWeightCheckMain.ToolStripDelete_Click(System.Object,System.EventArgs)">
+	<summary>
+ 删除
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmNmetalSampInventoryWeightCheckMain.ToolStripCheck_Click(System.Object,System.EventArgs)">
+	<summary>
+ 审核
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmNmetalSampInventoryWeightCheckMain.ToolStripView_Click(System.Object,System.EventArgs)">
+	<summary>
+ 查看
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmNmetalSampInventoryWeightCheckMain.tsm_Query_Click(System.Object,System.EventArgs)">
+	<summary>
+ 盘点作业查询
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmNmetalSampleDepWeightChecks.PowerUser">
+	<summary>
+ 设置权限
+ </summary>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmNmetalSampleDepWeightChecks.GridView1_CustomColumnDisplayText(System.Object,DevExpress.XtraGrid.Views.Base.CustomColumnDisplayTextEventArgs)">
+	<summary>
+ 日期格式的转换
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmNmetalSampleDepWeightChecks.tsm_Insert_Click(System.Object,System.EventArgs)">
+	<summary>
+ 新增
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmNmetalSampleDepWeightChecks.tsm_update_Click(System.Object,System.EventArgs)">
+	<summary>
+ 修改
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmNmetalSampleDepWeightChecks.tsm_del_Click(System.Object,System.EventArgs)">
+	<summary>
+ 刪除
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmNmetalSampleDepWeightChecks.tsm_check_Click(System.Object,System.EventArgs)">
+	<summary>
+ 審核
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmNmetalSampleDepWeightChecks.tsmi_view_Click(System.Object,System.EventArgs)">
+	<summary>
+ 查看
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmNmetalSampleDepWeightChecks.tsmQuery_Click(System.Object,System.EventArgs)">
+	<summary>
+ 盘点更改单查询
+ 2014-08-04
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmNmetalSamplePlan.LoadDate">
+	<summary>
+ 載入数据
+ </summary>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmNmetalSamplePlan.CreateTable">
+	<summary>
+ 创建临时表
+ </summary>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmNmetalSamplePlan.cmdEdit_Click(System.Object,System.EventArgs)">
+	<summary>
+修改事件
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmNmetalSamplePlan.cmdAdd_Click(System.Object,System.EventArgs)">
+	<summary>
+ 新增事件
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmNmetalSamplePlan.cmdDel_Click(System.Object,System.EventArgs)">
+	<summary>
+刪除事件
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmNmetalSamplePlan.cmdQuery_Click(System.Object,System.EventArgs)">
+	<summary>
+ 查询事件
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmNmetalSamplePlan.cmdCheck_Click(System.Object,System.EventArgs)">
+	<summary>
+ 审核事件
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmNmetalSamplePlan.cmdRef_Click(System.Object,System.EventArgs)">
+	<summary>
+ 刷新事件
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmNmetalSamplePlan.cmdLook_Click(System.Object,System.EventArgs)">
+	<summary>
+ 查看事件
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmOutWardsMain.cmsAdd_Click(System.Object,System.EventArgs)">
+	<summary>
+ 單擊右鍵菜單“新增”
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmOutWardsMain.cmsRef_Click(System.Object,System.EventArgs)">
+	<summary>
+ 單擊右鍵菜單“刷新”
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+ 此過程被以下過程調用
+ frmOutWardsMain_Load()
+ cmsDel_Click()
+
+</member><member name="M:LFERP.frmOutWardsMain.frmOutWardsMain_Load(System.Object,System.EventArgs)">
+	<summary>
+ 窗體加載
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmOutWardsMain.cmsEdit_Click(System.Object,System.EventArgs)">
+	<summary>
+ 單擊右鍵菜單“修改”
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmOutWardsMain.cmsPreView_Click(System.Object,System.EventArgs)">
+	<summary>
+ 單擊右鍵菜單“查看”
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmOutWardsMain.cmsCheck_Click(System.Object,System.EventArgs)">
+	<summary>
+ 單擊右鍵菜單“審核”
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmOutWardsMain.cmsDel_Click(System.Object,System.EventArgs)">
+	<summary>
+ 單擊右鍵菜單“刪除”
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmOutWardsMain.cmsQuery_Click(System.Object,System.EventArgs)">
+	<summary>
+ 單擊右鍵菜單“查詢”
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmProductionPiecePaySampType.CheckPiecePersonelTimeDate(System.String,System.String,System.String)">
+	<summary>
+ 判斷個人計時記錄
+ </summary>
+	<param name="strPer_NO"></param>
+	<param name="DepID"></param>
+	<param name="strDate"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmProductionPiecePaySampType.CheckPieceWGTimeDate(System.String,System.String,System.String)">
+	<summary>
+ 判斷組別計時記錄
+ </summary>
+	<param name="strG_NO"></param>
+	<param name="strDate"></param>
+	<param name="DepID"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmProduct.UpdateProductBom">
+	<summary>
+ 更新子配件
+ </summary>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmChange.GetChangeNO">
+	<summary>
+ 自動獲得更改單單號
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmCurrencyAdd.LoadData(System.String)">
+	<summary>
+ 載入數據
+ </summary>
+	<param name="strID"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmCurrencyAdd.DataEdit">
+	<summary>
+ 修改
+ </summary>
+	<remarks></remarks>
+</member><member name="M:LFERP.KnifeShare.GetNightWareHouse(System.String)">
+	<summary>
+ 判斷是否是夜班倉
+ </summary>
+	<param name="StrWHID"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmMrpForecastOrder.txtMO_CusterID_EditValueChanged(System.Object,System.EventArgs)">
+ 客戶ID改變事件
+
+</member><member name="M:LFERP.frmNmetalSelect.cmdAdd_Date_Click(System.Object,System.EventArgs)">
+	<summary>
+ 添加日期類型條件
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmNmetalSelect.cmdAdd_Number_Click(System.Object,System.EventArgs)">
+	<summary>
+ 添加數字類型條件
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmNmetalSelect.cmdAdd_Other_Click(System.Object,System.EventArgs)">
+	<summary>
+ 添加其他類型條件
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmNmetalSampleOrdersQuery.frmSampleOrdersQuery_Load(System.Object,System.EventArgs)">
+	<summary>
+ 加載事件
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmNmetalSampleOrdersQuery.cmdSearch_Click(System.Object,System.EventArgs)">
+	<summary>
+ 查詢
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmNmetalSampleOrdersQuery.cmdExcel_Click(System.Object,System.EventArgs)">
+	<summary>
+ 導出Excel
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="F:LFERP.frmPositiveDeliverMain.m_StrD_NO">
+	<summary>
+ 送貨單號
+ </summary>
+	<remarks></remarks>
+</member><member name="F:LFERP.frmPositiveDeliverMain.m_StrPOMP_M_Code">
+	<summary>
+ 產品編號
+ </summary>
+	<remarks></remarks>
+</member><member name="F:LFERP.frmPositiveDeliverMain.m_StrPositiveDeliverStart">
+	<summary>
+ 下單起始時間
+ </summary>
+	<remarks></remarks>
+</member><member name="F:LFERP.frmPositiveDeliverMain.m_StrPositiveDeliverEnd">
+	<summary>
+ 下單截至時間
+ </summary>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmPositiveDeliverMain.RefreshPositiveDeliverData">
+	<summary>
+ 刷新
+ </summary>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmPositiveDeliverMain.popPositiveDeliverMainQuery_Click(System.Object,System.EventArgs)">
+	<summary>
+ 送貨單查詢
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.FrmProductionOWPAcceptance.CreateTables">
+	<summary>
+ 創建數據表
+ </summary>
+	<remarks></remarks>
+</member><member name="M:LFERP.FrmProductionOWPAcceptance.SaveNew">
+	<summary>
+ 添加數據add
+ </summary>
+	<remarks></remarks>
+</member><member name="M:LFERP.FrmProductionOWPAcceptance.SaveEdit">
+	<summary>
+ 修改數據保存
+ </summary>
+	<remarks></remarks>
+</member><member name="M:LFERP.FrmProductionOWPAcceptance.SaveCheck">
+	<summary>
+ 驗收作業 (更新部門庫存表)(???)
+ </summary>
+	<remarks></remarks>
+</member><member name="M:LFERP.FrmProductionOWPAcceptance.SaveAccCheck">
+	<summary>
+ 審核
+ </summary>
+	<remarks></remarks>
+</member><member name="M:LFERP.FrmProductionOWPAcceptance.GetWOPAcceptanceNO">
+	<summary>   
+ '生成新的驗收單號
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:LFERP.FrmProductionOWPAcceptance.GetWOPAcceptancetNum">
+	<summary>
+  '生成新的验收流水号
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:LFERP.FrmProductionOWPAcceptance.CheckData">
+	<summary>
+ 數據檢查
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:LFERP.FrmProductionOWPAcceptance.LoadData(System.String)">
+	<summary>
+ 載入數據
+ </summary>
+	<param name="A_AcceptanceNO"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:LFERP.FrmProductionOWPAcceptance.Get_Next_Process(System.String)">
+	<summary>
+ 載入下一工序名稱
+ </summary>
+	<param name="PS_No1"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmProductMain.popProductMainReplace_Click(System.Object,System.EventArgs)">
+	<summary>
+ 2010-11-11添加----主要為了不同殼號,但需相同配件的情況下可直接互相導入相對應的配件資料
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmProductMain.CheckPro(System.String)">
+	<summary>
+ 判斷是否審核已鎖定
+ </summary>
+	<param name="_PM_M_Code"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmKnifeBorrow.CheckSave">
+	<summary>
+ 檢查數據
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmKnifeBorrow.SaveDataNew">
+	<summary>
+ 增加數據
+ </summary>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmKnifeBorrow.LoadData">
+	<summary>
+ 載入數據
+ </summary>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmKnifeReturn.SaveDataNew">
+	<summary>
+ 保存數據
+ </summary>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmKnifeReturn.GetR_ALLEndQty(System.String,System.Int32)">
+	<summary>
+ 取得結余數
+ </summary>
+	<param name="_M_Code"></param>
+	<param name="_Qty"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmKnifeReturn.UpdateQtyRturn(System.String,System.Int32)">
+	<summary>
+ 更新庫存
+ </summary>
+	<param name="_M_Code"></param>
+	<param name="_Qty"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmKnifeReturn.SaveDataNewOld(System.String,System.Int32)">
+	<summary>
+ 待處理換新
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmKnifeReturn.GetB_EndQty(System.String,System.Int32)">
+	<summary>
+ 還刀時,待處理換新
+ </summary>
+	<param name="_M_Code"></param>
+	<param name="_Qty"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmKnifeReturn.UpdateQtyBrrow(System.String,System.Int32)">
+	<summary>
+ 還刀時,待處理換新
+ </summary>
+	<param name="_M_Code"></param>
+	<param name="_Qty"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmBom.GetEnable(System.Boolean,System.Boolean)">
+	<summary>
+ 設置各控件的可用屬性
+ </summary>
+	<param name="a"></param>
+	<param name="b"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmBom.LoadData">
+	<summary>
+ 加載數據
+ </summary>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmBom.okButton_Click(System.Object,System.EventArgs)">
+	<summary>
+ 確定按鈕操作
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmBom.DataAdd">
+	<summary>
+ 新增操作
+ </summary>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmBom.DataEdit">
+	<summary>
+ 修改操作
+ </summary>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmBom.DataCheck">
+	<summary>
+ 審核操作
+ </summary>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmBom.DataEmptyCheck">
+	<summary>
+ 數據不為空驗證
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmBom.BomDetailAdd_Click(System.Object,System.EventArgs)">
+	<summary>
+ 物料明細新增
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmBom.BomDetailDel_Click(System.Object,System.EventArgs)">
+	<summary>
+ 物料明細刪除
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmBom.createTable">
+	<summary>
+ 創建虛擬表
+ </summary>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmBom.gluM_Code_EditValueChanged(System.Object,System.EventArgs)">
+	<summary>
+ 產品結構資料新增時，通過產品編號自動得出 名稱、規格、單位
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmBom.canButton_Click(System.Object,System.EventArgs)">
+	<summary>
+ 取消操作
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmBom.GridView1_DoubleClick(System.Object,System.EventArgs)">
+	<summary>
+ 物料明細新增時，通過元件料件自動得出 名稱、規格、單位
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmBom.BomDetailInsert_Click(System.Object,System.EventArgs)">
+	<summary>
+ 物料明細表的插入操作
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmBom.FreshGridview">
+	<summary>
+ 給虛擬表序號排序
+ </summary>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmBom.LoadTable">
+	<summary>
+ 虛擬表添加默認數據
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmNmetalSampInventoryWeightView.frmNmetalSampInventoryWeightView_Load(System.Object,System.EventArgs)">
+	<summary>
+ 窗体加载
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmNmetalSampInventoryWeightView.cmdSave_Click(System.Object,System.EventArgs)">
+	<summary>
+ 查询按钮
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmNmetalSampInventoryWeightView.cmdExit_Click(System.Object,System.EventArgs)">
+	<summary>
+ 取消按钮
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmNmetalSamplePaceLoan.frmSamplePaceLoan_Load(System.Object,System.EventArgs)">
+	<summary>
+ 加載事件
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmNmetalSamplePaceLoan.cmdSearch_Click(System.Object,System.EventArgs)">
+	<summary>
+ 查詢
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmNmetalSamplePaceLoan.cmdPrint_Click(System.Object,System.EventArgs)">
+	<summary>
+ 列印
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmNmetalSamplePaceLoan.cmdExcel_Click(System.Object,System.EventArgs)">
+	<summary>
+ 導出Excel
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmNmetalSampleSendBack.CreateTable">
+	<summary>
+ 创建临时表
+ </summary>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmNmetalSampleSendBack.OrdersBackNew">
+	<summary>
+ 新增程序
+ </summary>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmNmetalSampleSendBack.FinishBackNew">
+	<summary>
+ 新增程序
+ </summary>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmNmetalSampleSendBack.DataCheckEmpty">
+	<summary>
+ 是否为空
+ </summary>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmNmetalSampleSendBack.GetSB_ID">
+	<summary>
+ 自動流水号
+ </summary>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmNmetalSampleSendBack.CheckDataEmpty">
+	<summary>
+ 判断来料重量
+ 2014-08-07
+ Mark
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmNmetalSampleSendBack.PowerUser">
+	<summary>
+ 称重权限
+ </summary>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmNmetalSampleWasteMain.tsm_Add_Click(System.Object,System.EventArgs)">
+	<summary>
+ 新增
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmNmetalSampleWasteMain.tsm_Update_Click(System.Object,System.EventArgs)">
+	<summary>
+ 修改
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmNmetalSampleWasteMain.tsm_Delete_Click(System.Object,System.EventArgs)">
+	<summary>
+ 刪除
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmNmetalSampleWasteMain.tsm_Ceheck_Click(System.Object,System.EventArgs)">
+	<summary>
+ 審核
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmNmetalSampleWasteMain.tsmi_Query_Click(System.Object,System.EventArgs)">
+	<summary>
+ 废料查询
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmPositiveDeliver.GetDOI_No">
+	<summary>
+ 生成新訂單號
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmPositiveDeliver.gluCuster_EditValueChanged(System.Object,System.EventArgs)">
+	<summary>
+ 加載客戶信息
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmPositiveDeliver.popPositiveDeliverAdd_Click(System.Object,System.EventArgs)">
+	<summary>
+ 新增
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmPositiveDeliver.popPositiveDeliverDel_Click(System.Object,System.EventArgs)">
+	<summary>
+ 刪除
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmPositiveDeliver.UpdateCheck">
+	<summary>
+ 審核
+ </summary>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmPositiveDeliver.UpdateNoSendQty">
+	<summary>
+ 未交數量
+ </summary>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmPositiveDeliver.SaveData(System.String,System.String)">
+	<summary>
+ 保存數據
+ </summary>
+	<param name="strTemp"></param>
+	<param name="strDescreption"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmPositiveDeliver.CheckQty(System.String,System.String)">
+	<summary>
+ 核查數據
+ </summary>
+	<param name="strParam"></param>
+	<param name="strName"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmPositiveDeliverSelect.LoadgluCuster">
+	<summary>
+ 加載訂單編號
+ </summary>
+	<remarks></remarks>
+</member><member name="M:LFERP.FrmProductionOWPAcceptanceFind.Load_List">
+	<summary>
+ 載入產品編號
+ </summary>
+	<remarks></remarks>
+</member><member name="M:LFERP.FrmProductionOWPAcceptanceFind.CreateTable">
+	<summary>
+ 建立列控件下拉單
+ </summary>
+	<remarks></remarks>
+</member><member name="M:LFERP.FrmProductionOWPAcceptanceSelect.CreateTables">
+	<summary>
+ 載入數據表
+ </summary>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmProductionPieceUnusual.FindPieceUnusualPerWG">
+	<summary>
+ 列出  個人計時，計件。組別計時，計件中同一天內，存在兩種以上的作業 的人員名單(用了6個視圖)
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmApplyPurchase.UpdateCheck">
+	<summary>
+ 審核
+ </summary>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmApplyPurchase.UpdateReCheck">
+	<summary>
+ 復核
+ </summary>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmApplyPurchase.GetApplyID">
+	<summary>
+ 自動申購單號
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmApplyPurchase.GetApplyNum">
+	<summary>
+ 自動申購編號
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmApplyPurchase.cmdAdd_Click(System.Object,System.EventArgs)">
+	<summary>
+ 物料信息的添加
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmApplyPurchase.cmdDel_Click(System.Object,System.EventArgs)">
+	<summary>
+  物料信息的刪除
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmApplyPurchase.txtapDpt_Click(System.Object,System.EventArgs)">
+	<summary>
+ 選擇部門代號
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmMrpForecastOrderMain.tsmNew_Click(System.Object,System.EventArgs)">
+	<summary>
+ 添加
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmMrpForecastOrderMain.tsmEdit_Click(System.Object,System.EventArgs)">
+	<summary>
+ 修改
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmMrpForecastOrderMain.tsmCheck_Click(System.Object,System.EventArgs)">
+	<summary>
+ 審核
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmMrpForecastOrderMain.tsmView_Click(System.Object,System.EventArgs)">
+	<summary>
+ 查看
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmMrpForecastOrderMain.tsmDelete_Click(System.Object,System.EventArgs)">
+	<summary>
+ 刪除
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmMrpForecastOrderMain.tsmFind_Click(System.Object,System.EventArgs)">
+	<summary>
+ 查詢
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmMrpForecastOrderMain.tsmRefresh_Click(System.Object,System.EventArgs)">
+	<summary>
+ 刷新
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmNmetalSampleCollection.chkD_IDAll_CheckedChanged(System.Object,System.EventArgs)">
+	<summary>
+ '2014-04-21  姚駿
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmNmetalSampleCollection.gluD_ID_QueryResultValue(System.Object,DevExpress.XtraEditors.Controls.QueryResultValueEventArgs)">
+	<summary>
+ 2014-04-21  姚駿
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmNmetalSampleCollection.cmdSearch_Click(System.Object,System.EventArgs)">
+	<summary>
+ 查詢
+ 2014-04-21
+ 姚駿
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmNmetalSampleCollection.tsm_DepQuery_Click(System.Object,System.EventArgs)">
+	<summary>
+ 部门查看
+ 2014-06-27          Mark
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmNmetalSampleOrdersAdd.CreateTables">
+	<summary>
+ 创建表
+ </summary>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmNmetalSampleOrdersAdd.Loadsampleorders">
+	<summary>
+ 傳回值
+ </summary>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmNmetalSampleOrdersAdd.CheckDateEmptys">
+	<summary>
+ 判断材料类型
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmNmetalSampleOrdersAdd.GridLookUpMaterialType_EditValueChanged(System.Object,System.EventArgs)">
+	<summary>
+ 2014-08-11
+ Mark
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmfrmPositiveDeliverReport.LoadP_Mcode">
+	<summary>
+ 加載產品編號
+ </summary>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmProductionDetailMainMonthMain.LoadProductionFieldDaySummaryInputType">
+	<summary>
+ 載入 每道 工序需要統計的類型
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmProductionDetailMainMonthMain.LoadPM_M_Code">
+	<summary>
+ 載入產品編號 (進入生產工藝的）
+ </summary>
+	<remarks></remarks>
+</member><member name="M:LFERP.ProductionPiecePersonnelDaylLoad.CreateTables">
+	<summary>
+ 載入數據表結構
+ </summary>
+	<remarks></remarks>
+</member><member name="M:LFERP.ProductionPiecePersonnelDaylLoad.LoadData_D">
+	<summary>
+ 載入要求導入的數據 B,從基本表中導入 ,D從日常表中指定日期導入
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:LFERP.ProductionPiecePersonnelDaylLoad.LoadData_B">
+	<summary>
+ 基本表
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmProductionRetrocede.GridView2_KeyDown(System.Object,System.Windows.Forms.KeyEventArgs)">
+	<summary>
+ 按鍵事件
+ </summary>
+</member><member name="M:LFERP.frmProductionRetrocede.CheckEdit1_CheckedChanged(System.Object,System.EventArgs)">
+	<summary>
+ 審核確認復選框值改變時，確定按鈕才有效
+ </summary>
+</member><member name="M:LFERP.ProductionWareShippedMain.popWareOutAdd_Click(System.Object,System.EventArgs)">
+	<summary>
+     新增事件
+ </summary>
+</member><member name="M:LFERP.ProductionWareShippedMain.popWareOutEdit_Click(System.Object,System.EventArgs)">
+	<summary>
+     修改事件
+ </summary>
+</member><member name="M:LFERP.ProductionWareShippedMain.popWareOutDel_Click(System.Object,System.EventArgs)">
+	<summary>
+     刪除事件
+ </summary>
+</member><member name="M:LFERP.ProductionWareShippedMain.popWareOutView_Click(System.Object,System.EventArgs)">
+	<summary>
+     查看事件
+ </summary>
+</member><member name="M:LFERP.ProductionWareShippedMain.popWareOutflesh_Click(System.Object,System.EventArgs)">
+	<summary>
+     刷新事件
+ </summary>
+</member><member name="M:LFERP.ProductionWareShippedMain.popWareOutSeek_Click(System.Object,System.EventArgs)">
+	<summary>
+     查詢事件
+ </summary>
+</member><member name="M:LFERP.ProductionWareShippedMain.popWareOutReport_Click(System.Object,System.EventArgs)">
+	<summary>
+     報表事件
+ </summary>
+</member><member name="M:LFERP.ProductionWareShippedMain.popWareOutCheck_Click(System.Object,System.EventArgs)">
+	<summary>
+     審核事件
+ </summary>
+</member><member name="M:LFERP.ProductionWareShippedMain.ProductionWareOutMain_Load(System.Object,System.EventArgs)">
+	<summary>
+     窗體啟動事件
+ </summary>
+</member><member name="M:LFERP.ProductionWareShippedMain.PowerUser">
+	<summary>
+    設置權限
+ </summary>
+</member><member name="M:LFERP.ProductionWareShippedMain.popWareInInCheck_Click(System.Object,System.EventArgs)">
+	<summary>
+    確認收貨
+ </summary>
+</member><member name="M:LFERP.ProductionWareShippedMain.XtraTabControl1_Click(System.Object,System.EventArgs)">
+	<summary>
+    按鍵事件多頁面
+ </summary>
+</member><member name="M:LFERP.frmAcceptanceBatchCheck.btnCheck_Click(System.Object,System.EventArgs)">
+	<summary>
+ 單擊審核按鈕，審核所有驗收單
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmAcceptanceBatchCheck.frmAcceptanceBatchCheck_Load(System.Object,System.EventArgs)">
+	<summary>
+ 加載窗體
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmAcceptanceBatchCheck.btnFind_Click(System.Object,System.EventArgs)">
+	<summary>
+ 單擊查詢按鈕，查詢驗收單
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmAcceptanceBatchCheck.btnCancel_Click(System.Object,System.EventArgs)">
+	<summary>
+ 單擊取消按鈕，退出窗體
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmAcceptanceBatchCheck.cmsDelete_Click(System.Object,System.EventArgs)">
+	<summary>
+ 單擊右鍵刪除菜單，刪除與選中項相同的所有驗收單
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmAcceptanceBatchCheck.cmsView_Click(System.Object,System.EventArgs)">
+	<summary>
+ 單擊右鍵查看菜單，查看選中驗收單信息
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmAcceptanceBatchCheck.gluSupplier_KeyDown(System.Object,System.Windows.Forms.KeyEventArgs)">
+	<summary>
+ 供應商名稱輸入框中按空格鍵彈出下拉菜單
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmChangeMain.popChangeAdd_Click(System.Object,System.EventArgs)">
+	<summary>
+ 暫改
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmChangeMain.popChangeEdit_Click(System.Object,System.EventArgs)">
+	<summary>
+ 修改
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmChangeMain.popChangeDel_Click(System.Object,System.EventArgs)">
+	<summary>
+ 刪除
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmChangeMain.popChangeView_Click(System.Object,System.EventArgs)">
+	<summary>
+ 查看
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmChangeMain.popChangeCheck_Click(System.Object,System.EventArgs)">
+	<summary>
+ 審核
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmChangeMain.popChangeRef_Click(System.Object,System.EventArgs)">
+	<summary>
+ 刷新
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmChangeMain.popChangeFile_Click(System.Object,System.EventArgs)">
+	<summary>
+ 附加文件
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmChangeMain.popChangeSeek_Click(System.Object,System.EventArgs)">
+	<summary>
+ 查詢
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmPermissionModuleUser.LoadSystemPermissionModuleSub(System.String,System.String,System.String,System.String,System.String)">
+	<summary>
+ 導入系統選定模塊列表
+ </summary>
+	<param name="PMS_ID"></param>
+	<param name="PMS_Type"></param>
+	<param name="PMS_Name"></param>
+	<param name="PMS_Remark"></param>
+	<param name="PMS_Valuse"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.mblFileManager.FileShow(System.String,System.String,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean)">
+	<summary>
+ 處理文件調用
+ </summary>
+	<param name="FB_Type">模塊類別,如產品資料 </param>
+	<param name="FB_TypeNo">所屬模塊類別編號,如產品編號</param>
+	<param name="blnOpen">查看權限</param>
+	<param name="blnUpdate">上傳權限</param>
+	<param name="blnDown">下載權限</param>
+	<param name="blnDel">刪除權限</param>
+	<param name="blnDetail">詳細權限</param>
+	<remarks></remarks>
+</member><member name="M:LFERP.mblFileManager.FileShowDisplay(System.String,System.String,System.Boolean)">
+	<summary>
+ 查看文件
+ </summary>
+	<param name="FB_Type">模塊類別,如產品資料</param>
+	<param name="FB_TypeNo">所屬模塊類別編號,如產品編號</param>
+	<param name="blnOpen">查看權限</param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmKnifeChange.CreateTables">
+	<summary>
+ 建表結構
+ </summary>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmKnifeChange.CheckData">
+	<summary>
+ 判斷數據
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmKnifeChange.KnifeChange_GetNUM">
+	<summary>
+ 更改單流水
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmKnifeChange.UpdateQty(System.String,System.Int32,System.String)">
+	<summary>
+ 更新庫存
+ </summary>
+	<param name="_M_code"></param>
+	<param name="_CEnd_Qty"></param>
+	<param name="_strType"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmKnifeChange.LoadData(System.String)">
+	<summary>
+ 載入數據
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmKnifeChange.SaveDataNewBorrow">
+	<summary>
+ 增加數據
+ </summary>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmKnifeChange.SaveDataChange(System.String,System.Int32,System.String)">
+	<summary>
+ 增加更改單記錄
+ </summary>
+	<param name="_txtCH_Num"></param>
+	<param name="k"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmBomMain.cmdEdit_Click(System.Object,System.EventArgs)">
+	<summary>
+ 修改操作
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmBomMain.cmdView_Click(System.Object,System.EventArgs)">
+	<summary>
+ 查看操作
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmBomMain.cmdCheck_Click(System.Object,System.EventArgs)">
+	<summary>
+ 審核操作
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmBomMain.cmdDel_Click(System.Object,System.EventArgs)">
+	<summary>
+ 刪除操作
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmBomMain.cmdRefresh_Click(System.Object,System.EventArgs)">
+	<summary>
+ 刷新操作
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmBomMain.cmdFind_Click(System.Object,System.EventArgs)">
+	<summary>
+ 查詢操作
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmNmetalCustomerFeedback.addToolStripMenuItem_Click(System.Object,System.EventArgs)">
+	<summary>
+ 新增事件
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmNmetalCustomerFeedback.editToolStripMenuItem_Click(System.Object,System.EventArgs)">
+	<summary>
+修改事件
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmNmetalCustomerFeedback.RefToolStripMenuItem1_Click(System.Object,System.EventArgs)">
+	<summary>
+ 更新事件
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmNmetalCustomerFeedback.ToolStripMenuItem1_Click(System.Object,System.EventArgs)">
+	<summary>
+ 版本确认
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmNmetalCustomerFeedback.DelToolStripMenuItem_Click(System.Object,System.EventArgs)">
+	<summary>
+ 刪除事件
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmNmetalCustomerFeedback.FindToolStripMenuItem1_Click(System.Object,System.EventArgs)">
+	<summary>
+ 查询事件
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmNmetalCustomerFeedback.LookSCtrlfToolStripMenuItem_Click(System.Object,System.EventArgs)">
+	<summary>
+ 查看事件
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmNmetalCustomerFeedback.RepToolStripMenuItem2_Click(System.Object,System.EventArgs)">
+	<summary>
+ 列印事件
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmNmetalCustomerFeedback.AddFileToolStripMenuItem2_Click(System.Object,System.EventArgs)">
+	<summary>
+ 增加附件
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmNmetalSampInventoryCheck.cmdRef_Click(System.Object,System.EventArgs)">
+	<summary>
+ 刷新事件
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmNmetalSampleDepWeight.GridView1_CustomColumnDisplayText(System.Object,DevExpress.XtraGrid.Views.Base.CustomColumnDisplayTextEventArgs)">
+	<summary>
+ 日期格式的转换
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmNmetalSamplePaceInsert.DataNew">
+	<summary>
+ 新增程序
+ </summary>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmNmetalSamplePaceInsert.DataEdit">
+	<summary>
+修改
+ </summary>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmNmetalSamplePaceInsert.CreateTable">
+	<summary>
+ 创建临时表
+ </summary>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmNmetalSamplePaceInsert.SetClientBarcodeAuto">
+	<summary>
+     客户条码自动方式
+ </summary>
+</member><member name="M:LFERP.frmNmetalSamplePaceInsert.SetClientBarcode">
+	<summary>
+     客户条码
+ </summary>
+</member><member name="M:LFERP.frmNmetalSamplePaceInsert.SelectWeight">
+	<summary>
+ 2014-09-17
+ 張偉
+ 選擇性穩重
+ </summary>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmNmetalSamplePaceInsert.DataCheckEmpty">
+	<summary>
+ 保存数据前处理
+ </summary>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmNmetalSamplePaceInsert.ButtonYichang_Click(System.Object,System.EventArgs)">
+	<summary>
+ 在超标,不可保存时用
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmNmetalSamplePlanAdd.CreateTable">
+	<summary>
+ 创建临时表
+ </summary>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmNmetalSamplePlanAdd.LoadData(System.String)">
+	<summary>
+ 載入数据
+ </summary>
+	<param name="strID"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmNmetalSamplePlanAdd.cmdSave_Click(System.Object,System.EventArgs)">
+	<summary>
+ 保存事件
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmNmetalSamplePlanAdd.DataNew">
+	<summary>
+ 新增程序
+ </summary>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmNmetalSamplePlanAdd.DataEdit">
+	<summary>
+修改程序
+ </summary>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmNmetalSamplePlanAdd.DataCheckEmpty">
+	<summary>
+ 保存数据前处理
+ </summary>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmNmetalSamplePlanAdd.tsmDelete_Click(System.Object,System.EventArgs)">
+	<summary>
+ 子檔刪除
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmNmetalSamplePlanAdd.tsmNew_Click(System.Object,System.EventArgs)">
+	<summary>
+ 子檔新增
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmNmetalSamplePlanAdd.GetSP_ID">
+	<summary>
+ 自動新增流水号排期单号
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmNmetalPSNOManager.LoadPM_M_Code">
+	<summary>
+ 读取产品编号
+ </summary>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmNmetalPSNOManager.LoadDepName">
+	<summary>
+ 读取部门
+ </summary>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmNmetalPSNOManager.CreateTable">
+	<summary>
+ 创建临时表
+ </summary>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmNmetalPSNOManager.glu_PM_M_Code_EditValueChanged(System.Object,System.EventArgs)">
+	<summary>
+ 产品编号更改
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmNmetalPSNOManager.glu_Type_EditValueChanged(System.Object,System.EventArgs)">
+	<summary>
+ 类型更改时
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmNmetalPSNOManager.cmdSave_Click(System.Object,System.EventArgs)">
+	<summary>
+ 保存
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmNmetalPSNOManager.cmdExit_Click(System.Object,System.EventArgs)">
+	<summary>
+ 取消按钮
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmNmetalPSNOManager.gluSE_OutD_ID_EditValueChanged(System.Object,System.EventArgs)">
+	<summary>
+ 部门更改时
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="F:LFERP.frmPositiveOrdersQuery.m_StrQuery">
+	<summary>
+ 查詢描述
+ </summary>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmProductionApply.CreateTable">
+	<summary>
+ 創建表
+ </summary>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmProductionApply.AddRow(System.String,System.String)">
+	<summary>
+ 添加物料
+ </summary>
+	<param name="strPM_M_Code"></param>
+	<param name="strM_Code"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmProductionApply.GetApplyID">
+	<summary>
+ 自動申購單號
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmProductionApply.LoadData">
+	<summary>
+ 加載數據
+ </summary>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmProductionFieldCode1.CreateTable">
+	<summary>
+ 創建表
+ </summary>
+ 此過程被以下過程調用
+ frmProductionFieldCode1_Load()
+
+</member><member name="M:LFERP.frmProductionFieldCode1.GetNO">
+	<summary>
+ 生成收發單號
+ </summary>
+	<returns></returns>
+ 此函數被以下過程調用
+ btnOK_Click()
+
+</member><member name="M:LFERP.frmProductionFieldCode1.GetNum">
+	<summary>
+ 生成流水號
+ </summary>
+	<returns></returns>
+ 此函數被以下過程調用
+ btnOK_Click()
+
+</member><member name="M:LFERP.frmProductionFieldCode1.cmsAdd_Click(System.Object,System.EventArgs)">
+	<summary>
+ 單擊右鍵菜單"添加"
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmProductionFieldCode1.cmsDelete_Click(System.Object,System.EventArgs)">
+	<summary>
+ 單擊右鍵"刪除"菜單,刪除選中行
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmProductionFieldCode1.rgluPM_M_Code_EditValueChanged(System.Object,System.EventArgs)">
+	<summary>
+ 產品編號改變時,重新賦值
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmProductionFieldCode1.btnCancel_Click(System.Object,System.EventArgs)">
+	<summary>
+ 單擊取消按鈕,退出窗體
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmProductionFieldCode1.gridPM_Type_View_Click(System.Object,System.EventArgs)">
+	<summary>
+ 單擊類型表格,傳值到主表格
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+ 此過程被以下過程調用:
+ gridPM_Type_View_KeyDown()
+
+</member><member name="M:LFERP.frmProductionFieldCode1.gridPS_NO_View_Click(System.Object,System.EventArgs)">
+	<summary>
+ 單擊工序表格,傳值到主表格
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+ 此過程被以下過程調用:
+ gridPS_NO_View_KeyDown()
+
+</member><member name="M:LFERP.frmProductionFieldCode1.rcaeFP_Qty_EditValueChanged(System.Object,System.EventArgs)">
+	<summary>
+ 當發出數量改變時,重量也跟著改變
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmProductionFieldCode1.btnOK_Click(System.Object,System.EventArgs)">
+	<summary>
+ 單擊確定按鈕,添加數據
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmProductionFieldCode1.rpcePM_Type_Enter(System.Object,System.EventArgs)">
+	<summary>
+ 當類型控件獲得焦點時,類型表格重新加載數據,避免類型表格總是記錄最後一次加載的數據
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmProductionFieldCode1.rpcePS_Name_Enter(System.Object,System.EventArgs)">
+	<summary>
+ 當發出工序控件獲得焦點時,工序表格重新加載數據,避免工序表格總是記錄最後一次加載的數據
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmProductionFieldCode1.rgluPM_M_Code_KeyDown(System.Object,System.Windows.Forms.KeyEventArgs)">
+	<summary>
+ 按下空格鍵時,顯示下拉菜單
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmProductionFieldCode1.gridPM_Type_View_KeyDown(System.Object,System.Windows.Forms.KeyEventArgs)">
+	<summary>
+ 類型表格中按下回車鍵時,調用類型表格的單擊事件,實現回車鍵傳值
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmProductionFieldCode1.gridPS_NO_View_KeyDown(System.Object,System.Windows.Forms.KeyEventArgs)">
+	<summary>
+ 工序表格中按下回車鍵時,調用工序表格的單擊事件,實現回車鍵傳值
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmProductionOutProcessMain.cmsCancelCheck_Click(System.Object,System.EventArgs)">
+	<summary>
+ '單擊右鍵菜單“取消審核”
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+ @ 2012/7/2 添加 取消審核
+
+</member><member name="M:LFERP.frmProductionPieceProcessFind.CreateTable">
+	<summary>
+ 創建表
+ </summary>
+ 此過程被以下過程調用:
+ frmProductionPieceProcessFind_Load()
+
+</member><member name="M:LFERP.frmProductionPieceProcessFind.btnCancel_Click(System.Object,System.EventArgs)">
+	<summary>
+ 單擊“取消”按鈕
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmProductionPieceProcessFind.gluPM_M_Code_EditValueChanged(System.Object,System.EventArgs)">
+	<summary>
+ 產品編號值改變,在gluPM_Type中加載相應的配件名稱
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+ 此過程被以下過程調用:
+ cboPro_Type_SelectedIndexChanged()
+
+</member><member name="M:LFERP.frmProductionPieceProcessFind.btnFind_Click(System.Object,System.EventArgs)">
+	<summary>
+ 單擊“查詢”按鈕
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmProductionPieceProcessFind.gluPM_M_Code_KeyDown(System.Object,System.Windows.Forms.KeyEventArgs)">
+	<summary>
+ 按空格鍵顯示下拉列表
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmProductionPieceProcessFind.cboPro_Type_SelectedIndexChanged(System.Object,System.EventArgs)">
+	<summary>
+ 工藝類型值改變,在gluPM_Type中加載相應的配件名稱
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmKnifeTypeGroupAdd.KnifeTypeGroup_GetID(System.String)">
+	<summary>
+ 得到要增加的編碼
+ </summary>
+	<param name="StrPID"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmKnifeWareMoveOut.SaveUpdateRemarkEdit">
+	<summary>
+ 保存修改備註
+ </summary>
+	<remarks>2014-02-28</remarks>
+</member><member name="M:LFERP.frmKnifeWareMoveOut.SaveUpdateRemarkEditLog">
+	<summary>
+ 保存更改備註日誌
+ </summary>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmKnifeWareMoveOut.LoadData(System.String)">
+	<summary>
+ 載入調撥單數據
+ </summary>
+	<param name="MV_NO"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmFormulaMain.GridView1_Click(System.Object,System.EventArgs)">
+	<summary>
+ 點擊公式名--獲得公式信息
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmFormulaMain.frmFormulaMain_Load(System.Object,System.EventArgs)">
+	<summary>
+ 載入信息
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmFormulaMain.GridView1_FocusedRowChanged(System.Object,DevExpress.XtraGrid.Views.Base.FocusedRowChangedEventArgs)">
+	<summary>
+ 綁定點擊事件--主要實現↑↓操作
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmFormulaMain.InsertStrToText(System.Object,System.String,System.Boolean)">
+	<summary>
+ 插入字段到光標停留的位置
+ </summary>
+	<param name="obj"></param>
+	<param name="astrValue"></param>
+	<param name="ablnLf"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmFormulaMain.CreateTable">
+	<summary>
+ 創建公式臨時表
+ </summary>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmFormulaMain.LoadTable">
+	<summary>
+ 在表中載入數據
+ </summary>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmFormulaMain.btnRes_Click(System.Object,System.EventArgs)">
+	<summary>
+ 重置信息
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmFormulaMain.btnSave_Click(System.Object,System.EventArgs)">
+	<summary>
+ 修改或添加公式
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmFormulaMain.GridView1_CellValueChanged(System.Object,DevExpress.XtraGrid.Views.Base.CellValueChangedEventArgs)">
+	<summary>
+ 綁定點擊事件--主要實現動態獲得用戶新增的公式名稱
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmFormulaMain.btnExit_Click(System.Object,System.EventArgs)">
+	<summary>
+ 退出
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmFormulaMain.btncheck_Click(System.Object,System.EventArgs)">
+	<summary>
+ 檢查
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmFormulaMain.RichTextBoxFormula_TextChanged(System.Object,System.EventArgs)">
+	<summary>
+ 設置關鍵字顏色
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmFormulaMain.cmdDel_Click(System.Object,System.EventArgs)">
+	<summary>
+ 刪除公式
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmFormulaMain.CheckFormula">
+	<summary>
+ 檢查公式
+ </summary>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmFormulaMain.GetFormula_EN">
+	<summary>
+ 獲得英文公式
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmFormulaMain.GetFormulaNameList">
+	<summary>
+ 獲得公式名集合
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmFormulaMain.TreeList1_DoubleClick(System.Object,System.EventArgs)">
+	<summary>
+ 雙擊加入運算字段
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmFormulaMain.TreeList2_DoubleClick(System.Object,System.EventArgs)">
+	<summary>
+ 雙擊加入運算符
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmMrpWareHouseInfoMain.frmMrpWareHouseInfoMain_Load(System.Object,System.EventArgs)">
+	<summary>
+ 加載
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmMrpWareHouseInfoMain.cmsAdd_Click(System.Object,System.EventArgs)">
+	<summary>
+ 新增
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmMrpWareHouseInfoMain.cmsEdit_Click(System.Object,System.EventArgs)">
+	<summary>
+ 修改
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmMrpWareHouseInfoMain.cmsDel_Click(System.Object,System.EventArgs)">
+	<summary>
+ 刪除
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmMrpWareHouseInfoMain.cmsFind_Click(System.Object,System.EventArgs)">
+	<summary>
+ 查詢
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmMrpWareHouseInfoMain.cmsLook_Click(System.Object,System.EventArgs)">
+	<summary>
+ 查看
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmMrpWareHouseInfoMain.cmsCheck_Click(System.Object,System.EventArgs)">
+	<summary>
+ 審核
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmMrpWareHouseInfoMain.cmsReflash_Click(System.Object,System.EventArgs)">
+	<summary>
+ 刷新
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmMrpWareHouseInfoMain.GridView1_FocusedRowChanged(System.Object,DevExpress.XtraGrid.Views.Base.FocusedRowChangedEventArgs)">
+	<summary>
+ 聚焦改變事件
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmMrpWareHouseInfoMain.GetSubTable">
+	<summary>
+ 獲得子表信息
+ </summary>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmNmetalSampleWareCode.Button2_Click(System.Object,System.EventArgs)">
+	<summary>
+  产生自动条码   
+ </summary>
+</member><member name="F:LFERP.frmPositiveOrdersMain.m_StrP_OM_ID">
+	<summary>
+ 訂單編號
+ </summary>
+	<remarks></remarks>
+</member><member name="F:LFERP.frmPositiveOrdersMain.m_StrP_M_Code">
+	<summary>
+ 產品編號
+ </summary>
+	<remarks></remarks>
+</member><member name="F:LFERP.frmPositiveOrdersMain.m_StrP_OM_CusterNo">
+	<summary>
+ 客戶代號
+ </summary>
+	<remarks></remarks>
+</member><member name="F:LFERP.frmPositiveOrdersMain.m_StrP_OM_AddDateStart">
+	<summary>
+ 訂單開始日期
+ </summary>
+	<remarks></remarks>
+</member><member name="F:LFERP.frmPositiveOrdersMain.m_StrP_OM_AddDateEnd">
+	<summary>
+ 訂單截至日期
+ </summary>
+	<remarks></remarks>
+</member><member name="F:LFERP.frmPositiveOrdersMain.m_StrP_OMComplateDateStart">
+	<summary>
+ 下單開始日期
+ </summary>
+	<remarks></remarks>
+</member><member name="F:LFERP.frmPositiveOrdersMain.m_StrP_OMComplateDateEnd">
+	<summary>
+ 下單截至日期
+ </summary>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmPositiveOrdersMain.RefreshOrdersData">
+	<summary>
+ 刷新
+ </summary>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmPositiveOrdersMain.PositiveOrdersMainPrint_Click(System.Object,System.EventArgs)">
+	<summary>
+ 列印訂單匯總
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmPositiveOrdersMain.dgvPositiveOrdersMain_MouseUp(System.Object,System.Windows.Forms.MouseEventArgs)">
+	<summary>
+ 根據訂單流水號加載產品信息
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmPositiveOrdersMain.dgvPositiveOrdersMain_KeyUp(System.Object,System.Windows.Forms.KeyEventArgs)">
+	<summary>
+ 鼠標上下移動
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmPositiveOrdersMain.PositiveOrdersMainQuery_Click(System.Object,System.EventArgs)">
+	<summary>
+ 陽極訂單查詢
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmProductionCombination.txtQty_EditValueChanged(System.Object,System.EventArgs)">
+	<summary>
+ 根據比例自動加數
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmProductionCombinationMain.MenuStripAdd_Click(System.Object,System.EventArgs)">
+	<summary>
+ 單擊右鍵菜單“新增”
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmProductionCombinationMain.MenuStripEdit_Click(System.Object,System.EventArgs)">
+	<summary>
+ 單擊右鍵菜單“修改”
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmProductionCombinationMain.MenuStripDel_Click(System.Object,System.EventArgs)">
+	<summary>
+ 單擊右鍵菜單“刪除”
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmProductionCombinationMain.MenuStripPreView_Click(System.Object,System.EventArgs)">
+	<summary>
+ 單擊工序比例右鍵菜單“查看”
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmProductionCombinationMain.MenuStripRef_Click(System.Object,System.EventArgs)">
+	<summary>
+ 單擊右鍵菜單“刷新”
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+ 此過程被以下過程調用：
+ frmProductionCombinationMain_Load()
+ MenuStripDel_Click()
+
+</member><member name="M:LFERP.frmProductionCombinationMain.MenuStripQuery_Click(System.Object,System.EventArgs)">
+	<summary>
+ 單擊工序比例右鍵菜單“查詢”
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmProductionCombinationMain.MenuStripCheck_Click(System.Object,System.EventArgs)">
+	<summary>
+ 單擊右鍵菜單“審核”
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmProductionCombinationMain.cmsFind_Click(System.Object,System.EventArgs)">
+	<summary>
+ 單擊組合信息右鍵菜單“查詢”
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmProductionCombinationMain.cmsView_Click(System.Object,System.EventArgs)">
+	<summary>
+ 單擊組合信息右鍵菜單“查看”
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.ProductionPiecePersonnelDay.SaveNew">
+	<summary>
+ 保存已要導入的數據
+ </summary>
+	<remarks></remarks>
+</member><member name="M:LFERP.ProductionPiecePersonnelDay.SaveEdit">
+	<summary>
+ 數據修改
+ </summary>
+	<remarks></remarks>
+</member><member name="M:LFERP.ProductionWareOutMainA.popWareOutAdd_Click(System.Object,System.EventArgs)">
+	<summary>
+   新增事件  
+ </summary>
+</member><member name="M:LFERP.ProductionWareOutMainA.popWareOutEdit_Click(System.Object,System.EventArgs)">
+	<summary>
+   修改事件  
+ </summary>
+</member><member name="M:LFERP.ProductionWareOutMainA.popWareOutDel_Click(System.Object,System.EventArgs)">
+	<summary>
+   刪除事件  
+ </summary>
+</member><member name="M:LFERP.ProductionWareOutMainA.popWareOutView_Click(System.Object,System.EventArgs)">
+	<summary>
+   查看事件  
+ </summary>
+</member><member name="M:LFERP.ProductionWareOutMainA.popWareOutflesh_Click(System.Object,System.EventArgs)">
+	<summary>
+   刷新事件  
+ </summary>
+</member><member name="M:LFERP.ProductionWareOutMainA.popWareOutSeek_Click(System.Object,System.EventArgs)">
+	<summary>
+   查詢事件  
+ </summary>
+</member><member name="M:LFERP.ProductionWareOutMainA.popWareOutReport_Click(System.Object,System.EventArgs)">
+	<summary>
+   列印報表事件  
+ </summary>
+</member><member name="M:LFERP.ProductionWareOutMainA.popWareOutCheck_Click(System.Object,System.EventArgs)">
+	<summary>
+   審核事件  
+ </summary>
+</member><member name="M:LFERP.ProductionWareOutMainA.ProductionWareOutMain_Load(System.Object,System.EventArgs)">
+	<summary>
+   窗體啟動事件  
+ </summary>
+</member><member name="M:LFERP.ProductionWareOutMainA.PowerUser">
+	<summary>
+   '設置權限
+ </summary>
+</member><member name="M:LFERP.ProductionWareOutMainA.popWareInInCheck_Click(System.Object,System.EventArgs)">
+	<summary>
+   '確認收貨權限
+ </summary>
+</member><member name="M:LFERP.ProductionWareOutMainA.XtraTabControl1_Click(System.Object,System.EventArgs)">
+	<summary>
+   頁畫點擊事件
+ </summary>
+</member><member name="P:LFERP.ERPSafe.MaterialType">
+	<summary>
+ 充許查看的物料類別
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:LFERP.ERPSafe.SupplierType">
+	<summary>
+ 可查看供應商類型用,分開,如 采購部,包裝部
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:LFERP.ERPSafe.WareHouseList">
+	<summary>
+ 允許查看的倉庫列表,格式如：'倉庫1','倉庫2'
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:LFERP.ERPSafe.DepID">
+	<summary>
+ 允許查看的部門
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:LFERP.ERPSafe.FacID">
+	<summary>
+ 允許查看的廠別
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmWareInput.CheckNeedCheckInput">
+	<summary>
+ 檢查指定倉庫在入時是否需要刷卡
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="F:LFERP.frmWareMoveCompanyQuery.m_StrCompany">
+	<summary>
+ 公司
+ </summary>
+	<remarks></remarks>
+</member><member name="F:LFERP.frmWareMoveCompanyQuery.m_StrWareHourse">
+	<summary>
+ 倉庫名稱
+ </summary>
+	<remarks></remarks>
+</member><member name="F:LFERP.frmWareMoveCompanyQuery.m_StrWHID">
+	<summary>
+ 倉庫ID
+ </summary>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmNmetalSampleOrders.cmdAdd_Click(System.Object,System.EventArgs)">
+	<summary>
+ 新增程序
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmNmetalSampleOrders.cmdEdit_Click(System.Object,System.EventArgs)">
+	<summary>
+修改事件
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmNmetalSampleOrders.cmdDel_Click(System.Object,System.EventArgs)">
+	<summary>
+ 刪除事件
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmNmetalSampleOrders.cmdQuery_Click(System.Object,System.EventArgs)">
+	<summary>
+ 查询事件
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmNmetalSampleOrders.cmdCheck_Click(System.Object,System.EventArgs)">
+	<summary>
+ 审核事件
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmNmetalSampleOrders.cmdRef_Click(System.Object,System.EventArgs)">
+	<summary>
+ 更新事件
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmNmetalSampleOrders.cmdLook_Click(System.Object,System.EventArgs)">
+	<summary>
+ 查看事件
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmNmetalSampleOrders.cmdPrint_Click(System.Object,System.EventArgs)">
+	<summary>
+ 列印事件
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmNmetalSampleOrders.GridControl2show">
+	<summary>
+ 条码数据
+ </summary>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmNmetalSampleOrders.GridControl3show">
+	<summary>
+ 条码数据
+ </summary>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmNmetalSampleOrders.GridView1_CustomDrawCell(System.Object,DevExpress.XtraGrid.Views.Base.RowCellCustomDrawEventArgs)">
+	<summary>
+ 調色彩
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmNmetalSampleOrders.tsm_UpdateManual_Number_Click(System.Object,System.EventArgs)">
+	<summary>
+ 更改手册编号
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmNmetalSampleOrders.tsm_emailSetting_Click(System.Object,System.EventArgs)">
+	<summary>
+ 邮箱报警设置
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmNmetalSampleOrders.tsm_user_Click(System.Object,System.EventArgs)">
+	<summary>
+ 测试用户设置
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmNmetalSampleOrders.tsm_PaceDepWeight_Click(System.Object,System.EventArgs)">
+	<summary>
+ 2014-09-12
+ 測試各條碼在各部門下的收發重量
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmNmetalSampleOrdersInput.frmNmetalSampleOrdersInput_Load(System.Object,System.EventArgs)">
+	<summary>
+ 窗體加載事件
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmNmetalSampleOrdersInput.Savebutton_Click(System.Object,System.EventArgs)">
+	<summary>
+ 確認按鈕事件
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmNmetalSampleOrdersInput.CheckDataEmpty">
+	<summary>
+ 判斷是否為空
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmNmetalSampleOrdersInput.ButtonLoad_Click(System.Object,System.EventArgs)">
+	<summary>
+ 載入按鈕
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmNmetalSampleOrdersInput.cmdCODEDel_Click(System.Object,System.EventArgs)">
+	<summary>
+ 刪除條碼按鈕
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmNmetalSampleOrdersInput.txtCode_ID_KeyDown(System.Object,System.Windows.Forms.KeyEventArgs)">
+	<summary>
+ 條碼編號回車事件
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmNmetalSampleOrdersInput.txtWeight_KeyDown(System.Object,System.Windows.Forms.KeyEventArgs)">
+	<summary>
+ 來料重量回車事件
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmNmetalSampleException.GetNames(System.String,System.String,System.String)">
+	<summary>
+ 2014-08-22
+ 返回值 
+ </summary>
+	<param name="strCardID"></param>
+	<param name="PE_Name"></param>
+	<param name="PE_Type"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmNmetalSamplePaceAdd.cmdSave_Click(System.Object,System.EventArgs)">
+	<summary>
+ 数据保存時發生
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmNmetalSamplePaceAdd.CreateTable">
+	<summary>
+ 创建临时表
+ </summary>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmNmetalSamplePaceAdd.LoadData(System.String,System.String)">
+	<summary>
+ 載入数据
+ </summary>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmNmetalSamplePaceAdd.DataNew">
+	<summary>
+ 新增程序
+ </summary>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmNmetalSamplePaceAdd.DataEdit">
+	<summary>
+修改
+ </summary>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmNmetalSamplePaceAdd.DataCheckEmpty">
+	<summary>
+ 保存数据前处理
+ </summary>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmNmetalSamplePaceAdd.gluSO_ID_EditValueChanged(System.Object,System.EventArgs)">
+	<summary>
+ 样办单号離开事件
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmNmetalSamplePaceAdd.TextEdit1_KeyDown(System.Object,System.Windows.Forms.KeyEventArgs)">
+	<summary>
+     客戶條碼
+ </summary>
+</member><member name="M:LFERP.frmNmetalSampleSend.cmdEdit_Click(System.Object,System.EventArgs)">
+	<summary>
+修改事件
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmNmetalSampleSend.cmdAdd_Click(System.Object,System.EventArgs)">
+	<summary>
+ 新增事件
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmNmetalSampleSend.cmdDel_Click(System.Object,System.EventArgs)">
+	<summary>
+ 刪除事件
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmNmetalSampleSend.cmdQurey_Click(System.Object,System.EventArgs)">
+	<summary>
+ 查询事件
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmNmetalSampleSend.cmdCheck_Click(System.Object,System.EventArgs)">
+	<summary>
+  审核事件
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmNmetalSampleSend.GridControl1show">
+	<summary>
+ 子表数据
+ </summary>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmNmetalSampleSend.cmdRef_Click(System.Object,System.EventArgs)">
+	<summary>
+ 刷新事件
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmNmetalSampleSend.cmdLook_Click(System.Object,System.EventArgs)">
+	<summary>
+ 查看事件
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmNmetalSampleSetting.btnReset_Click(System.Object,System.EventArgs)">
+	<summary>
+ 重置參數
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmNmetalSampleTransactionAdd.CreateTable">
+	<summary>
+ 创建临时表
+ </summary>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmNmetalSampleTransactionAdd.LoadData(System.String)">
+	<summary>
+ 載入数据
+ </summary>
+</member><member name="M:LFERP.frmNmetalSampleTransactionAdd.tsmNew_Click(System.Object,System.EventArgs)">
+	<summary>
+ 表格新增
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmNmetalSampleTransactionAdd.tsmDelete_Click(System.Object,System.EventArgs)">
+	<summary>
+ 刪除事件
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmNmetalSampleTransactionAdd.cmdSave_Click(System.Object,System.EventArgs)">
+	<summary>
+ 保存事件
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmNmetalSampleTransactionAdd.UpdateCheck">
+	<summary>
+ 审核程序
+ </summary>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmNmetalSampleTransactionAdd.DataNew">
+	<summary>
+ 新增程序
+ </summary>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmNmetalSampleTransactionAdd.DataEdit">
+	<summary>
+修改
+ </summary>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmNmetalSampleTransactionAdd.DataCheckEmpty">
+	<summary>
+ 是否为空
+ </summary>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmNmetalSampleTransactionAdd.GetTR_ID">
+	<summary>
+ 自動流水号
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmNmetalSampleWaste.CreateTable">
+	<summary>
+ 創建臨時表
+ </summary>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmNmetalSampleWaste.frmNmetalSampleWaste_Load(System.Object,System.EventArgs)">
+	<summary>
+ 初始化加載事件
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmNmetalSampleWaste.LoadData(System.String)">
+	<summary>
+ 加載數據
+ </summary>
+	<param name="Num"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmNmetalSampleWaste.Savebutton_Click(System.Object,System.EventArgs)">
+	<summary>
+ 保存按鈕
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmNmetalSampleWaste.CheckDateEmpty">
+	<summary>
+ 判斷是否為空
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmNmetalSampleWaste.Savedata">
+	<summary>
+ 保存
+ </summary>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmNmetalSampleWaste.UpdateCheck">
+	<summary>
+ 審核
+ </summary>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmNmetalSampleWaste.NmetalSampleReWaste_GetID">
+	<summary>
+ 獲取單號
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmNmetalSampleWaste.CloseButton_Click(System.Object,System.EventArgs)">
+	<summary>
+ 關閉窗體
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmNmetalSampleWaste.glu_PM_M_Code_EditValueChanged(System.Object,System.EventArgs)">
+	<summary>
+ 類型
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmProductionCombinationRatio.CreateTable">
+	<summary>
+ 創建表
+ </summary>
+ 此過程被以下過程調用：
+ frmProductionCombination_Load()
+
+</member><member name="M:LFERP.frmProductionCombinationRatio.LoadData">
+	<summary>
+ 加載數據過程
+ </summary>
+	<returns></returns>
+ 此過程被以下過程調用：
+ frmProductionCombination_Load()
+
+</member><member name="M:LFERP.frmProductionCombinationRatio.DataNew">
+	<summary>
+ 保存新增數據過程
+ </summary>
+ 此過程被以下過程調用：
+ cmdSave_Click()
+
+</member><member name="M:LFERP.frmProductionCombinationRatio.DataEdit">
+	<summary>
+ 保存修改數據過程
+ </summary>
+ 此過程被以下過程調用：
+ cmdSave_Click()
+
+</member><member name="M:LFERP.frmProductionCombinationRatio.DataCheck">
+	<summary>
+ 保存審核信息過程
+ </summary>
+ 此過程被以下過程調用：
+ cmdSave_Click()
+
+</member><member name="M:LFERP.frmProductionCombinationRatio.cmdSave_Click(System.Object,System.EventArgs)">
+	<summary>
+ 單擊確定按鈕
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmProductionCombinationRatio.cmdExit_Click(System.Object,System.EventArgs)">
+	<summary>
+ 單擊取消按鈕,關閉窗體
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmProductionCombinationRatio.cmsAdd_Click(System.Object,System.EventArgs)">
+	<summary>
+ 單擊右鍵菜單“添加”
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmProductionCombinationRatio.AddRow(System.String)">
+	<summary>
+ 向比例信息表填充數據過程
+ </summary>
+	<param name="M_Code"></param>
+此過程被以下過程調用：
+ cmsAdd_Click()
+
+</member><member name="M:LFERP.frmProductionCombinationRatio.cmsDel_Click(System.Object,System.EventArgs)">
+	<summary>
+ 單擊右鍵菜單“刪除”
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmProductionCombinationRatio.PM_M_Code_EditValueChanged(System.Object,System.EventArgs)">
+	<summary>
+ 產品編號改變時，加載相應的配件名稱信息
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+ 此過程被以下過程調用：
+ cbType_SelectedIndexChanged()
+
+</member><member name="M:LFERP.frmProductionCombinationRatio.gluType_EditValueChanged(System.Object,System.EventArgs)">
+	<summary>
+ 配件名稱改變時，加載相應的工序名稱信息
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmProductionCombinationRatio.cbType_SelectedIndexChanged(System.Object,System.EventArgs)">
+	<summary>
+ 工藝類型改變時，調用產品編號改變過程
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmProductionCombinationRatio.GluEdit1_EditValueChanged(System.Object,System.EventArgs)">
+	<summary>
+ 大工序改變時，判斷該工序是否已存在組合，存在則加載
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+ @ 2012/7/25 添加
+
+</member><member name="M:LFERP.ProductionPiecePersonnel.LoadData(System.String)">
+	<summary>
+ 載入數據
+ </summary>
+	<param name="Str_AutoID"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:LFERP.ProductionPiecePersonnel.CheckData">
+	<summary>
+ 檢查數據輸入正確
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:LFERP.ProductionPiecePersonnel.SaveNew(System.String)">
+	<summary>
+ 數據增加
+ </summary>
+	<param name="S_model"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.ProductionPiecePersonnel.SaveEdit">
+	<summary>
+ 修改數據
+ </summary>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmProductionPieceProcessMain.cmdRef_Click(System.Object,System.EventArgs)">
+	<summary>
+ 單擊右鍵菜單“刷新”
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+ 此過程被以下過程調用：
+ frmProductionPieceProcessMain_Load()
+ cmdDel_Click()
+
+</member><member name="M:LFERP.frmProductionPieceProcessMain.cmdAdd_Click(System.Object,System.EventArgs)">
+	<summary>
+ 單擊右鍵菜單“新增”
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmProductionPieceProcessMain.cmdEdit_Click(System.Object,System.EventArgs)">
+	<summary>
+ 單擊右鍵菜單“修改”
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmProductionPieceProcessMain.cmdCheck_Click(System.Object,System.EventArgs)">
+	<summary>
+ 單擊右鍵菜單“審核”
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmProductionPieceProcessMain.cmdView_Click(System.Object,System.EventArgs)">
+	<summary>
+ 單擊右鍵菜單“查看”
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmProductionPieceProcessMain.cmdDel_Click(System.Object,System.EventArgs)">
+	<summary>
+ 單擊右鍵菜單“刪除”
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmProductionPieceProcessMain.cmdQuery_Click(System.Object,System.EventArgs)">
+	<summary>
+ 單擊右鍵菜單“查詢”
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmProductionPieceProcessMain.cmdPrint_Click(System.Object,System.EventArgs)">
+	<summary>
+ 單擊右鍵菜單“列印(工價)”
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmProductionPieceProcessMain.cmdPrintNoPrice_Click(System.Object,System.EventArgs)">
+	<summary>
+ 單擊右鍵菜單“列印”
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.ProductionSumTimePersonnel.Load_Table_New">
+	<summary>
+ 載入當天不在組別和組別編號為“無”的個人計件人員名單 2012/6/4 
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:LFERP.ProductionSumTimePersonnel.Load_Table">
+	<summary>
+  取消不用   ''2012-5-11
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:LFERP.ProductionSumTimePersonnel.LoadData(System.String)">
+	<summary>
+ 根據編號載入數據
+ </summary>
+	<param name="Str_PT_NO"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:LFERP.ProductionSumTimePersonnel.CheckData">
+	<summary>
+ 檢查數據輸入正確
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:LFERP.ProductionSumTimePersonnel.CHECK_Time">
+	<summary>
+ 查找 某一員工，當天，在特定時間段，不能參與兩項目計時工作 
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:LFERP.ProductionSumTimePersonnel.SaveNew(System.String)">
+	<summary>
+ 數據增加
+ </summary>
+	<param name="S_model"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.ProductionSumTimePersonnel.Clr_Text">
+	<summary>
+ 清空數據
+ </summary>
+	<remarks></remarks>
+</member><member name="M:LFERP.ProductionSumTimePersonnel.SaveEdit">
+	<summary>
+ 修改數據
+ </summary>
+	<remarks></remarks>
+</member><member name="M:LFERP.ProductionSumTimePersonnel.GetProductionSumTimePersonnelNO">
+	<summary>
+ 獲取流水號基數
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:LFERP.ProductionSumTimePersonnel.Get_Tatal_Time(System.String,System.String)">
+	<summary>
+ 查詢出設置OK的時長
+ </summary>
+	<param name="Stime"></param>
+	<param name="Etime"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:LFERP.ProductionWareOutMainB.XtraTabControl1_Click(System.Object,System.EventArgs)">
+	<summary>
+    按鍵事件多頁面
+ </summary>
+</member><member name="M:LFERP.frmBarCode.LoadMDWareInventory(System.String)">
+	<summary>
+ 全部倉庫 記錄
+ </summary>
+	<param name="WH_ID"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmBarCode.LoadMDMaterial(System.String)">
+	<summary>
+ 單個物料編碼打印
+ </summary>
+	<param name="M_code"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmBarCode.LoadWareInPutDataMD(System.String)">
+	<summary>
+ 磨刀部入庫作業
+ </summary>
+	<param name="WipID"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.ShareData.LoadPingMU(System.String,System.String,System.String,System.String)">
+	<summary>
+ 在LCD顯示屏顯示內容
+ </summary>
+	<param name="str1">第一行字符串</param>
+	<param name="str2">第二行字符串</param>
+	<param name="str3">第三行字符串</param>
+	<param name="str4">第四行字符串</param>
+	<returns></returns>
+	<remarks>@ 2013/3/14 添加</remarks>
+</member><member name="T:LFERP.NmetalSampInventoryWeightCheck.NmetalSampInventoryWeightCheckMainDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:LFERP.NmetalSampInventoryWeightCheck.NmetalSampInventoryWeightCheckSubDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:LFERP.NmetalSampInventoryWeightCheck.NmetalSampInventoryWeightCheckMainRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:LFERP.NmetalSampInventoryWeightCheck.NmetalSampInventoryWeightCheckSubRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:LFERP.NmetalSampInventoryWeightCheck.NmetalSampInventoryWeightCheckMainRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:LFERP.NmetalSampInventoryWeightCheck.NmetalSampInventoryWeightCheckSubRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:LFERP.NmetalSampInventoryWeightCheck">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="M:LFERP.frmNmetalSampleDivertAdd.UpdateCheck">
+	<summary>
+ 审核程序
+ </summary>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmNmetalSampleOrdersFind.GetTypeID(System.String)">
+	<summary>
+ 自動新增流水号排期单号
+ </summary>
+</member><member name="M:LFERP.frmNmetalSampleProcessAdd.SaveOtherWeight">
+	<summary>
+ 保存新增重量
+ 張偉
+ 2014-07-07
+ </summary>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmNmetalSampleProcessAdd.GetNum">
+	<summary>
+ 2014-6-30 加工藝單號從51表示貴金屬
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmNmetalSampleProcessAdd.SavePS_BarCodeBit">
+	<summary>
+ 只修改只
+ </summary>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmOutWardsT.CreateTable">
+	<summary>
+ 創建表
+ </summary>
+ 此過程被以下過程調用：
+ frmOutWards_Load()
+
+</member><member name="M:LFERP.frmOutWardsT.GetOW_NO">
+	<summary>
+  '生成送貨單號
+ </summary>
+	<returns></returns>
+ 此過程被以下過程調用：
+  frmOutWards_Load()
+ btnOK_Click()
+
+</member><member name="M:LFERP.frmOutWardsT.LoadData">
+	<summary>
+ 加載數據
+ </summary>
+ 此過程被以下過程調用：
+  frmOutWards_Load()
+
+</member><member name="M:LFERP.frmOutWardsT.AddData">
+	<summary>
+ 保存新增數據
+ </summary>
+	<returns></returns>
+ 此過程被以下過程調用：
+ btnOK_Click()
+
+</member><member name="M:LFERP.frmOutWardsT.EditData">
+	<summary>
+ 保存修改數據
+ </summary>
+	<returns></returns>
+ 此過程被以下過程調用：
+ btnOK_Click()
+
+</member><member name="M:LFERP.frmOutWardsT.UpdateCheck">
+	<summary>
+ 保存審核信息
+ </summary>
+	<returns></returns>
+ 此過程被以下過程調用：
+ btnOK_Click()
+
+</member><member name="M:LFERP.frmOutWardsT.cmsAdd_Click(System.Object,System.EventArgs)">
+	<summary>
+ 單擊右鍵菜單“新增”
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmOutWardsT.cmsDelete_Click(System.Object,System.EventArgs)">
+	<summary>
+ 單擊右鍵菜單“刪除”
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmOutWardsT.btnCanecl_Click(System.Object,System.EventArgs)">
+	<summary>
+ 單擊取消按鈕，關閉本窗體
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmOutWardsT.RepositoryItemMemoExEdit1_KeyDown(System.Object,System.Windows.Forms.KeyEventArgs)">
+	<summary>
+ 備注文本框中按下空格鍵，顯示下拉文本框
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmOutWardsT.btnOK_Click(System.Object,System.EventArgs)">
+	<summary>
+ 單擊確定按鈕
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmOutWardsT.gluOC_CustomerID_EditValueChanged(System.Object,System.EventArgs)">
+	<summary>
+ 當客戶代號改變后，加載該客戶的所有訂單
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmOutWardsT.chkOW_Check_CheckedChanged(System.Object,System.EventArgs)">
+	<summary>
+ 確認無誤復選框改變時，確定按鈕也跟著相應改變
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmOutWardsT.RepositoryItemPopupContainerEdit1_Enter(System.Object,System.EventArgs)">
+	<summary>
+ 批次輸入框獲得焦點時，加載該物料的所有批次信息
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmProductionPiecePayGroupLoad.PieceWGRate">
+	<summary>
+ 對 ds 表處理
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmProductionPiecePayGroupLoad.Check_G_NO(System.String)">
+	<summary>
+ 檢查組別編號是否存在
+ </summary>
+	<param name="_G_NO"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmProductionPiecePayGroupLoad.Check_Piece_PerNO(System.String)">
+	<summary>
+ 檢查人員是否已存在，計件人員名單中
+ </summary>
+	<param name="_Per_NO"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmProductionPiecePayGroupLoad.Write_PeiceMGRate(System.Int32)">
+	<summary>
+ 保存數據
+ </summary>
+	<param name="_Row"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmProductionPiecePayGroupLoad.Export_Excle(System.String)">
+	<summary>
+ 寫入 Excel中
+ </summary>
+	<param name="_Export_Excel"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmProductionPieceProcess.CreateTable">
+	<summary>
+ 創建表
+ </summary>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmProductionPieceProcess.GetID">
+	<summary>
+ 自動計件工藝單號
+ </summary>
+	<returns></returns>
+ 此過程被以下過程調用：
+ AddData()
+ frmProductionPieceProcess_Load()
+
+</member><member name="M:LFERP.frmProductionPieceProcess.LoadData">
+	<summary>
+ 加載數據
+ </summary>
+ 此過程被以下過程調用：
+ frmProductionPieceProcess_Load()
+
+</member><member name="M:LFERP.frmProductionPieceProcess.AddData">
+	<summary>
+ 保存添加數據
+ </summary>
+	<returns></returns>
+ 此過程被以下過程調用：
+ btnOK_Click()
+
+</member><member name="M:LFERP.frmProductionPieceProcess.EditData">
+	<summary>
+ 保存修改數據
+ </summary>
+	<returns></returns>
+ 此過程被以下過程調用：
+ btnOK_Click()
+
+</member><member name="M:LFERP.frmProductionPieceProcess.gluPM_M_Code_EditValueChanged(System.Object,System.EventArgs)">
+	<summary>
+ 產品編號值改變,在gluPM_Type中加載相應的配件名稱
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+ 此過程被以下過程調用:
+ cboPro_Type_SelectedIndexChanged()
+
+</member><member name="M:LFERP.frmProductionPieceProcess.gluPM_Type_EditValueChanged(System.Object,System.EventArgs)">
+	<summary>
+ 配件名稱改變時，加載相應數據到計件工藝表
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmProductionPieceProcess.btnCancel_Click(System.Object,System.EventArgs)">
+	<summary>
+ 單擊“取消”按鈕
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmProductionPieceProcess.RepositoryItemPopupContainerEdit1_Enter(System.Object,System.EventArgs)">
+	<summary>
+ 部門名稱獲得焦點時，加載相應數據
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmProductionPieceProcess.MenuAdd_Click(System.Object,System.EventArgs)">
+	<summary>
+ 單擊右鍵菜單“新增”，複制最後一行，在最後新增一行數據
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmProductionPieceProcess.MenuInsert_Click(System.Object,System.EventArgs)">
+	<summary>
+ 單擊右鍵菜單“插入”，複制當前焦點行，在當前行下麵新增一行數據
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmProductionPieceProcess.MenuDel_Click(System.Object,System.EventArgs)">
+	<summary>
+ 單擊右鍵菜單“刪除”，刪除選中的數據行
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmProductionPieceProcess.GridView3_Click(System.Object,System.EventArgs)">
+	<summary>
+ 單擊GridView3，把部門名稱和編號傳到GridView2中
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmProductionPieceProcess.RepositoryItemLookUpEdit1_EditValueChanged(System.Object,System.EventArgs)">
+	<summary>
+ 當廠別名稱改變時，部門名稱和編號為空
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmProductionPieceProcess.cboPro_Type_EditValueChanged(System.Object,System.EventArgs)">
+	<summary>
+ 工藝類型值改變時,在gluPM_Type中加載相應的配件名稱
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmProductionPieceProcess.btnOK_Click(System.Object,System.EventArgs)">
+	<summary>
+ 單擊“確定”按鈕，保存數據
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmProductionPieceProcess.RepositoryItemDateEdit2_DateTimeChanged(System.Object,System.EventArgs)">
+	<summary>
+ 結束日期值改變時，剩余天數也跟著改變
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmProductionPieceProcess.RepositoryItemDateEdit1_DateTimeChanged(System.Object,System.EventArgs)">
+	<summary>
+ 啟用日期值改變時，剩余天數也跟著改變
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmProductionPieceProcess.RepositoryItemCalcEdit1_Leave(System.Object,System.EventArgs)">
+	<summary>
+ 工價控件失去焦點時，判斷是否有相同工序，相同部門的相同工價
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmProductionPieceProcess.btnAllUse_Click(System.Object,System.EventArgs)">
+	<summary>
+ 單擊“全部啟用”按鈕，啟用所有工序
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmProductionPieceProcess.gluPM_M_Code_KeyDown(System.Object,System.Windows.Forms.KeyEventArgs)">
+	<summary>
+ 按空格鍵顯示下拉列表
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmProductionPieceProcess.EditDataRecord">
+	<summary>
+ 統計修改記錄在增加時要修改（審核狀態）
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmProductionRetrocedeMain.frmProductionRetrocedeMain_Load(System.Object,System.EventArgs)">
+	<summary>
+ 窗體啟動事件
+ </summary>
+</member><member name="M:LFERP.frmProductionRetrocedeMain.UserPower">
+	<summary>
+ 設置用戶權限
+ </summary>
+</member><member name="M:LFERP.frmProductionRetrocedeMain.RetrocedeAdd_Click(System.Object,System.EventArgs)">
+	<summary>
+ 裝配退料新增
+ </summary>
+</member><member name="M:LFERP.frmProductionRetrocedeMain.RetrocedeEdit_Click(System.Object,System.EventArgs)">
+	<summary>
+ 裝配退料修改
+ </summary>
+</member><member name="M:LFERP.frmProductionRetrocedeMain.RetrocedeDel_Click(System.Object,System.EventArgs)">
+	<summary>
+ 生產補退料刪除
+ </summary>
+</member><member name="M:LFERP.frmProductionRetrocedeMain.RetrocedePreView_Click(System.Object,System.EventArgs)">
+	<summary>
+ 生產補退料查看
+ </summary>
+</member><member name="M:LFERP.frmProductionRetrocedeMain.RetrocedeQuery_Click(System.Object,System.EventArgs)">
+	<summary>
+ 生產補退料查詢
+ </summary>
+</member><member name="M:LFERP.frmProductionRetrocedeMain.RetrocedeRef_Click(System.Object,System.EventArgs)">
+	<summary>
+ 生產補退料刷新
+ </summary>
+</member><member name="M:LFERP.frmProductionRetrocedeMain.RetrocedePrint_Click(System.Object,System.EventArgs)">
+	<summary>
+  '列印對應的退貨/補退貨單據(為接收部門依據)--設計報表
+ </summary>
+</member><member name="M:LFERP.frmProductionRetrocedeMain.RetrocedeCheck_Click(System.Object,System.EventArgs)">
+	<summary>
+ 生產補退料審核
+ </summary>
+</member><member name="M:LFERP.frmProductionRetrocedeMain.GridView1_FocusedRowChanged(System.Object,DevExpress.XtraGrid.Views.Base.FocusedRowChangedEventArgs)">
+	<summary>
+ 子表帶出查詢資料
+ </summary>
+</member><member name="M:LFERP.frmProductionScheduleDemand.UpdateCheck">
+	<summary>
+ 審核
+ </summary>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmProductionScheduleDemand.CheckData">
+	<summary>
+ 審查保存數據
+ </summary>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmProductionScheduleDemand.DataModifyData">
+	<summary>
+ 保存修改數據
+ </summary>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmProductionScheduleDemand.DataNew">
+	<summary>
+ 保存新增數據
+ </summary>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmProductionScheduleDemand.ModifyLoadData">
+	<summary>
+ 修改加載數據
+ </summary>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmProductionScheduleDemand.AddControlValid">
+	<summary>
+ 新增,控件有效
+ </summary>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmProductionScheduleDemand.LoadFacName">
+	<summary>
+ 生產部門
+ </summary>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmProductionScheduleDemand.LoadProductNo">
+	<summary>
+ 加載產品編號
+ </summary>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmProductionScheduleDemand.LoadDateTime">
+	<summary>
+ 初始化計畫日期
+ </summary>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmProductionScheduleDemand.FillDataGrid">
+	<summary>
+ 填充數據網格
+ </summary>
+	<remarks></remarks>
+</member><member name="M:LFERP.ProductionWareOutSubB.DataNew">
+	<summary>
+     新增
+ </summary>
+</member><member name="M:LFERP.ProductionWareOutSubB.DataEdit">
+	<summary>
+     修改
+ </summary>
+</member><member name="M:LFERP.ProductionWareOutSubB.UpdateCheck">
+	<summary>
+     審核
+ </summary>
+</member><member name="M:LFERP.ProductionWareOutSubB.UpdateCheckIn">
+	<summary>
+     收貨確認
+ </summary>
+</member><member name="M:LFERP.ProductionWareShipped.DataNew">
+	<summary>
+  '新增程序   
+ </summary>
+</member><member name="M:LFERP.ProductionWareShipped.DataEdit">
+	<summary>
+  修改程序  
+ </summary>
+</member><member name="M:LFERP.ProductionWareShipped.CreateTable">
+	<summary>
+ 創建臨時表
+ </summary>
+</member><member name="M:LFERP.ProductionWareShipped.cmsCodeDel_Click(System.Object,System.EventArgs)">
+	<summary>
+     子表刪除
+ </summary>
+</member><member name="M:LFERP.frmSupplierSelect.LoadSuppliersType">
+	<summary>
+ 載入供應商類型
+ </summary>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmNmetalSampleProcess.tsm_AddOtherWeight_Click(System.Object,System.EventArgs)">
+	<summary>
+ 張偉
+ 2014-07-04
+ 修改增加重量
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmNmetalSampleSendAdd.CreateTable">
+	<summary>
+ 创建临时表
+ </summary>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmNmetalSampleSendAdd.LoadData(System.String)">
+	<summary>
+ 載入数据
+ </summary>
+	<param name="strSP_ID"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmNmetalSampleSendAdd.tsmDelete_Click(System.Object,System.EventArgs)">
+	<summary>
+ 刪除事件
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmNmetalSampleSendAdd.cmdSave_Click(System.Object,System.EventArgs)">
+	<summary>
+ 保存事件
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmNmetalSampleSendAdd.UpdateInCheck">
+	<summary>
+ 审核程序
+ </summary>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmNmetalSampleSendAdd.UpdateCheck">
+	<summary>
+ 审核程序
+ </summary>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmNmetalSampleSendAdd.DataNew">
+	<summary>
+ 新增程序
+ </summary>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmNmetalSampleSendAdd.DataEdit">
+	<summary>
+修改
+ </summary>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmNmetalSampleSendAdd.DataCheckEmpty">
+	<summary>
+ 是否为空
+ </summary>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmNmetalSampleSendAdd.GetSP_ID">
+	<summary>
+ 自動流水号
+ </summary>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmNmetalSampleTransaction.cmdRef_Click(System.Object,System.EventArgs)">
+	<summary>
+ 刷新事件
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmProductionOutProcess.GetID">
+	<summary>
+ 自動外發加工單號
+ </summary>
+	<returns></returns>
+ 此過程被以下過程調用：
+ DataNew()
+ frmProductionOutProcess_Load()
+
+</member><member name="M:LFERP.frmProductionOutProcess.DataNew">
+	<summary>
+ 新增數據
+ </summary>
+ 此過程被以下過程調用：
+ cmdOK_Click()
+
+</member><member name="M:LFERP.frmProductionOutProcess.DataEdit">
+	<summary>
+ 修改數據
+ </summary>
+ 此過程被以下過程調用：
+ cmdOK_Click()
+
+</member><member name="M:LFERP.frmProductionOutProcess.LoadData">
+	<summary>
+ 加載數據
+ </summary>
+ 此過程被以下過程調用：
+ frmProductionOutProcess_Load()
+
+</member><member name="M:LFERP.frmProductionOutProcess.MenuDel_Click(System.Object,System.EventArgs)">
+	<summary>
+ 單擊右鍵“刪除”菜單，刪除表格中數據
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmProductionOutProcess.chkPO_Check_CheckedChanged(System.Object,System.EventArgs)">
+	<summary>
+ 確認復選框值改變
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmProductionFormula.TVwGS_ItemDrag(System.Object,System.Windows.Forms.ItemDragEventArgs)">
+	<summary>
+ 拖動數據
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmProductionFormula.TVwFiled_DoubleClick(System.Object,System.EventArgs)">
+	<summary>
+ 雙擊加入字段
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmProductionFormula.InsertStrToText(System.Windows.Forms.RichTextBox,System.String,System.Boolean)">
+	<summary>
+ 插入字段到光標停留的位置
+ </summary>
+	<param name="aobjTxt"></param>
+	<param name="astrValue"></param>
+	<param name="ablnLf"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmProductionFormula.Refresh_Formula">
+	<summary>
+ 刷新
+ </summary>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmProductionFormula.GridView1_Click(System.Object,System.EventArgs)">
+	<summary>
+ 載入工式
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmProductionFormula.SimpButtonCheck_Click(System.Object,System.EventArgs)">
+	<summary>
+ 檢查工式是否有誤
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmProductionFormula.cmdSave_Click(System.Object,System.EventArgs)">
+	<summary>
+ 先檢查工式有無錯誤碼，再進行保存
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmProductionFormula.Save_Formula">
+	<summary>
+ 保存工式
+ </summary>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmProductionFormula.loadDate(System.String)">
+	<summary>
+ 載入數據
+ </summary>
+	<param name="strFormula"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmProductionFormula.DelToolStrip_Click(System.Object,System.EventArgs)">
+	<summary>
+ 刪除工式(工式名)
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmProductionFormula.RichTextBoxFormula_TextChanged(System.Object,System.EventArgs)">
+	<summary>
+ 填定關鍵字顏色
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.ProductionSumTimePersonnelMain.popSumPersonnelAdd_Click(System.Object,System.EventArgs)">
+	<summary>
+ 增加數據
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmWareInventoryCheckMain.GetChangeNO">
+	<summary>
+ 自動獲得更改單單號
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmKnifeReturnMain.FreshGrid2(System.String)">
+	<summary>
+ 得到組別信息
+ </summary>
+	<param name="_WH_ID"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmNmetalCustomerFeedbackAdd.loadSampleOrder(System.String)">
+	<summary>
+   查询订单数据  
+ </summary>
+</member><member name="M:LFERP.frmNmetalCustomerFeedbackAdd.loadSampleSendNo">
+	<summary>
+   查询寄送数据  
+ </summary>
+</member><member name="M:LFERP.frmNmetalCustomerFeedbackAdd.AddNewVer">
+	<summary>
+  新增版本   
+ </summary>
+</member><member name="M:LFERP.frmNmetalSampInventoryWeightCheck.frmNmetalSampInventoryWeightCheck_Load(System.Object,System.EventArgs)">
+	<summary>
+ 窗体加载
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmNmetalSampInventoryWeightCheck.LoadData(System.String)">
+	<summary>
+ 傳回值
+ </summary>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmNmetalSampInventoryWeightCheck.cmdSave_Click(System.Object,System.EventArgs)">
+	<summary>
+ 保存按钮
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmNmetalSampInventoryWeightCheck.CheckDateEmpty">
+	<summary>
+ 判断是否为空
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmNmetalSampInventoryWeightCheck.UpdateCheck">
+	<summary>
+ 審核
+ </summary>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmNmetalSampInventoryWeightCheck.Savedata">
+	<summary>
+ 保存数据
+ </summary>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmNmetalSampInventoryWeightCheck.SampInventoryWeightCheckMain_GetID">
+	<summary>
+ 獲取單號
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmNmetalSampInventoryWeightCheck.CreateTable">
+	<summary>
+ 创建临时表
+ </summary>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmNmetalSampInventoryWeightCheck.AddRow">
+	<summary>
+ 加载行数据
+ </summary>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmNmetalSampInventoryWeightCheck.AddRowCheckDateEmpty">
+	<summary>
+ 加载行数据为空判断
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmNmetalSampInventoryWeightCheck.txtM_Code_KeyDown(System.Object,System.Windows.Forms.KeyEventArgs)">
+	<summary>
+ 回车键事件
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmOrdersSPMain.PopRefresh_Click(System.Object,System.EventArgs)">
+	<summary>
+ 刷新
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+ 此過程被以下過程調用：
+ popOrderSubDel_Click()
+ frmOrdersSPMain_Load()
+
+</member><member name="M:LFERP.frmOutward.GetNum">
+	<summary>
+ 自動獲取外發單號
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmOutward.GetNum1">
+	<summary>
+ 自動獲取外發返修單號
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmOutward.GetNo">
+	<summary>
+ 自動獲取外發流水號
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmPDProduct.PowerUser">
+	<summary>
+ '載入權限
+ </summary>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmProductionBatchAllot.GetID">
+	<summary>
+  '生成派工單號
+ </summary>
+	<returns></returns>
+ 此過程被以下過程調用：
+  frmProductionBatchAllot_Load()
+ btnOK_Click()
+
+</member><member name="M:LFERP.ProductInventoryOut.DataNew">
+	<summary>
+  '新增程序   
+ </summary>
+</member><member name="M:LFERP.ProductInventoryOut.DataEdit">
+	<summary>
+  修改程序  
+ </summary>
+</member><member name="M:LFERP.ProductInventoryOut.CreateTable">
+	<summary>
+ 創建臨時表
+ </summary>
+</member><member name="M:LFERP.ProductInventoryOut.cmsCodeDel_Click(System.Object,System.EventArgs)">
+	<summary>
+     子表刪除
+ </summary>
+</member><member name="M:LFERP.frmQuotation.SimpleButton1_Click(System.Object,System.EventArgs)">
+	<summary>
+ 單擊全部可采購按鈕
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+ @2012/4/12 添加 報價高於當前最新採購單價30%以上給出提示
+
+</member><member name="M:LFERP.frmQuotation.SimpleButton4_Click(System.Object,System.EventArgs)">
+	<summary>
+ 報價記錄
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmQuotation.SimpleButton3_Click(System.Object,System.EventArgs)">
+	<summary>
+ 報價記錄
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmQuotation.RepositoryItemCheckEdit1_CheckedChanged(System.Object,System.EventArgs)">
+	<summary>
+ 可否採購復選框狀態改變 
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+ @2012/4/12 添加 報價高於當前最新採購單價30%以上給出提示
+
+</member><member name="M:LFERP.frmQuotation.CheckEdit2_CheckedChanged(System.Object,System.EventArgs)">
+	<summary>
+ 資料是否無誤復選框狀態改變
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+ @2012/4/12 添加 報價高於當前最新採購單價30%以上給出提示
+
+</member><member name="M:LFERP.TwainMdl.GetMinPic(System.Drawing.Image)">
+	<summary>
+ 轉換圖片大小
+ </summary>
+	<param name="MaxPic"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:LFERP.CollectionToDataSet.CollToDataSet(System.Data.DataSet,System.String,System.Collections.ICollection)">
+	<summary>
+ 將中間層的List類型轉換為DataSet類型
+ </summary>
+	<param name="dsSet">指定的DataSet</param>
+	<param name="dsTableName">需要建立的表名</param>
+	<param name="Coll">中間層獲取的List</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:LFERP.mblShareData.ImageToByte(System.Drawing.Image)">
+	<summary>
+ 將圖片轉換為二進制流，可存入SQL的image字段
+ </summary>
+	<param name="Image">圖片,如PictureBox.image</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:LFERP.mblShareData.ByteToImage(System.Byte[])">
+	<summary>
+ 將SQL的image字段轉換為圖片
+ </summary>
+	<param name="ImageByte">二進制流</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:LFERP.mblShareData.GetFileLength(System.Int64)">
+	<summary>
+ 計算文件大小
+ </summary>
+	<param name="FileLength"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:LFERP.mblShareData.GridViewCopyMulitRow(DevExpress.XtraGrid.Views.Grid.GridView,System.String,System.String)">
+	<summary>
+ 復制 GridView 選中的多行文件
+ </summary>
+	<param name="GView"></param>
+	<param name="FiledName"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmProjectFile.frmProjectFile_Load(System.Object,System.EventArgs)">
+	<summary>
+ 界面加載
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmProjectFile.GridView1_FocusedRowChanged(System.Object,DevExpress.XtraGrid.Views.Base.FocusedRowChangedEventArgs)">
+	<summary>
+ 項目動態瀏覽人員信息
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmProjectFile.cmdReplace_Click(System.Object,System.EventArgs)">
+	<summary>
+ 更新按鈕
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmProjectFile.CBX_CheckAll_Click(System.Object,System.EventArgs)">
+	<summary>
+ 全選CheckBox
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmProjectFile.txt_NewNumber_EditValueChanged(System.Object,System.EventArgs)">
+	<summary>
+ 新版本號編輯文本框變化影響GridView
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmWareInventoryOut.bteWH_ID_ButtonClick(System.Object,DevExpress.XtraEditors.Controls.ButtonPressedEventArgs)">
+	<summary>
+ 單擊倉庫名稱框中的按鈕
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmWareInventoryOut.bteM_Code_ButtonClick(System.Object,DevExpress.XtraEditors.Controls.ButtonPressedEventArgs)">
+	<summary>
+ 單擊物料編碼框中的按鈕
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmWareInventoryOut.tv1_DoubleClick(System.Object,System.EventArgs)">
+	<summary>
+ 雙擊選擇物料類型
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.FrmCompany.LoadData(System.String)">
+	<summary>
+ 載入數據
+ </summary>
+	<param name="_CO_ID"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.FrmCompany.Save_Edit">
+	<summary>
+ 保存數據
+ </summary>
+	<remarks></remarks>
+</member><member name="M:LFERP.FrmCompany.GridView1_Click(System.Object,System.EventArgs)">
+	<summary>
+ 顯示內容
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.FrmCompany.ButtonLoad_Click(System.Object,System.EventArgs)">
+	<summary>
+ 載入LOGO圖片
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.FrmCompany.DelToolStrip_Click(System.Object,System.EventArgs)">
+	<summary>
+ 刪除記錄
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmMrpWareHouseInfoAdd.frmMrpWareHouseInfoAdd_Load(System.Object,System.EventArgs)">
+	<summary>
+ 加載
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmMrpWareHouseInfoAdd.DataCheckEmpty">
+	<summary>
+ 判空
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmMrpWareHouseInfoAdd.DataAdd">
+	<summary>
+ 添加數據
+ </summary>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmMrpWareHouseInfoAdd.DataEdit">
+	<summary>
+ 編輯數據
+ </summary>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmMrpWareHouseInfoAdd.DataCheck">
+	<summary>
+ 審核數據
+ </summary>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmMrpWareHouseInfoAdd.LoadData(System.String)">
+	<summary>
+ 載入數據
+ </summary>
+	<param name="StrWare_ID"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmMrpWareHouseInfoAdd.cmdExit_Click(System.Object,System.EventArgs)">
+	<summary>
+ 取消
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmMrpWareHouseInfoAdd.cmdSave_Click(System.Object,System.EventArgs)">
+	<summary>
+ 保存
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmMrpWareHouseInfoAdd.cmsDelSub_Click(System.Object,System.EventArgs)">
+	<summary>
+ 刪除子表
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmMrpWareHouseInfoAdd.cmsAddSub_Click(System.Object,System.EventArgs)">
+	<summary>
+ 新增子表
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmMrpWareHouseInfoAdd.GetWareID">
+	<summary>
+ 自動流水號
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmMrpWareHouseInfoAdd.GridView4_Click(System.Object,System.EventArgs)">
+	<summary>
+ 選擇物料編碼獲得物料名稱、規格等信息
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="P:LFERP.My.Resources.Resources.ResourceManager">
+	<summary>
+  傳回這個類別使用的快取的 ResourceManager 執行個體。
+</summary>
+</member><member name="P:LFERP.My.Resources.Resources.Culture">
+	<summary>
+  覆寫目前執行緒的 CurrentUICulture 屬性，對象是所有
+  使用這個強型別資源類別的資源查閱。
+</summary>
+</member><member name="T:LFERP.My.Resources.Resources">
+	<summary>
+  用於查詢當地語系化字串等的強型別資源類別
+</summary>
+</member><member name="M:LFERP.frmNmetalSamplePaceQuery.frmSamplePaceQuery_Load(System.Object,System.EventArgs)">
+	<summary>
+ 加載事件
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmNmetalSamplePaceQuery.GridView3_Click(System.Object,System.EventArgs)">
+	<summary>
+ 點擊獲得條碼信息
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmNmetalSamplePaceQuery.cmdSearch_Click(System.Object,System.EventArgs)">
+	<summary>
+ 查詢
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmNmetalSamplePaceQuery.cmdPrint_Click(System.Object,System.EventArgs)">
+	<summary>
+ 列印
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmNmetalSamplePaceQuery.cmdExcel_Click(System.Object,System.EventArgs)">
+	<summary>
+ 導出Excel
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmProductionCombinationFind1.CreateTable">
+	<summary>
+ 創建表過程
+ </summary>
+ 此過程被以下過程調用：
+ frmProductionCombinationFind1_Load()
+
+</member><member name="M:LFERP.frmProductionCombinationFind1.gluPM_M_Code_EditValueChanged(System.Object,System.EventArgs)">
+	<summary>
+ 產品編號改變時，加載相應的配件名稱信息
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+ 此過程被以下過程調用：
+ cbType_SelectedIndexChanged
+
+</member><member name="M:LFERP.frmProductionCombinationFind1.gluPM_Type_EditValueChanged(System.Object,System.EventArgs)">
+	<summary>
+ 配件名稱改變時，加載相應的大工序名稱信息
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmProductionCombinationFind1.gluPro_NO_EditValueChanged(System.Object,System.EventArgs)">
+	<summary>
+ 大工序名稱改變時，加載相應的小工序名稱信息
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmProductionCombinationFind1.btnCancel_Click(System.Object,System.EventArgs)">
+	<summary>
+ 單擊取消按鈕，關閉窗體
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmProductionCombinationFind1.btnFind_Click(System.Object,System.EventArgs)">
+	<summary>
+ 單擊查詢按鈕
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmProductionCombinationFind1.cbType_SelectedIndexChanged(System.Object,System.EventArgs)">
+	<summary>
+ 工藝類型改變時，調用產品編號改變過程
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmProductionDetailMainMonthSum.Find_Coll(System.String,System.String)">
+	<summary>
+  查詢 表中是否存在此字段
+ </summary>
+	<param name="TableName"></param>
+	<param name="FiledName"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmProductionDetailMainMonthSum.LoadProductionFieldDaySummaryInputType">
+	<summary>
+ 載入 每道 工序需要統計的類型
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmProductionDetailMainMonthSum.ProcessMainPM_M_Code">
+	<summary>
+ 統計所有已進入生產工藝流程的記錄
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmProductionDetailMainMonthSum.SumLoadData(System.String,System.String,System.String)">
+	<summary>
+ 取得,,指定日期數量  生產完工  裝配倉  成品倉 出貨 統計出數據 
+ </summary>
+	<param name="_MonthDay"></param>
+	<param name="_PM_M_Code"></param>
+	<param name="_PM_Type"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmProductionDetailMainMonthSum.LoadPM_M_Code">
+	<summary>
+ 載入產品編號 (進入生產工藝的）
+ </summary>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmProductionFieldWare.LoadEnabled(System.String)">
+	<summary>
+ 針對不同類型加載控件的可用狀態
+ </summary>
+	<param name="Type"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmProductionFieldWare.UpdateIncheck">
+	<summary>
+ 更新審核狀態
+ </summary>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmProductionFieldWare.UpdateDaySummary">
+	<summary>
+ '更新每日表
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmProductionPiecePayWGAdjust.Clr_Text">
+	<summary>
+ 清空數據
+ </summary>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmProductionPiecePayWGAdjust.LoadData">
+	<summary>
+ 載入數據
+ </summary>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmProductionPiecePayWGAdjust.SaveNew">
+	<summary>
+ 添加數據
+ </summary>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmProductionPiecePayWGAdjust.SaveEdit">
+	<summary>
+ 保存數據
+ </summary>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmProductionPiecePayWGAdjust.SaveCheckData">
+	<summary>
+ 審核數據
+ </summary>
+	<remarks></remarks>
+</member><member name="M:LFERP.ProductionPiecePersonnelDaySub.CreateTables">
+	<summary>
+ 載入數據表結構
+ </summary>
+	<remarks></remarks>
+</member><member name="M:LFERP.ProductionPiecePersonnelDaySub.SaveNew">
+	<summary>
+ 保存已要導入的數據
+ </summary>
+	<remarks></remarks>
+</member><member name="M:LFERP.ProductionPiecePersonnelDaySub.SaveEdit">
+	<summary>
+ 數據修改
+ </summary>
+	<remarks></remarks>
+</member><member name="M:LFERP.ProductionPeiceLoad.PiecePersonel">
+	<summary>
+ 對 ds 表處理
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:LFERP.ProductionPeiceLoad.Check_PerNO(System.String,System.String)">
+	<summary>
+ 檢查員工編號是否存在
+ </summary>
+	<param name="_Per_NO"></param>
+	<param name="_Per_Name"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:LFERP.ProductionPeiceLoad.Check_DepID(System.String)">
+	<summary>
+ 檢查部門是否存在部門表中
+ </summary>
+	<param name="_DepID"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:LFERP.ProductionPeiceLoad.Check_G_NO(System.String)">
+	<summary>
+ 檢查組別編號是否存在
+ </summary>
+	<param name="_G_NO"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:LFERP.ProductionPeiceLoad.Check_Piece_PerNO(System.String)">
+	<summary>
+ 檢查人員是否已存在，計件人員名單中
+ </summary>
+	<param name="_Per_NO"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:LFERP.ProductionPeiceLoad.Write_PeicePersonl(System.Int32)">
+	<summary>
+ 保存數據
+ </summary>
+	<param name="_Row"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:LFERP.ProductionPeiceLoad.Export_Excle(System.String)">
+	<summary>
+ 寫入 Excel中
+ </summary>
+	<param name="_Export_Excel"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:LFERP.frmOut.responseTo">
+	<summary>
+ 發送消息給誰
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:LFERP.frmOut.isResponse">
+	<summary>
+ 消息類型
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:LFERP.frmOut.autoid">
+	<summary>
+ 獲取回覆消息的autoid
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="T:LFERP.KnifeWareInventoryCheck.KnifeWareInventoryCheckDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:LFERP.KnifeWareInventoryCheck.KnifeWareInventoryCheckProcessDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:LFERP.KnifeWareInventoryCheck.KnifeWareInventoryCheckRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:LFERP.KnifeWareInventoryCheck.KnifeWareInventoryCheckProcessRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:LFERP.KnifeWareInventoryCheck.KnifeWareInventoryCheckRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:LFERP.KnifeWareInventoryCheck.KnifeWareInventoryCheckProcessRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:LFERP.KnifeWareInventoryCheck">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="M:LFERP.frmNmetalSampleView.CreateTable">
+	<summary>
+ 创建临时表
+ </summary>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmNmetalSampleView.cmdSave_Click(System.Object,System.EventArgs)">
+	<summary>
+ 查询处理程序
+ </summary>\\\\\\\\\\\\\\\\\\\
+ <param name="sender"></param>\
+ <param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmNmetalSamplePlanAddItem.CreateTable">
+	<summary>
+ 创建临时表
+ </summary>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmNmetalSamplePlanAddItem.cmdSave_Click(System.Object,System.EventArgs)">
+	<summary>
+ 保存数据事件
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmNmetalSamplePlanAddItem.CheckEdit2_CheckedChanged(System.Object,System.EventArgs)">
+	<summary>
+ 是否全选
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmProductionCombinationFind2.CreateTable">
+	<summary>
+ 創建表過程
+ </summary>
+ 此過程被以下過程調用：
+ frmProductionCombinationFind1_Load()
+
+</member><member name="M:LFERP.frmProductionCombinationFind2.gluPM_M_Code_EditValueChanged(System.Object,System.EventArgs)">
+	<summary>
+ 產品編號改變時，加載相應的配件名稱信息
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+ 此過程被以下過程調用：
+ cbType_SelectedIndexChanged
+
+</member><member name="M:LFERP.frmProductionCombinationFind2.btnCancel_Click(System.Object,System.EventArgs)">
+	<summary>
+ 單擊取消按鈕，關閉窗體
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmProductionCombinationFind2.btnFind_Click(System.Object,System.EventArgs)">
+	<summary>
+ 單擊查詢按鈕
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmProductionCombinationFind2.cbType_SelectedIndexChanged(System.Object,System.EventArgs)">
+	<summary>
+ 工藝類型改變時，調用產品編號改變過程
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmProductionCombinationFind2.gluPM_Type_EditValueChanged(System.Object,System.EventArgs)">
+	<summary>
+ 配件名稱改變時，加載相應的發料工序信息
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.ProductionSumPiecePersonnel.Load_Table_New">
+	<summary>
+ 載入當天不在組別和組別編號為“無”的個人計件人員名單 2012/6/4 
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:LFERP.ProductionSumPiecePersonnel.Load_Table">
+	<summary>
+ 取消不用''2012-5-11
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:LFERP.ProductionSumPiecePersonnel.SaveNewOne(System.String)">
+	<summary>
+ 單選記錄保存
+ </summary>
+	<param name="S_model"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.ProductionSumPiecePersonnel.SaveNewTwo(System.String)">
+	<summary>
+ 多選記錄保存
+ </summary>
+	<param name="S_model"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.ProductionSumPiecePersonnel.SaveEdit">
+	<summary>
+ 修改數據
+ </summary>
+	<remarks></remarks>
+</member><member name="M:LFERP.ProductionSumPiecePersonnel.LoadDataPT(System.String)">
+	<summary>
+ 根據編號載入數據
+ </summary>
+	<param name="Str_PP_NO"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:LFERP.ProductionSumPiecePersonnel.GetProductionSumTimePersonnelNO">
+	<summary>
+ 獲取流水號基數
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:LFERP.ProductionSumPiecePersonnel.Get_Tatal_Time(System.String,System.String)">
+	<summary>
+ 查詢出設置OK的時長
+ </summary>
+	<param name="Stime"></param>
+	<param name="Etime"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:LFERP.ProductionSumPieceWorkGroup.SaveNewOne(System.String)">
+	<summary>
+ 單選記錄保存
+ </summary>
+	<param name="S_model"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.ProductionSumPieceWorkGroup.SaveNewTwo(System.String)">
+	<summary>
+ 多選記錄保存
+ </summary>
+	<param name="S_model"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.ProductionSumPieceWorkGroup.SaveEdit">
+	<summary>
+ 修改數據
+ </summary>
+	<remarks></remarks>
+</member><member name="M:LFERP.ProductionSumPieceWorkGroup.GluG_NO_KeyDown(System.Object,System.Windows.Forms.KeyEventArgs)">
+	<summary>
+ 按 空格鍵彈出
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmScan.CheckImage(iTextSharp.text.Image)">
+	<summary>
+ 設置圖片位置及參數
+ </summary>
+	<param name="jpeg"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmWareMoveCompany.RealQty(System.Double,System.String)">
+	<summary>
+ 返回實際可用庫存數量
+ 2014-04-01   姚駿
+ </summary>
+	<param name="wiQty">庫存數量</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmWareMoveOut.CheckPO">
+	<summary>
+ 2013-7-22 查詢出 已調撥驗收單
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmWareMoveOut.LoadData(System.String)">
+	<summary>
+ 載入調撥單數據
+ </summary>
+	<param name="MV_NO"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="T:LFERP.NmetalSampleCollection.NmetalSampleCollectionDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:LFERP.NmetalSampleCollection.NmetalSamplePaceDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:LFERP.NmetalSampleCollection.NmetalSampleCollectionRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:LFERP.NmetalSampleCollection.NmetalSamplePaceRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:LFERP.NmetalSampleCollection.NmetalSampleCollectionRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:LFERP.NmetalSampleCollection.NmetalSamplePaceRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:LFERP.NmetalSampleCollection">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="M:LFERP.frmKnifeBorrowMain.FreshGrid2(System.String)">
+	<summary>
+ 得到組別信息
+ </summary>
+	<param name="_WH_ID"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmKnifeBorrowMain.FreshGrid4(System.String)">
+	<summary>
+ 得到Grid4的數據
+ </summary>
+	<param name="_WH_ID"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmKnifeBorrowMain.ToolStripRefresh_Click(System.Object,System.EventArgs)">
+	<summary>
+ 刷新記錄
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmNmetalSampleBarcode.Button2_Click(System.Object,System.EventArgs)">
+	<summary>
+  产生自动条码   
+ </summary>
+</member><member name="M:LFERP.frmPositiveOrders.GetPOI_No">
+	<summary>
+ 生成新訂單號
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmPositiveOrders.PON_Num">
+	<summary>
+ 生成訂單流水號
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmPositiveOrders.SavePrice">
+	<summary>
+ 保存單價
+ </summary>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmPositiveOrders.UpdateCheck">
+	<summary>
+ 審核數據
+ </summary>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmPositiveOrders.SaveData(System.String,System.String)">
+	<summary>
+ 保存數據
+ </summary>
+	<param name="strTemp"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmPositiveOrders.popPositiveOrdersAdd_Click(System.Object,System.EventArgs)">
+	<summary>
+ 新增
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmPositiveOrders.popPositiveOrdersDel_Click(System.Object,System.EventArgs)">
+	<summary>
+ 刪除
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmProductionPiecePayGroup.Check_Date">
+	<summary>
+ 檢查計算/存盤時的數據是否導入正確
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmProductionPieceWorkGroupFind.lueFacID_EditValueChanged(System.Object,System.EventArgs)">
+	<summary>
+ '廠別名稱值改變時，'加載部門名稱
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmProductionPieceWorkGroupFind.btnCancel_Click(System.Object,System.EventArgs)">
+	<summary>
+ 單擊“取消”按鈕
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmProductionPieceWorkGroupFind.btnFind_Click(System.Object,System.EventArgs)">
+	<summary>
+ 單擊“查詢”按鈕
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.ProductionSumTimeWorkGroup.LoadData(System.String)">
+	<summary>
+ 根據編號載入數據
+ </summary>
+	<param name="Str_GT_NO "></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:LFERP.ProductionSumTimeWorkGroup.CheckData">
+	<summary>
+ 檢查數據輸入正確
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:LFERP.ProductionSumTimeWorkGroup.CHECK_Time">
+	<summary>
+ 查找 某一員工，當天，在特定時間段，不能參與兩項目計時工作 
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:LFERP.ProductionSumTimeWorkGroup.SaveNew(System.String)">
+	<summary>
+ 數據增加
+ </summary>
+	<param name="S_model"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.ProductionSumTimeWorkGroup.Clr_Text">
+	<summary>
+ 清空數據
+ </summary>
+	<remarks></remarks>
+</member><member name="M:LFERP.ProductionSumTimeWorkGroup.SaveEdit">
+	<summary>
+ 修改數據
+ </summary>
+	<remarks></remarks>
+</member><member name="M:LFERP.ProductionSumTimeWorkGroup.GetProductionSumTimeWorkGroupNO">
+	<summary>
+ 獲取流水號基數
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:LFERP.ProductionSumTimeWorkGroup.cmdAdd_Click(System.Object,System.EventArgs)">
+	<summary>
+ 添加
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.ProductionSumTimeWorkGroup.cmdSave_Click(System.Object,System.EventArgs)">
+	<summary>
+ 保存
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.ProductionSumTimeWorkGroup.Get_Tatal_Time(System.String,System.String)">
+	<summary>
+ 查詢出設置OK的時長
+ </summary>
+	<param name="Stime"></param>
+	<param name="Etime"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:LFERP.ProductInventoryOutMain.popWareOutAdd_Click(System.Object,System.EventArgs)">
+	<summary>
+     新增事件
+ </summary>
+</member><member name="M:LFERP.ProductInventoryOutMain.popWareOutEdit_Click(System.Object,System.EventArgs)">
+	<summary>
+     修改事件
+ </summary>
+</member><member name="M:LFERP.ProductInventoryOutMain.popWareOutDel_Click(System.Object,System.EventArgs)">
+	<summary>
+     刪除事件
+ </summary>
+</member><member name="M:LFERP.ProductInventoryOutMain.popWareOutView_Click(System.Object,System.EventArgs)">
+	<summary>
+     查看事件
+ </summary>
+</member><member name="M:LFERP.ProductInventoryOutMain.popWareOutflesh_Click(System.Object,System.EventArgs)">
+	<summary>
+     刷新事件
+ </summary>
+</member><member name="M:LFERP.ProductInventoryOutMain.popWareOutSeek_Click(System.Object,System.EventArgs)">
+	<summary>
+     查詢事件
+ </summary>
+</member><member name="M:LFERP.ProductInventoryOutMain.popWareOutReport_Click(System.Object,System.EventArgs)">
+	<summary>
+     報表事件
+ </summary>
+</member><member name="M:LFERP.ProductInventoryOutMain.popWareOutCheck_Click(System.Object,System.EventArgs)">
+	<summary>
+     審核事件
+ </summary>
+</member><member name="M:LFERP.ProductInventoryOutMain.ProductionWareOutMain_Load(System.Object,System.EventArgs)">
+	<summary>
+     窗體啟動事件
+ </summary>
+</member><member name="M:LFERP.ProductInventoryOutMain.PowerUser">
+	<summary>
+    設置權限
+ </summary>
+</member><member name="M:LFERP.ProductInventoryOutMain.XtraTabControl1_Click(System.Object,System.EventArgs)">
+	<summary>
+    按鍵事件多頁面
+ </summary>
+</member><member name="M:LFERP.frmWareInventoryOutRpt.btnOK_Click(System.Object,System.EventArgs)">
+	<summary>
+ 單擊確定按鈕
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmWareInventoryOutRpt.bteWH_ID_ButtonClick(System.Object,DevExpress.XtraEditors.Controls.ButtonPressedEventArgs)">
+	<summary>
+ 單擊倉庫名稱框中的按鈕
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmWareInventoryOutRpt.bteM_Code_ButtonClick(System.Object,DevExpress.XtraEditors.Controls.ButtonPressedEventArgs)">
+	<summary>
+ 單擊物料編碼框中的按鈕
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmWareInventoryOutRpt.tv1_DoubleClick(System.Object,System.EventArgs)">
+	<summary>
+ 雙擊選擇物料類型
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmWareInventoryOutRpt.btnExportExcel_Click(System.Object,System.EventArgs)">
+	<summary>
+ 單擊導出按鈕
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:LFERP.frmWareInventoryOutRpt.FunExportExcel">
+	<summary>
+ 導出到Excel
+ </summary>
+	<returns></returns>
+ 此過程被以下過程調用：
+ btnExportExcel_Click()
+
+</member><member name="M:LFERP.frmWareChange.GetChangeNO">
+	<summary>
+ 自動獲得更改單單號
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member>
+</members>
+</doc>

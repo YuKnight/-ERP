@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="NmetalSampInventoryWeightCheck" targetNamespace="http://tempuri.org/NmetalSampInventoryWeightCheck.xsd" xmlns:mstns="http://tempuri.org/NmetalSampInventoryWeightCheck.xsd" xmlns="http://tempuri.org/NmetalSampInventoryWeightCheck.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+        </Connections>
+        <Tables>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="NmetalSampInventoryWeightCheck" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="NmetalSampInventoryWeightCheck" msprop:Generator_DataSetName="NmetalSampInventoryWeightCheck">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="NmetalSampInventoryWeightCheckMain" msprop:Generator_UserTableName="NmetalSampInventoryWeightCheckMain" msprop:Generator_RowDeletedName="NmetalSampInventoryWeightCheckMainRowDeleted" msprop:Generator_RowChangedName="NmetalSampInventoryWeightCheckMainRowChanged" msprop:Generator_RowClassName="NmetalSampInventoryWeightCheckMainRow" msprop:Generator_RowChangingName="NmetalSampInventoryWeightCheckMainRowChanging" msprop:Generator_RowEvArgName="NmetalSampInventoryWeightCheckMainRowChangeEvent" msprop:Generator_RowEvHandlerName="NmetalSampInventoryWeightCheckMainRowChangeEventHandler" msprop:Generator_TableClassName="NmetalSampInventoryWeightCheckMainDataTable" msprop:Generator_TableVarName="tableNmetalSampInventoryWeightCheckMain" msprop:Generator_RowDeletingName="NmetalSampInventoryWeightCheckMainRowDeleting" msprop:Generator_TablePropName="NmetalSampInventoryWeightCheckMain">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="AutoID" msprop:Generator_UserColumnName="AutoID" msprop:Generator_ColumnVarNameInTable="columnAutoID" msprop:Generator_ColumnPropNameInRow="AutoID" msprop:Generator_ColumnPropNameInTable="AutoIDColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="CH_NO" msprop:Generator_UserColumnName="CH_NO" msprop:Generator_ColumnVarNameInTable="columnCH_NO" msprop:Generator_ColumnPropNameInRow="CH_NO" msprop:Generator_ColumnPropNameInTable="CH_NOColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="DepID" msprop:Generator_UserColumnName="DepID" msprop:Generator_ColumnVarNameInTable="columnDepID" msprop:Generator_ColumnPropNameInRow="DepID" msprop:Generator_ColumnPropNameInTable="DepIDColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="CH_Date" msprop:Generator_UserColumnName="CH_Date" msprop:Generator_ColumnVarNameInTable="columnCH_Date" msprop:Generator_ColumnPropNameInRow="CH_Date" msprop:Generator_ColumnPropNameInTable="CH_DateColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="CH_Action" msprop:Generator_UserColumnName="CH_Action" msprop:Generator_ColumnVarNameInTable="columnCH_Action" msprop:Generator_ColumnPropNameInRow="CH_Action" msprop:Generator_ColumnPropNameInTable="CH_ActionColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="CH_Remark" msprop:Generator_UserColumnName="CH_Remark" msprop:Generator_ColumnVarNameInTable="columnCH_Remark" msprop:Generator_ColumnPropNameInRow="CH_Remark" msprop:Generator_ColumnPropNameInTable="CH_RemarkColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="AddAction" msprop:Generator_UserColumnName="AddAction" msprop:Generator_ColumnVarNameInTable="columnAddAction" msprop:Generator_ColumnPropNameInRow="AddAction" msprop:Generator_ColumnPropNameInTable="AddActionColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="AddDate" msprop:Generator_UserColumnName="AddDate" msprop:Generator_ColumnVarNameInTable="columnAddDate" msprop:Generator_ColumnPropNameInRow="AddDate" msprop:Generator_ColumnPropNameInTable="AddDateColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="ModifyUserID" msprop:Generator_UserColumnName="ModifyUserID" msprop:Generator_ColumnVarNameInTable="columnModifyUserID" msprop:Generator_ColumnPropNameInRow="ModifyUserID" msprop:Generator_ColumnPropNameInTable="ModifyUserIDColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="ModifyDate" msprop:Generator_UserColumnName="ModifyDate" msprop:Generator_ColumnVarNameInTable="columnModifyDate" msprop:Generator_ColumnPropNameInRow="ModifyDate" msprop:Generator_ColumnPropNameInTable="ModifyDateColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="CheckStatus" msprop:Generator_UserColumnName="CheckStatus" msprop:Generator_ColumnVarNameInTable="columnCheckStatus" msprop:Generator_ColumnPropNameInRow="CheckStatus" msprop:Generator_ColumnPropNameInTable="CheckStatusColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="CheckAction" msprop:Generator_UserColumnName="CheckAction" msprop:Generator_ColumnVarNameInTable="columnCheckAction" msprop:Generator_ColumnPropNameInRow="CheckAction" msprop:Generator_ColumnPropNameInTable="CheckActionColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="CheckDate" msprop:Generator_UserColumnName="CheckDate" msprop:Generator_ColumnVarNameInTable="columnCheckDate" msprop:Generator_ColumnPropNameInRow="CheckDate" msprop:Generator_ColumnPropNameInTable="CheckDateColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="CheckRemark" msprop:Generator_UserColumnName="CheckRemark" msprop:Generator_ColumnVarNameInTable="columnCheckRemark" msprop:Generator_ColumnPropNameInRow="CheckRemark" msprop:Generator_ColumnPropNameInTable="CheckRemarkColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="CheckWastWeight" msprop:Generator_UserColumnName="CheckWastWeight" msprop:Generator_ColumnVarNameInTable="columnCheckWastWeight" msprop:Generator_ColumnPropNameInRow="CheckWastWeight" msprop:Generator_ColumnPropNameInTable="CheckWastWeightColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="CheckType" msprop:Generator_UserColumnName="CheckType" msprop:Generator_ColumnVarNameInTable="columnCheckType" msprop:Generator_ColumnPropNameInRow="CheckType" msprop:Generator_ColumnPropNameInTable="CheckTypeColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="CheckDownRate" msprop:Generator_UserColumnName="CheckDownRate" msprop:Generator_ColumnVarNameInTable="columnCheckDownRate" msprop:Generator_ColumnPropNameInRow="CheckDownRate" msprop:Generator_ColumnPropNameInTable="CheckDownRateColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="CheckUpdate" msprop:Generator_UserColumnName="CheckUpdate" msprop:Generator_ColumnVarNameInTable="columnCheckUpdate" msprop:Generator_ColumnPropNameInRow="CheckUpdate" msprop:Generator_ColumnPropNameInTable="CheckUpdateColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="DepName" msprop:Generator_UserColumnName="DepName" msprop:Generator_ColumnPropNameInRow="DepName" msprop:Generator_ColumnVarNameInTable="columnDepName" msprop:Generator_ColumnPropNameInTable="DepNameColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="CHAction_Name" msprop:Generator_UserColumnName="CHAction_Name" msprop:Generator_ColumnPropNameInRow="CHAction_Name" msprop:Generator_ColumnVarNameInTable="columnCHAction_Name" msprop:Generator_ColumnPropNameInTable="CHAction_NameColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Add_Name" msprop:Generator_UserColumnName="Add_Name" msprop:Generator_ColumnPropNameInRow="Add_Name" msprop:Generator_ColumnVarNameInTable="columnAdd_Name" msprop:Generator_ColumnPropNameInTable="Add_NameColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Modify_Name" msprop:Generator_UserColumnName="Modify_Name" msprop:Generator_ColumnPropNameInRow="Modify_Name" msprop:Generator_ColumnVarNameInTable="columnModify_Name" msprop:Generator_ColumnPropNameInTable="Modify_NameColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Check_Name" msprop:Generator_UserColumnName="Check_Name" msprop:Generator_ColumnPropNameInRow="Check_Name" msprop:Generator_ColumnVarNameInTable="columnCheck_Name" msprop:Generator_ColumnPropNameInTable="Check_NameColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="NmetalSampInventoryWeightCheckSub" msprop:Generator_UserTableName="NmetalSampInventoryWeightCheckSub" msprop:Generator_RowDeletedName="NmetalSampInventoryWeightCheckSubRowDeleted" msprop:Generator_RowChangedName="NmetalSampInventoryWeightCheckSubRowChanged" msprop:Generator_RowClassName="NmetalSampInventoryWeightCheckSubRow" msprop:Generator_RowChangingName="NmetalSampInventoryWeightCheckSubRowChanging" msprop:Generator_RowEvArgName="NmetalSampInventoryWeightCheckSubRowChangeEvent" msprop:Generator_RowEvHandlerName="NmetalSampInventoryWeightCheckSubRowChangeEventHandler" msprop:Generator_TableClassName="NmetalSampInventoryWeightCheckSubDataTable" msprop:Generator_TableVarName="tableNmetalSampInventoryWeightCheckSub" msprop:Generator_RowDeletingName="NmetalSampInventoryWeightCheckSubRowDeleting" msprop:Generator_TablePropName="NmetalSampInventoryWeightCheckSub">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="AutoID" msprop:Generator_UserColumnName="AutoID" msprop:Generator_ColumnVarNameInTable="columnAutoID" msprop:Generator_ColumnPropNameInRow="AutoID" msprop:Generator_ColumnPropNameInTable="AutoIDColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="CH_NO" msprop:Generator_UserColumnName="CH_NO" msprop:Generator_ColumnVarNameInTable="columnCH_NO" msprop:Generator_ColumnPropNameInRow="CH_NO" msprop:Generator_ColumnPropNameInTable="CH_NOColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Code_ID" msprop:Generator_UserColumnName="Code_ID" msprop:Generator_ColumnVarNameInTable="columnCode_ID" msprop:Generator_ColumnPropNameInRow="Code_ID" msprop:Generator_ColumnPropNameInTable="Code_IDColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="StatusType" msprop:Generator_UserColumnName="StatusType" msprop:Generator_ColumnVarNameInTable="columnStatusType" msprop:Generator_ColumnPropNameInRow="StatusType" msprop:Generator_ColumnPropNameInTable="StatusTypeColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="D_ID" msprop:Generator_UserColumnName="D_ID" msprop:Generator_ColumnVarNameInTable="columnD_ID" msprop:Generator_ColumnPropNameInRow="D_ID" msprop:Generator_ColumnPropNameInTable="D_IDColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="SO_SampleID" msprop:Generator_UserColumnName="SO_SampleID" msprop:Generator_ColumnVarNameInTable="columnSO_SampleID" msprop:Generator_ColumnPropNameInRow="SO_SampleID" msprop:Generator_ColumnPropNameInTable="SO_SampleIDColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="CH_QQty" msprop:Generator_UserColumnName="CH_QQty" msprop:Generator_ColumnVarNameInTable="columnCH_QQty" msprop:Generator_ColumnPropNameInRow="CH_QQty" msprop:Generator_ColumnPropNameInTable="CH_QQtyColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="CH_QWeight" msprop:Generator_UserColumnName="CH_QWeight" msprop:Generator_ColumnVarNameInTable="columnCH_QWeight" msprop:Generator_ColumnPropNameInRow="CH_QWeight" msprop:Generator_ColumnPropNameInTable="CH_QWeightColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="CH_Qty" msprop:Generator_UserColumnName="CH_Qty" msprop:Generator_ColumnVarNameInTable="columnCH_Qty" msprop:Generator_ColumnPropNameInRow="CH_Qty" msprop:Generator_ColumnPropNameInTable="CH_QtyColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="CH_Weight" msprop:Generator_UserColumnName="CH_Weight" msprop:Generator_ColumnVarNameInTable="columnCH_Weight" msprop:Generator_ColumnPropNameInRow="CH_Weight" msprop:Generator_ColumnPropNameInTable="CH_WeightColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="ErrorRate" msprop:Generator_UserColumnName="ErrorRate" msprop:Generator_ColumnVarNameInTable="columnErrorRate" msprop:Generator_ColumnPropNameInRow="ErrorRate" msprop:Generator_ColumnPropNameInTable="ErrorRateColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Remark" msprop:Generator_UserColumnName="Remark" msprop:Generator_ColumnVarNameInTable="columnRemark" msprop:Generator_ColumnPropNameInRow="Remark" msprop:Generator_ColumnPropNameInTable="RemarkColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="StatusTypeName" msprop:Generator_UserColumnName="StatusTypeName" msprop:Generator_ColumnPropNameInRow="StatusTypeName" msprop:Generator_ColumnVarNameInTable="columnStatusTypeName" msprop:Generator_ColumnPropNameInTable="StatusTypeNameColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="D_Name" msprop:Generator_UserColumnName="D_Name" msprop:Generator_ColumnPropNameInRow="D_Name" msprop:Generator_ColumnVarNameInTable="columnD_Name" msprop:Generator_ColumnPropNameInTable="D_NameColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
